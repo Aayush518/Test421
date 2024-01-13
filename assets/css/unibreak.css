@@ -1,0 +1,7271 @@
+@media only screen and (max-width: 2560px) {
+  section.wrap {
+    overflow: hidden;
+  }
+
+  .home {
+    height: 161vh;
+  }
+
+  .col-md-6.fullwidth-a {
+    width: 100%;
+  }
+
+  .category-demand .slick-prev:before,
+  .category-demand .slick-next:before {
+    display: none;
+  }
+
+  .col-md-6.smview-a.bb {
+    display: none;
+  }
+
+  #menu {
+    left: -1259px;
+  }
+
+  .na-block1.abc img {
+    height: 400px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    display: block;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #727070;
+    width: 69px;
+    height: 69px;
+    line-height: 45px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #727070 !important;
+  }
+
+  .watch-vts-block.inner-a .slick-prev {
+    left: -111px;
+  }
+
+  .watch-vts-block.inner-a .slick-next {
+    right: -67px;
+  }
+
+  .vdo-iso {
+    right: 612px;
+  }
+
+  .vdo-layer {
+    position: absolute;
+    bottom: 37px;
+    left: 785px;
+  }
+
+  .mixvector {
+    left: 1090px;
+  }
+
+ .ck-star {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  -----
+
+/* Academic Page */
+
+.hearto_us .slick-prev:before, .hearto_us .slick-next:before {
+    font-size: 51px;
+    border: 0 !important;
+  }
+
+  .uni_teach_frame {
+    height: 500px;
+  }
+
+  .uni_teach_frame iframe {
+    border: 0;
+    width: 100%;
+    height: 564px;
+  }
+
+  /* Admission Page */
+
+  .req_doc {
+    background-image: none !important;
+  }
+
+  .presch_stud img {
+    width: 100%;
+  }
+
+  .querymore {
+    width: 50%;
+  }
+
+  .col-md-6.show-b {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  section.wrap {
+    overflow: hidden;
+  }
+
+  .home {
+    height: 211vh;
+  }
+
+  .my-virtualtour {
+    margin: 145px 0 0 307px;
+  }
+
+  .col-md-6.fullwidth-a {
+    width: 100%;
+  }
+
+  .category-demand .slick-slide {
+    margin: 0px 11px;
+    padding: 0 1px;
+  }
+
+  .category-demand .slick-prev:before,
+  .category-demand .slick-next:before {
+    display: none;
+  }
+
+  .col-md-6.smview-a.bb {
+    display: none;
+  }
+
+  #menu {
+    left: -1259px;
+  }
+
+  .na-block1.abc img {
+    height: 400px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    display: block;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #727070;
+    width: 69px;
+    height: 69px;
+    line-height: 45px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #727070 !important;
+  }
+
+  .watch-vts-block.inner-a .slick-prev {
+    left: -111px;
+  }
+
+  .watch-vts-block.inner-a .slick-next {
+    right: -67px;
+  }
+
+  .vdo-iso {
+    right: 295px;
+  }
+
+  .vdo-layer {
+    position: absolute;
+    bottom: 37px;
+    left: 461px;
+  }
+
+  .mixvector {
+    left: 795px;
+  }
+
+  .img-twitter {
+    right: 325px;
+  }
+
+  .img-lovee {
+    left: 182px;
+    top: 184px;
+  }
+
+  .div-fot {
+    left: 841px;
+  }
+
+  .welcome1 {
+    right: 205px;
+  }
+
+  .jeep1 {
+    left: 365px;
+  }
+
+  .book1 {
+    left: 405px;
+  }
+
+  /* Academic Page */
+
+  .hearto_us .slick-prev:before,
+  .hearto_us .slick-next:before {
+    font-size: 51px;
+    border: 0 !important;
+  }
+
+  .uni_teach_frame {
+    height: 500px;
+  }
+
+  .uni_teach_frame iframe {
+    border: 0;
+    width: 100%;
+    height: 564px;
+  }
+
+  /* Admission Page */
+
+  .req_doc {
+    background-image: none !important;
+  }
+
+  .presch_stud img {
+    width: 100%;
+  }
+
+  .querymore {
+    width: 50%;
+  }
+
+  .col-md-6.show-b {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1680px) {
+  section.wrap {
+    overflow: hidden;
+  }
+
+  .home {
+    height: 245vh;
+  }
+
+  .my-virtualtour {
+    width: 11%;
+  }
+
+  .col-md-6.fullwidth-a {
+    width: 100%;
+  }
+
+  .category-demand .slick-prev:before,
+  .category-demand .slick-next:before {
+    display: none;
+  }
+
+  .col-md-6.smview-a.bb {
+    display: none;
+  }
+
+  #menu {
+    left: -1259px;
+  }
+
+  .na-block1.abc img {
+    height: 400px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    display: block;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #727070;
+    width: 69px;
+    height: 69px;
+    line-height: 45px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #727070 !important;
+  }
+
+  .watch-vts-block.inner-a .slick-prev {
+    left: -111px;
+  }
+
+  .watch-vts-block.inner-a .slick-next {
+    right: -67px;
+  }
+
+  .vdo-iso {
+    right: 169px;
+  }
+
+  .vdo-layer {
+    position: absolute;
+    bottom: 37px;
+    left: 341px;
+  }
+
+  .img-twitter {
+    right: 238px;
+  }
+
+  .img-lovee {
+    left: 54px;
+    top: 186px;
+  }
+
+  .div-fot {
+    left: 709px;
+  }
+
+  .welcome1 {
+    right: 77px;
+  }
+
+  .jeep1 {
+    left: 271px;
+  }
+
+  .book1 {
+    left: 329px;
+  }
+
+  .mixvector {
+    left: 677px;
+  }
+
+  /* Academic Page */
+
+  .hearto_us .slick-prev:before,
+  .hearto_us .slick-next:before {
+    font-size: 51px;
+    border: 0 !important;
+  }
+
+  .uni_teach_frame {
+    height: 500px;
+  }
+
+  .uni_teach_frame iframe {
+    border: 0;
+    width: 100%;
+    height: 564px;
+  }
+
+  /* Admission Page */
+
+  .req_doc {
+    background-image: none !important;
+  }
+
+  .presch_stud img {
+    width: 100%;
+  }
+
+  .querymore {
+    width: 50%;
+  }
+
+  .col-md-6.show-b {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  section.wrap {
+    overflow: hidden;
+  }
+
+  .home {
+    height: 283vh;
+  }
+
+  .home p {
+    width: 47%;
+  }
+
+  .my-virtualtour {
+    width: 13%;
+  }
+
+  .col-md-6.fullwidth-a {
+    width: 100%;
+  }
+
+  .category-demand .slick-prev:before,
+  .category-demand .slick-next:before {
+    display: none;
+  }
+
+  .col-md-6.smview-a.bb {
+    display: none;
+  }
+
+  .na-block1.abc img {
+    height: 400px;
+  }
+
+  #menu {
+    left: -1185px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    display: block;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #727070;
+    width: 69px;
+    height: 69px;
+    line-height: 45px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #727070 !important;
+  }
+
+  .watch-vts-block.inner-a .slick-prev {
+    left: -111px;
+  }
+
+  .watch-vts-block.inner-a .slick-next {
+    right: -67px;
+  }
+
+  .img-twitter {
+    right: 133px;
+  }
+
+  .img-lovee {
+    left: -54px;
+  }
+
+  .community-top p {
+    width: 50%;
+  }
+
+  .div-fot {
+    left: 597px;
+  }
+
+  .vdo-iso {
+    right: 55px;
+  }
+
+  .vdo-layer {
+    left: 230px;
+  }
+
+  .welcome1 {
+    right: -21px;
+  }
+
+  .jeep1 {
+    left: 153px;
+  }
+
+  .book1 {
+    left: 213px;
+  }
+
+  .mixvector {
+    left: 558px;
+  }
+
+  /* Academic Page */
+
+  .hearto_us .slick-prev:before,
+  .hearto_us .slick-next:before {
+    font-size: 51px;
+    border: 0 !important;
+  }
+
+  .uni_teach_frame {
+    height: 500px;
+  }
+
+  .uni_teach_frame iframe {
+    border: 0;
+    width: 100%;
+    height: 564px;
+  }
+
+  /* Admission Page */
+
+  .req_doc {
+    background-image: none !important;
+  }
+
+  .presch_stud img {
+    width: 100%;
+  }
+
+  .querymore {
+    width: 50%;
+  }
+
+  .col-md-6.show-b {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  section.wrap {
+    overflow: hidden;
+  }
+
+  .home {
+    height: 140vh;
+  }
+
+  .col-md-6.fullwidth-a {
+    width: 100%;
+  }
+
+  .category-demand .slick-prev:before,
+  .category-demand .slick-next:before {
+    display: none;
+  }
+
+  .col-md-6.smview-a.bb {
+    display: none;
+  }
+
+  #menu {
+    left: -1185px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    display: block;
+    font-size: 35px;
+    font-weight: lighter;
+    color: #727070;
+    width: 69px;
+    height: 69px;
+    line-height: 45px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #727070 !important;
+  }
+
+  .watch-vts-block.inner-a .slick-prev {
+    left: -111px;
+  }
+
+  .watch-vts-block.inner-a .slick-next {
+    right: -67px;
+  }
+
+  .principal-img {
+    width: 100%;
+    min-width: 381px;
+    height: 550px;
+    background-color: #f8d4ce;
+    border-radius: 32px;
+  }
+
+  .principal-img img {
+    width: 94%;
+    min-height: 550px;
+    margin-top: -29px;
+  }
+
+  .principal-speech {
+    width: 91%;
+  }
+
+  .img-lovee {
+    left: -35px;
+    top: 160px;
+  }
+
+  .div-fot {
+    left: 509px;
+  }
+
+  .vdo-iso {
+    right: 79px;
+    top: 177px;
+  }
+
+  .vdo-layer {
+    left: 252px;
+  }
+
+  .jeep1 {
+    left: 129px;
+  }
+
+  .book1 {
+    left: 165px;
+  }
+
+  .mixvector {
+    left: 527px;
+  }
+
+  .mainimg img {
+    width: 151%;
+  }
+
+  .na-block1.abc img {
+    width: 100%;
+    height: 342px;
+  }
+
+  .broch-b {
+    position: absolute;
+    right: -70px;
+    bottom: -75px;
+  }
+
+  .broch-a {
+    position: absolute;
+    left: -85px;
+    bottom: -76px;
+  }
+
+  /* Academic Page */
+
+  .hearto_us .slick-prev:before,
+  .hearto_us .slick-next:before {
+    font-size: 51px;
+    border: 0 !important;
+  }
+
+  .uni_teach_frame {
+    height: 500px;
+  }
+
+  .uni_teach_frame iframe {
+    border: 0;
+    width: 100%;
+    height: 564px;
+  }
+
+  /* Admission Page */
+
+  .req_doc {
+    background-image: none !important;
+  }
+
+  .presch_stud img {
+    width: 100%;
+  }
+
+  .querymore {
+    width: 50%;
+  }
+
+  .col-md-6.show-b {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .top-blocks,
+  .community-top,
+  .academic-block,
+  .uni-vts-block,
+  .interest-block {
+    overflow: hidden;
+  }
+
+  header.top-blocks.overlap-show {
+    overflow: visible;
+  }
+
+  #menu {
+    width: 1147px;
+    top: 15px;
+    left: -1097px;
+  }
+
+  ul#menu li {
+    width: 23%;
+  }
+
+  ul.pure-mega-a {
+    margin-top: 14px;
+  }
+
+  ul.pure-mega-a li a {
+    font-size: 14px;
+  }
+
+  .ck-mega-menu .vogar_home button {
+    font-size: clamp(11px, 1.5vw, 13px);
+    margin: 25px 3px 0px 0;
+    padding: 10px 16px;
+  }
+
+  .mega-logo img {
+    width: 17%;
+  }
+
+  .home {
+    height: 107vh;
+    position: relative;
+  }
+
+  .col-md-6.fullwidth-a {
+    width: 100%;
+  }
+
+  .hotel-circle {
+    height: 375px;
+  }
+
+  .img-twitter {
+    position: absolute;
+    top: 8px;
+    right: 75px;
+  }
+
+  .category-demand .slick-prev:before,
+  .category-demand .slick-next:before {
+    display: none;
+  }
+
+  .welcome1 {
+    right: -131px;
+  }
+
+  .col-md-6.smview-a.bb {
+    display: none;
+  }
+
+  /* Academic Page */
+
+  .hearto_us .slick-prev:before,
+  .hearto_us .slick-next:before {
+    font-size: 51px;
+    border: 0 !important;
+  }
+
+  .uni_teach_frame {
+    height: 500px;
+  }
+
+  .uni_teach_frame iframe {
+    border: 0;
+    width: 100%;
+    height: 500px;
+  }
+
+  /* Admission Page */
+
+  .req_doc {
+    background-image: none !important;
+  }
+
+  .presch_stud img {
+    width: 100%;
+  }
+
+  .querymore {
+    width: 50%;
+  }
+
+  .col-md-6.show-b {
+    display: none;
+  }
+
+  /* Community Page */
+
+  .t_img.tohide {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  /* Home Page Section */
+
+  header.top-blocks.overlap-show {
+    overflow: visible;
+  }
+
+  #menu {
+    width: 912px;
+    top: 15px;
+    left: -735px;
+  }
+
+  ul#menu li {
+    width: 48%;
+  }
+
+  ul.pure-mega-a {
+    margin-top: 14px;
+  }
+
+  ul.pure-mega-a li a {
+    font-size: 14px;
+  }
+
+  .ck-mega-menu .vogar_home button {
+    font-size: clamp(11px, 1.5vw, 13px);
+    margin: 25px 3px 0px 0;
+    padding: 10px 16px;
+  }
+
+  .mega-logo img {
+    width: 21%;
+  }
+
+  .secondary-logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 51px;
+  }
+
+  .unib-t-a,
+  .unib-t-c {
+    width: 45%;
+  }
+
+  .unib-t-b {
+    width: 5%;
+  }
+
+  .unig-logo.white {
+    padding-top: 21px;
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .unig-logo.white img {
+    width: 100%;
+  }
+
+  .unig-logo,
+  .main-navigation,
+  .my-mouse,
+  .ck-star,
+  .img-lovee,
+  .img-twitter,
+  .vdo-iso,
+  .vdo-layer,
+  .welcome1,
+  .col-md-6.smview-b,
+  .mixvector,
+  .broch-a,
+  .broch-b,
+  .div-fot,
+  .ck-star1,
+  .book1,
+  .jeep1 {
+    display: none;
+  }
+
+  .uni-mega {
+    padding-top: 21px;
+  }
+
+  .unigloble-top::before {
+    opacity: 0.4;
+  }
+
+  .brand_logo {
+    margin-top: 25px;
+    margin-left: 26px;
+  }
+
+  .uni-mega .mega-menu {
+    left: -319px;
+    top: -21px;
+    width: 375px;
+  }
+
+  .nav-column {
+    float: left;
+    padding: 2.3%;
+    margin-left: 23px;
+    width: 43.3%;
+    min-height: 305px;
+    overflow: hidden;
+  }
+
+  .main-banner {
+    margin-top: -158px;
+  }
+
+  .home {
+    height: 83vh;
+  }
+
+  .home-content {
+    padding-top: 231px;
+  }
+
+  .home-content h1,
+  .home-content h2 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .uni-vector img {
+    width: 19%;
+    margin-top: -7px;
+    margin-left: -130px;
+  }
+
+  .home video {
+    height: 77%;
+  }
+
+  .home p {
+    width: 95%;
+    font-size: 19px;
+    color: #efefef;
+  }
+
+  .home-content button {
+    display: block;
+    width: 89%;
+    margin: 25px auto;
+    font-size: 18px;
+  }
+
+  .my-virtualtour {
+    width: 89%;
+    margin: 25px auto;
+    border: 1px solid #b5b5b5;
+  }
+
+  .ck-journey {
+    margin-top: -262px;
+  }
+
+  .ck-journey h2,
+  .ck-journey h3 {
+    width: 100%;
+    font-size: 37px;
+    text-align: initial;
+    margin: 0;
+  }
+
+  .ck-journey h3 {
+    line-height: 42px;
+    margin-bottom: 25px;
+    width: 95%;
+  }
+
+  .ck-journey p {
+    text-align: initial;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .ck-star1 {
+    top: -454px;
+    right: -150px;
+  }
+
+  .ck-star1 img {
+    width: 61%;
+  }
+
+  .learn-now {
+    margin-left: 25px;
+  }
+
+  .learn-now h2 {
+    font-size: 41px;
+    width: 91%;
+    text-align: initial;
+  }
+
+  .learn-now p {
+    font-size: 21px;
+    width: 95%;
+    text-align: initial;
+  }
+
+  .category-demand .slick-prev:before,
+  .category-demand .slick-next:before {
+    display: none;
+  }
+
+  .category-demand .slick-slide {
+    margin: 0 5px;
+  }
+
+  .col-md-6.fullwidth-a {
+    width: 100%;
+  }
+
+  .category-demand .hotel-circle {
+    height: 450px;
+  }
+
+  .principal-msg {
+    margin-bottom: 0;
+  }
+
+  .principal-img {
+    width: 85%;
+    height: 195px;
+  }
+
+  .principal-img img {
+    width: 92%;
+    margin-top: -24px;
+  }
+
+  .principal-content {
+    padding-left: 0;
+    margin-top: -27px;
+    position: relative;
+  }
+
+  .wings-section {
+    margin-top: 80px;
+  }
+
+  .img-twitter.smview img {
+    width: 53%;
+  }
+
+  .community-top {
+    text-align: initial;
+    padding-left: 60px;
+    padding-right: 30px;
+  }
+
+  .community-top h2 {
+    margin-bottom: 21px;
+  }
+
+  .community-top p {
+    width: 100%;
+  }
+
+  .teacher,
+  .teacher.parents {
+    margin-bottom: 25px;
+  }
+
+  .teacher-title {
+    line-height: 27px;
+    min-height: auto;
+    overflow: hidden;
+  }
+
+  .academic-div {
+    margin-top: 0;
+  }
+
+  .academic-div h2 {
+    font-size: 36px;
+  }
+
+  .academic-div p {
+    width: 100%;
+    font-size: 21px;
+    color: #bedffb;
+  }
+
+  .faq-img {
+    margin-top: 161px;
+  }
+
+  .mainimg {
+    margin-top: 93px;
+  }
+
+  ul.mydiv-sec {
+    padding: 0;
+    width: 100%;
+  }
+
+  ul.mydiv-sec li {
+    display: block;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+  }
+
+  ul.mydiv-sec li a {
+    font-size: 21px;
+  }
+
+  .img-twitter.smview {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -50px;
+  }
+
+  .uni-vts-block {
+    padding: 75px 0 100px 0;
+  }
+
+  .vts-title,
+  .vts-title p {
+    text-align: initial;
+  }
+
+  .vts-title h2 {
+    font-size: 37px;
+    text-align: initial;
+    margin-bottom: 15px;
+  }
+
+  .vts-title p {
+    width: 100%;
+  }
+
+  .watch-vts-block.inner-a {
+    width: 100%;
+  }
+
+  .unslide-1.vts-a iframe {
+    width: 100%;
+    height: 375px;
+  }
+
+  .na-block1.abc img {
+    height: 211px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    display: block;
+    color: #ccc;
+    border: 0 !important;
+  }
+
+  .watch-vts-block.inner-a .slick-prev {
+    left: 283px;
+  }
+
+  .watch-vts-block.inner-a .slick-next {
+    right: 283px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    font-size: 51px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev,
+  .watch-vts-block.inner-a .slick-next {
+    height: initial;
+    width: initial;
+    top: 115%;
+  }
+
+  .more {
+    margin-top: 15px;
+  }
+
+  .more a {
+    width: 41%;
+    font-size: 19px;
+  }
+
+  .uni-interest {
+    text-align: initial;
+  }
+
+  .uni-interest p {
+    width: 100%;
+  }
+
+  .book1 {
+    top: 74px;
+    right: -38px;
+    left: initial;
+  }
+
+  .jeep1 img {
+    width: 49%;
+  }
+
+  .jeep1 {
+    right: -138px;
+    bottom: 0;
+    left: initial;
+  }
+
+  .team-title {
+    margin-top: 0;
+  }
+
+  .copen {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  .uni-events,
+  .article-block {
+    background-image: none !important;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .col-md-3.evn-a {
+    width: 45%;
+  }
+
+  .col-md-9.evn-b {
+    width: 55%;
+  }
+
+  .article-block h2 {
+    text-align: initial;
+    padding-left: 15px;
+  }
+
+  .detail {
+    margin-bottom: 35px;
+  }
+
+  .article-block {
+    padding-bottom: 75px;
+  }
+
+  .footer-logo {
+    margin-bottom: 35px;
+  }
+
+  .footer-logo img {
+    width: 61%;
+  }
+
+  .col-md-3.foot-a {
+    width: 50%;
+  }
+
+  ul.fotmenu li a {
+    color: #c7c6c6;
+  }
+
+  ul.continfo li {
+    width: 100%;
+    font-size: 19px;
+    line-height: 27px;
+    color: #c7c6c6;
+  }
+
+  .cinfo h4 {
+    font-size: 29px;
+  }
+
+  .social-info {
+    margin-top: 51px;
+    float: left;
+  }
+
+  ul.social-circule li:nth-child(1) {
+    padding-left: 0;
+  }
+
+  ul.social-circule li:nth-child(2),
+  ul.social-circule li:nth-child(3),
+  ul.social-circule li:nth-child(4),
+  ul.social-circule li:nth-child(5),
+  ul.social-circule li:nth-child(6) {
+    padding: 5px 9px;
+  }
+
+  .copyright {
+    font-size: 16px;
+  }
+
+  ul.school-p li {
+    float: left;
+  }
+
+  ul.school-p li {
+    padding: 5px 12px 0px 12px;
+  }
+
+  .uni-policy {
+    margin-top: 19px;
+  }
+
+  /* About us Page */
+
+  .school-logo.outlg {
+    padding-bottom: 17px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 54px;
+  }
+
+  .ab-curve {
+    right: 0;
+  }
+
+  .ab-star img {
+    width: 75%;
+  }
+
+  .ab-star {
+    left: 41px;
+    bottom: initial;
+    top: 182px;
+  }
+
+  .about-inner p {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .tab-history h2 {
+    text-align: left;
+    font-size: 37px;
+    line-height: 49px;
+    margin-bottom: 25px;
+  }
+
+  ul.core-v li {
+    padding: 17px 15px;
+    margin-bottom: 15px;
+  }
+
+  /* Academic Page */
+
+  .about-top-block {
+    margin-top: -153px;
+  }
+
+  .tab-history.preshl {
+    margin-top: 0px;
+  }
+
+  .tab-history.preshl h2 {
+    margin-bottom: 25px;
+  }
+
+  .tab-history,
+  .core-sthtitle p {
+    width: 100%;
+  }
+
+  #tsum-tabs p.progsch,
+  ul.schpre {
+    display: none;
+  }
+
+  .core-sthtitle h2 {
+    font-size: 37px;
+  }
+
+  .story_title {
+    position: relative;
+  }
+
+  .story-img {
+    left: 0px;
+    top: 0px;
+  }
+
+  .uni_teach_frame {
+    min-height: auto;
+  }
+
+  .uni_teach_frame iframe {
+    border: 0;
+    height: 375px;
+    width: 100%;
+  }
+
+  ul.unipath li.path_a {
+    margin-bottom: 25px;
+  }
+
+  ul.unipath li a {
+    font-size: 18px;
+  }
+
+  .hear_from_uniglobe {
+    overflow: hidden;
+  }
+
+  .hearto_us .slick-prev:before,
+  .hearto_us .slick-next:before {
+    display: none;
+  }
+
+  /* Admission Page */
+
+  .req_doc {
+    background-image: none !important;
+  }
+
+  .presch_stud img {
+    width: 100%;
+  }
+
+  .querymore {
+    width: 50%;
+  }
+
+  .col-md-6.show-b {
+    display: none;
+  }
+
+  /* Career Page */
+
+  .apply_a {
+    padding: 21px 21px;
+  }
+
+  .apply_a a {
+    font-size: 22px;
+  }
+
+  .pro_content {
+    margin-top: 15px;
+  }
+
+  .why_title h2 {
+    width: 100%;
+  }
+
+  /* Community Page */
+
+  #tcom-tabs label {
+    padding: 15px 35px;
+  }
+
+  .t_img.tohide {
+    display: none;
+  }
+
+  .t_content {
+    margin-top: 0px;
+  }
+
+  /* Contact Page */
+
+  .getin-touch h2 {
+    font-size: 41px;
+    line-height: 47px;
+  }
+
+  .contact_content {
+    width: 100%;
+  }
+
+  /* FAQ Page */
+
+  .more_faq a {
+    width: 21%;
+    border-radius: 15px;
+  }
+
+  /* News Page */
+
+  .ab-star.mnm {
+    top: 180px;
+  }
+
+  section.myrecent_pro.articless {
+    background-image: none !important;
+  }
+
+  /* News Detail Page */
+
+  .about-inner.ndetl h2 {
+    width: 100%;
+  }
+
+  .ndet_img_shape img {
+    width: 100%;
+  }
+
+  .ndet_content {
+    background-image: none !important;
+  }
+
+  .object_cue {
+    display: none;
+  }
+
+  .ndet_content p,
+  .ndet_share,
+  .recent_news {
+    width: 100%;
+  }
+
+  .share_tb {
+    display: block;
+    float: none;
+    margin-top: 8px;
+    text-align: center;
+    margin: 10px auto 0;
+    width: 75%;
+  }
+
+  .na_block_content {
+    margin-top: 0px;
+  }
+
+  /* Testimonial Page */
+
+  section.hear_from_uniglobe.reviews {
+    padding-bottom: 0;
+  }
+
+  .vts-title.vreview p {
+    width: 100%;
+  }
+
+  .unslide-1 iframe {
+    height: 315px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  /* Home Page Section */
+
+  header.top-blocks.overlap-show {
+    overflow: visible;
+  }
+
+  #menu {
+    width: 820px;
+    top: 15px;
+    left: -681px;
+  }
+
+  ul#menu li {
+    width: 48%;
+  }
+
+  ul.pure-mega-a {
+    margin-top: 14px;
+  }
+
+  ul.pure-mega-a li a {
+    font-size: 14px;
+  }
+
+  .ck-mega-menu .vogar_home button {
+    font-size: clamp(11px, 1.5vw, 13px);
+    margin: 25px 3px 0px 0;
+    padding: 10px 16px;
+  }
+
+  .mega-logo img {
+    width: 21%;
+  }
+
+  .secondary-logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 51px;
+  }
+
+  .unib-t-a,
+  .unib-t-c {
+    width: 45%;
+  }
+
+  .unib-t-b {
+    width: 5%;
+  }
+
+  .unig-logo.white {
+    padding-top: 21px;
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .unig-logo.white img {
+    width: 100%;
+  }
+
+  .unig-logo,
+  .main-navigation,
+  .my-mouse,
+  .ck-star,
+  .img-lovee,
+  .img-twitter,
+  .vdo-iso,
+  .vdo-layer,
+  .welcome1,
+  .mixvector,
+  .broch-a,
+  .broch-b,
+  .div-fot,
+  .ck-star1,
+  .book1,
+  .jeep1 {
+    display: none;
+  }
+
+  .uni-mega {
+    padding-top: 21px;
+  }
+
+  .unigloble-top::before {
+    opacity: 0.4;
+  }
+
+  .brand_logo {
+    margin-top: 25px;
+    margin-left: 26px;
+  }
+
+  .uni-mega .mega-menu {
+    left: -319px;
+    top: -21px;
+    width: 375px;
+  }
+
+  .nav-column {
+    float: left;
+    padding: 2.3%;
+    margin-left: 23px;
+    width: 43.3%;
+    min-height: 305px;
+    overflow: hidden;
+  }
+
+  .main-banner {
+    margin-top: -158px;
+  }
+
+  .home {
+    height: 83vh;
+  }
+
+  .home-content {
+    padding-top: 231px;
+  }
+
+  .home-content h1,
+  .home-content h2 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .uni-vector img {
+    width: 19%;
+    margin-top: -7px;
+    margin-left: -130px;
+  }
+
+  .home video {
+    height: 77%;
+  }
+
+  .home p {
+    width: 95%;
+    font-size: 19px;
+    color: #efefef;
+  }
+
+  .home-content button {
+    display: block;
+    width: 89%;
+    margin: 25px auto;
+    font-size: 18px;
+  }
+
+  .my-virtualtour {
+    width: 89%;
+    margin: 25px auto;
+    border: 1px solid #b5b5b5;
+  }
+
+  .ck-journey {
+    margin-top: -224px;
+  }
+
+  .ck-journey h2,
+  .ck-journey h3 {
+    width: 100%;
+    font-size: 37px;
+    text-align: initial;
+    margin: 0;
+  }
+
+  .ck-journey h3 {
+    line-height: 42px;
+    margin-bottom: 25px;
+    width: 95%;
+  }
+
+  .ck-journey p {
+    text-align: initial;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .ck-star1 {
+    top: -454px;
+    right: -150px;
+  }
+
+  .ck-star1 img {
+    width: 61%;
+  }
+
+  .learn-now {
+    margin-left: 25px;
+  }
+
+  .learn-now h2 {
+    font-size: 41px;
+    width: 91%;
+    text-align: initial;
+  }
+
+  .learn-now p {
+    font-size: 21px;
+    width: 95%;
+    text-align: initial;
+  }
+
+  .category-demand .slick-prev:before,
+  .category-demand .slick-next:before {
+    display: none;
+  }
+
+  .category-demand .slick-slide {
+    margin: 0 5px;
+  }
+
+  .col-md-6.fullwidth-a {
+    width: 100%;
+  }
+
+  .category-demand .hotel-circle {
+    height: 450px;
+  }
+
+  .principal-msg {
+    margin-bottom: 0;
+  }
+
+  .principal-img {
+    width: 85%;
+    height: 195px;
+  }
+
+  .principal-img img {
+    width: 92%;
+    margin-top: -24px;
+  }
+
+  .principal-content {
+    padding-left: 0;
+    margin-top: -27px;
+    position: relative;
+  }
+
+  .wings-section {
+    margin-top: 80px;
+  }
+
+  .img-twitter.smview img {
+    width: 53%;
+  }
+
+  .community-top {
+    text-align: initial;
+    padding-left: 60px;
+    padding-right: 30px;
+  }
+
+  .community-top h2 {
+    margin-bottom: 21px;
+  }
+
+  .community-top p {
+    width: 100%;
+  }
+
+  .teacher,
+  .teacher.parents {
+    margin-bottom: 25px;
+  }
+
+  .teacher-title {
+    line-height: 27px;
+    min-height: auto;
+    overflow: hidden;
+  }
+
+  .academic-div {
+    margin-top: 0;
+  }
+
+  .academic-div h2 {
+    font-size: 36px;
+  }
+
+  .academic-div p {
+    width: 100%;
+    font-size: 21px;
+    color: #bedffb;
+  }
+
+  .faq-img {
+    margin-top: 161px;
+  }
+
+  .mainimg {
+    margin-top: 93px;
+  }
+
+  ul.mydiv-sec {
+    padding: 0;
+    width: 100%;
+  }
+
+  ul.mydiv-sec li {
+    display: block;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+  }
+
+  ul.mydiv-sec li a {
+    font-size: 21px;
+  }
+
+  .img-twitter.smview {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -50px;
+  }
+
+  .uni-vts-block {
+    padding: 75px 0 100px 0;
+  }
+
+  .vts-title,
+  .vts-title p {
+    text-align: initial;
+  }
+
+  .vts-title h2 {
+    font-size: 37px;
+    text-align: initial;
+    margin-bottom: 15px;
+  }
+
+  .vts-title p {
+    width: 100%;
+  }
+
+  .watch-vts-block.inner-a {
+    width: 100%;
+  }
+
+  .unslide-1.vts-a iframe {
+    width: 100%;
+    height: 375px;
+  }
+
+  .na-block1.abc img {
+    height: 211px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    display: block;
+    color: #ccc;
+    border: 0 !important;
+  }
+
+  .watch-vts-block.inner-a .slick-prev {
+    left: 283px;
+  }
+
+  .watch-vts-block.inner-a .slick-next {
+    right: 283px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    font-size: 51px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev,
+  .watch-vts-block.inner-a .slick-next {
+    height: initial;
+    width: initial;
+    top: 115%;
+  }
+
+  .more {
+    margin-top: 15px;
+  }
+
+  .more a {
+    width: 41%;
+    font-size: 19px;
+  }
+
+  .uni-interest {
+    text-align: initial;
+  }
+
+  .uni-interest p {
+    width: 100%;
+  }
+
+  .book1 {
+    top: 74px;
+    right: -38px;
+    left: initial;
+  }
+
+  .jeep1 img {
+    width: 49%;
+  }
+
+  .jeep1 {
+    right: -138px;
+    bottom: 0;
+    left: initial;
+  }
+
+  .team-title {
+    margin-top: 0;
+  }
+
+  .copen {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  .uni-events,
+  .article-block {
+    background-image: none !important;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .col-md-3.evn-a {
+    width: 45%;
+  }
+
+  .col-md-9.evn-b {
+    width: 55%;
+  }
+
+  .article-block h2 {
+    text-align: initial;
+    padding-left: 15px;
+  }
+
+  .detail {
+    margin-bottom: 35px;
+  }
+
+  .article-block {
+    padding-bottom: 75px;
+  }
+
+  .footer-logo {
+    margin-bottom: 35px;
+  }
+
+  .footer-logo img {
+    width: 61%;
+  }
+
+  .col-md-3.foot-a {
+    width: 50%;
+  }
+
+  ul.fotmenu li a {
+    color: #c7c6c6;
+  }
+
+  ul.continfo li {
+    width: 100%;
+    font-size: 19px;
+    line-height: 27px;
+    color: #c7c6c6;
+  }
+
+  .cinfo h4 {
+    font-size: 29px;
+  }
+
+  .social-info {
+    margin-top: 51px;
+    float: left;
+  }
+
+  ul.social-circule li:nth-child(1) {
+    padding-left: 0;
+  }
+
+  ul.social-circule li:nth-child(2),
+  ul.social-circule li:nth-child(3),
+  ul.social-circule li:nth-child(4),
+  ul.social-circule li:nth-child(5),
+  ul.social-circule li:nth-child(6) {
+    padding: 5px 9px;
+  }
+
+  .copyright {
+    font-size: 16px;
+  }
+
+  ul.school-p li {
+    float: left;
+  }
+
+  ul.school-p li {
+    padding: 5px 12px 0px 12px;
+  }
+
+  .uni-policy {
+    margin-top: 19px;
+  }
+
+  .col-md-6.smview-b {
+    display: block;
+  }
+
+  /* About us Page */
+
+  .school-logo.outlg {
+    padding-bottom: 17px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 54px;
+  }
+
+  .ab-curve {
+    right: 0;
+  }
+
+  .ab-star img {
+    width: 75%;
+  }
+
+  .ab-star {
+    left: 41px;
+    bottom: initial;
+    top: 182px;
+  }
+
+  .about-inner p {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .tab-history h2 {
+    font-size: 37px;
+    line-height: 49px;
+    margin-bottom: 25px;
+  }
+
+  ul.core-v li {
+    padding: 17px 15px;
+    margin-bottom: 15px;
+  }
+
+  /* Academic Page */
+
+  .about-top-block {
+    margin-top: -153px;
+  }
+
+  .tab-history.preshl {
+    margin-top: 0px;
+  }
+
+  .tab-history.preshl h2 {
+    margin-bottom: 25px;
+  }
+
+  .tab-history,
+  .core-sthtitle p {
+    width: 100%;
+  }
+
+  #tsum-tabs p.progsch,
+  ul.schpre {
+    display: none;
+  }
+
+  .core-sthtitle h2 {
+    font-size: 37px;
+  }
+
+  .story_title {
+    position: relative;
+  }
+
+  .story-img {
+    left: 0px;
+    top: 0px;
+  }
+
+  .uni_teach_frame {
+    min-height: auto;
+  }
+
+  .uni_teach_frame iframe {
+    border: 0;
+    height: 375px;
+    width: 100%;
+  }
+
+  ul.unipath li.path_a {
+    margin-bottom: 25px;
+  }
+
+  ul.unipath li a {
+    font-size: 18px;
+  }
+
+  .hear_from_uniglobe {
+    overflow: hidden;
+  }
+
+  .hearto_us .slick-prev:before,
+  .hearto_us .slick-next:before {
+    display: none;
+  }
+
+  /* Admission Page */
+
+  .req_doc {
+    background-image: none !important;
+  }
+
+  .presch_stud img {
+    width: 100%;
+  }
+
+  .querymore {
+    width: 50%;
+  }
+
+  .col-md-6.show-b {
+    display: none;
+  }
+
+  /* Career Page */
+
+  .apply_a {
+    padding: 21px 21px;
+  }
+
+  .apply_a a {
+    font-size: 22px;
+  }
+
+  .pro_content {
+    margin-top: 15px;
+  }
+
+  .why_title h2 {
+    width: 100%;
+  }
+
+  /* Community Page */
+
+  #tcom-tabs label {
+    padding: 15px 35px;
+  }
+
+  .t_img.tohide {
+    display: none;
+  }
+
+  .t_content {
+    margin-top: 0px;
+  }
+
+  /* Contact Page */
+
+  .getin-touch h2 {
+    font-size: 41px;
+    line-height: 47px;
+  }
+
+  .contact_content {
+    width: 100%;
+  }
+
+  /* FAQ Page */
+
+  .more_faq a {
+    width: 21%;
+    border-radius: 15px;
+  }
+
+  /* News Page */
+
+  .ab-star.mnm {
+    top: 180px;
+  }
+
+  section.myrecent_pro.articless {
+    background-image: none !important;
+  }
+
+  /* News Detail Page */
+
+  .about-inner.ndetl h2 {
+    width: 100%;
+  }
+
+  .ndet_img_shape img {
+    width: 100%;
+  }
+
+  .ndet_content {
+    background-image: none !important;
+  }
+
+  .object_cue {
+    display: none;
+  }
+
+  .ndet_content p,
+  .ndet_share,
+  .recent_news {
+    width: 100%;
+  }
+
+  .share_tb {
+    display: block;
+    float: none;
+    margin-top: 8px;
+    text-align: center;
+    margin: 10px auto 0;
+    width: 75%;
+  }
+
+  .na_block_content {
+    margin-top: 0px;
+  }
+
+  /* Testimonial Page */
+
+  section.hear_from_uniglobe.reviews {
+    padding-bottom: 0;
+  }
+
+  .vts-title.vreview p {
+    width: 100%;
+  }
+
+  .unslide-1 iframe {
+    height: 315px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Home Page Section */
+
+  header.top-blocks {
+    overflow-x: hidden;
+  }
+
+  header.top-blocks.overlap-show {
+    overflow: visible;
+  }
+
+  #menu {
+    width: 768px;
+    top: 15px;
+    left: -663px;
+  }
+
+  ul#menu li {
+    width: 48%;
+  }
+
+  ul.pure-mega-a {
+    margin-top: 14px;
+  }
+
+  ul.pure-mega-a li a {
+    font-size: 14px;
+  }
+
+  .ck-mega-menu .vogar_home button {
+    font-size: clamp(11px, 1.5vw, 13px);
+    margin: 25px 3px 0px 0;
+    padding: 10px 16px;
+  }
+
+  .mega-logo img {
+    width: 21%;
+  }
+
+
+  .secondary-logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 51px;
+  }
+
+  .unib-t-a,
+  .unib-t-c {
+    width: 45%;
+  }
+
+  .unib-t-b {
+    width: 5%;
+  }
+
+  .unig-logo.white {
+    padding-top: 21px;
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .unig-logo.white img {
+    width: 100%;
+  }
+
+  .unig-logo,
+  .main-navigation,
+  .my-mouse,
+  .ck-star,
+  .img-lovee,
+  .img-twitter,
+  .vdo-iso,
+  .vdo-layer,
+  .welcome1,
+  .mixvector,
+  .broch-a,
+  .broch-b,
+  .div-fot,
+  .ck-star1,
+  .book1,
+  .jeep1 {
+    display: none;
+  }
+
+  .uni-mega {
+    padding-top: 21px;
+  }
+
+  .unigloble-top::before {
+    opacity: 0.4;
+  }
+
+  .brand_logo {
+    margin-top: 25px;
+    margin-left: 26px;
+  }
+
+  .uni-mega .mega-menu {
+    left: -319px;
+    top: -21px;
+    width: 375px;
+  }
+
+  .nav-column {
+    float: left;
+    padding: 2.3%;
+    margin-left: 23px;
+    width: 43.3%;
+    min-height: 305px;
+    overflow: hidden;
+  }
+
+  .main-banner {
+    margin-top: -158px;
+  }
+
+  .home {
+    height: 95vh;
+  }
+
+  .home-content {
+    padding-top: 231px;
+  }
+
+  .home-content h1,
+  .home-content h2 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .uni-vector img {
+    width: 30%;
+    margin-top: -7px;
+    margin-left: -110px;
+  }
+
+  .home video {
+    height: 77%;
+  }
+
+  .home p {
+    width: 95%;
+    font-size: 19px;
+    margin-top:0px;
+    color: #efefef;
+  }
+
+  .home-content button {
+    display: block;
+    width: 89%;
+    margin: 25px auto;
+    font-size: 18px;
+  }
+
+  .my-virtualtour {
+    width: 89%;
+    margin: 25px auto;
+    border: 1px solid #b5b5b5;
+  }
+
+  .ck-journey {
+    margin-top: -224px;
+  }
+
+  .ck-journey h2,
+  .ck-journey h3 {
+    width: 100%;
+    font-size: 37px;
+    text-align: initial;
+    margin: 0;
+  }
+
+  .ck-journey h3 {
+    line-height: 42px;
+    margin-bottom: 25px;
+    width: 95%;
+  }
+
+  .ck-journey p {
+    text-align: initial;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .ck-star1 {
+    top: -454px;
+    right: -150px;
+  }
+
+  .ck-star1 img {
+    width: 61%;
+  }
+
+  .learn-now {
+    margin-left: 25px;
+  }
+
+  .learn-now h2 {
+    font-size: 41px;
+    width: 91%;
+    text-align: initial;
+  }
+
+  .learn-now p {
+    font-size: 21px;
+    width: 95%;
+    text-align: initial;
+  }
+
+  .category-demand .slick-prev:before,
+  .category-demand .slick-next:before {
+    display: none;
+  }
+
+  .category-demand .slick-slide {
+    margin: 0 5px;
+  }
+
+  .col-md-6.fullwidth-a {
+    width: 100%;
+  }
+
+  .category-demand .hotel-circle {
+    height: 450px;
+  }
+
+  .principal-msg {
+    margin-bottom: 0;
+  }
+
+  .principal-img {
+    width: 85%;
+    height: 195px;
+  }
+
+  .principal-img img {
+    width: 92%;
+    margin-top: -24px;
+  }
+
+  .principal-content {
+    padding-left: 0;
+    margin-top: -27px;
+    position: relative;
+  }
+
+  .wings-section {
+    margin-top: 80px;
+  }
+
+  .img-twitter.smview img {
+    width: 53%;
+  }
+
+  .community-top {
+    text-align: initial;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .community-top h2 {
+    margin-bottom: 21px;
+  }
+
+  .community-top p {
+    width: 100%;
+  }
+
+  .teacher,
+  .teacher.parents {
+    margin-bottom: 25px;
+  }
+
+  .teacher-title {
+    line-height: 27px;
+    min-height: auto;
+    overflow: hidden;
+  }
+
+  .academic-div {
+    margin-top: 0;
+  }
+
+  .academic-div h2 {
+    font-size: 36px;
+  }
+
+  .academic-div p {
+    width: 100%;
+    font-size: 21px;
+    color: #bedffb;
+  }
+
+  .faq-img {
+    margin-top: 161px;
+  }
+
+  .mainimg {
+    margin-top: 93px;
+  }
+
+  ul.mydiv-sec {
+    padding: 0;
+    width: 100%;
+  }
+
+  ul.mydiv-sec li {
+    display: block;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+  }
+
+  ul.mydiv-sec li a {
+    font-size: 21px;
+  }
+
+  .img-twitter.smview {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -50px;
+  }
+
+  .uni-vts-block {
+    padding: 75px 0 100px 0;
+  }
+
+  .vts-title,
+  .vts-title p {
+    text-align: initial;
+  }
+
+  .vts-title h2 {
+    font-size: 37px;
+    text-align: initial;
+    margin-bottom: 15px;
+  }
+
+  .vts-title p {
+    width: 100%;
+  }
+
+  .watch-vts-block.inner-a {
+    width: 100%;
+  }
+
+  .unslide-1.vts-a iframe {
+    width: 100%;
+    height: 375px;
+  }
+
+  .na-block1.abc img {
+    height: 211px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    display: block;
+    color: #ccc;
+    border: 0 !important;
+  }
+
+  .watch-vts-block.inner-a .slick-prev {
+    left: 283px;
+  }
+
+  .watch-vts-block.inner-a .slick-next {
+    right: 283px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    font-size: 51px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev,
+  .watch-vts-block.inner-a .slick-next {
+    height: initial;
+    width: initial;
+    top: 115%;
+  }
+
+  .more {
+    margin-top: 15px;
+  }
+
+  .more a {
+    width: 41%;
+    font-size: 19px;
+  }
+
+  .uni-interest {
+    text-align: initial;
+  }
+
+  .uni-interest p {
+    width: 100%;
+  }
+
+  .book1 {
+    top: 74px;
+    right: -38px;
+    left: initial;
+  }
+
+  .jeep1 img {
+    width: 49%;
+  }
+
+  .jeep1 {
+    right: -138px;
+    bottom: 0;
+    left: initial;
+  }
+
+  .team-title {
+    margin-top: 0;
+  }
+
+  .copen {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  .uni-events,
+  .article-block {
+    background-image: none !important;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .col-md-3.evn-a {
+    width: 45%;
+  }
+
+  .col-md-9.evn-b {
+    width: 55%;
+  }
+
+  .article-block h2 {
+    text-align: initial;
+    padding-left: 15px;
+  }
+
+  .detail {
+    margin-bottom: 35px;
+  }
+
+  .article-block {
+    padding-bottom: 75px;
+  }
+
+  .footer-logo {
+    margin-bottom: 35px;
+  }
+
+  .footer-logo img {
+    width: 61%;
+  }
+
+  .col-md-3.foot-a {
+    width: 50%;
+  }
+
+  ul.fotmenu li a {
+    color: #c7c6c6;
+  }
+
+  ul.continfo li {
+    width: 100%;
+    font-size: 19px;
+    line-height: 27px;
+    color: #c7c6c6;
+  }
+
+  .cinfo h4 {
+    font-size: 29px;
+  }
+
+  .social-info {
+    margin-top: 51px;
+    float: left;
+  }
+
+  ul.social-circule li:nth-child(1) {
+    padding-left: 0;
+  }
+
+  ul.social-circule li:nth-child(2),
+  ul.social-circule li:nth-child(3),
+  ul.social-circule li:nth-child(4),
+  ul.social-circule li:nth-child(5),
+  ul.social-circule li:nth-child(6) {
+    padding: 5px 9px;
+  }
+
+  .copyright {
+    font-size: 16px;
+  }
+
+  ul.school-p li {
+    float: left;
+  }
+
+  ul.school-p li {
+    padding: 5px 12px 0px 12px;
+  }
+
+  .uni-policy {
+    margin-top: 19px;
+  }
+
+  .col-md-6.smview-b {
+    display: block;
+  }
+
+  /* About us Page */
+
+  .about-top-block {
+    margin-top: -155px;
+  }
+
+  .school-logo.outlg {
+    padding-bottom: 17px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 54px;
+  }
+
+  .ab-curve {
+    right: 0;
+  }
+
+  .ab-star img {
+    width: 75%;
+  }
+
+  .ab-star {
+    left: 41px;
+    bottom: initial;
+    top: 182px;
+  }
+
+  .about-inner p {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .tab-history h2 {
+    font-size: 37px;
+    line-height: 49px;
+    margin-bottom: 25px;
+  }
+
+  .school-house {
+    margin-top: 45px;
+  }
+
+  .about-tab {
+    padding-bottom: 0;
+  }
+
+  .education-root {
+    border-radius: 0;
+    padding: 15px;
+    text-align: initial;
+  }
+
+  .education-root h2 {
+    font-size: 37px;
+  }
+
+  .education-root h5 {
+    font-size: 16px;
+  }
+
+  .education-root p {
+    font-size: 18px;
+    width: 100%;
+    line-height: 29px;
+  }
+
+  .school-empowering {
+    padding-top: 55px;
+  }
+
+  .mvc-block {
+    border-radius: 13px;
+    padding: 21px;
+  }
+
+  .school-mission h2 {
+    font-size: 35px;
+  }
+
+  .school-mission p {
+    width: 100%;
+  }
+
+  .school-mission.cores {
+    padding-top: 0px;
+  }
+
+  ul.core-v li {
+    padding: 17px 15px;
+    margin-bottom: 15px;
+  }
+
+  /* Academic Page */
+
+  .tab-history.preshl {
+    margin-top: 0px;
+  }
+
+  .tab-history.preshl h2 {
+    margin-bottom: 25px;
+  }
+
+  .tab-history,
+  .core-sthtitle p {
+    width: 100%;
+  }
+
+  #tsum-tabs p.progsch,
+  ul.schpre {
+    display: none;
+  }
+
+  .core-sthtitle h2 {
+    font-size: 37px;
+  }
+
+  .story_title {
+    position: relative;
+  }
+
+  .story-img {
+    left: 0px;
+    top: 0px;
+  }
+
+  .uni_teach_frame {
+    min-height: auto;
+  }
+
+  .uni_teach_frame iframe {
+    border: 0;
+    height: 375px;
+    width: 100%;
+  }
+
+  ul.unipath li.path_a {
+    margin-bottom: 25px;
+  }
+
+  ul.unipath li a {
+    font-size: 18px;
+  }
+
+  .hear_from_uniglobe {
+    overflow: hidden;
+  }
+
+  .hearto_us .slick-prev:before,
+  .hearto_us .slick-next:before {
+    display: none;
+  }
+
+  /* Admission Page */
+
+  .req_doc {
+    background-image: none !important;
+  }
+
+  .presch_stud img {
+    width: 100%;
+  }
+
+  .querymore {
+    width: 50%;
+  }
+
+  .col-md-6.show-b {
+    display: none;
+  }
+
+  /* Career Page */
+
+  .apply_a {
+    padding: 21px 21px;
+  }
+
+  .apply_a a {
+    font-size: 22px;
+  }
+
+  .pro_content {
+    margin-top: 15px;
+  }
+
+  .why_title h2 {
+    width: 100%;
+  }
+
+  /* Community Page */
+
+  #tcom-tabs label {
+    padding: 15px 35px;
+  }
+
+  .t_img.tohide {
+    display: none;
+  }
+
+  .t_content {
+    margin-top: 0px;
+  }
+
+  /* Contact Page */
+
+  .getin-touch h2 {
+    font-size: 41px;
+    line-height: 47px;
+  }
+
+  .contact_content {
+    width: 100%;
+  }
+
+  /* Event Page */
+
+  .col-md-2.evn-a {
+    width: 27%;
+  }
+
+  .col-md-10.evn-b {
+    width: 73%;
+  }
+
+  /* FAQ Page */
+
+  .more_faq a {
+    width: 21%;
+    border-radius: 15px;
+  }
+
+  /* News Page */
+
+  .ab-star.mnm {
+    top: 180px;
+  }
+
+  section.myrecent_pro.articless {
+    background-image: none !important;
+  }
+
+  /* News Detail Page */
+
+  .about-inner.ndetl h2 {
+    width: 100%;
+  }
+
+  .ndet_img_shape img {
+    width: 100%;
+  }
+
+  .ndet_content {
+    background-image: none !important;
+  }
+
+  .object_cue {
+    display: none;
+  }
+
+  .ndet_content p,
+  .ndet_share,
+  .recent_news {
+    width: 100%;
+  }
+
+  .share_tb {
+    display: block;
+    float: none;
+    margin-top: 8px;
+    text-align: center;
+    margin: 10px auto 0;
+    width: 75%;
+  }
+
+  .na_block_content {
+    margin-top: 0px;
+  }
+
+  /* Testimonial Page */
+
+  section.hear_from_uniglobe.reviews {
+    padding-bottom: 0;
+  }
+
+  .vts-title.vreview p {
+    width: 100%;
+  }
+
+  .unslide-1 iframe {
+    height: 315px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  /* Home Page Section */
+
+  header.top-blocks {
+    overflow-x: hidden;
+  }
+
+  header.top-blocks.overlap-show {
+    overflow: visible;
+  }
+
+  #menu {
+    width: 430px;
+    top: 15px;
+    left: -366px;
+  }
+
+  ul#menu li {
+    width: 48%;
+  }
+
+  ul.pure-mega-a {
+    margin-top: 14px;
+  }
+
+  ul.pure-mega-a li a {
+    font-size: 14px;
+  }
+
+  .ck-mega-menu .vogar_home button {
+    font-size: clamp(11px, 1.5vw, 13px);
+    margin: 25px 3px 0px 0;
+    padding: 10px 16px;
+  }
+
+  .mega-logo img {
+    width: 50%;
+  }
+
+  .secondary-logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 25px;
+  }
+
+  .unib-t-a,
+  .unib-t-c {
+    width: 45%;
+  }
+
+  .unib-t-b {
+    width: 5%;
+  }
+
+  .unig-logo.white {
+    padding-top: 21px;
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .unig-logo.white img {
+    width: 100%;
+  }
+
+  .unig-logo,
+  .main-navigation,
+  .my-mouse,
+  .ck-star,
+  .img-lovee,
+  .img-twitter,
+  .wings-section,
+  .vdo-iso,
+  .vdo-layer,
+  .faq-img,
+  .welcome1,
+  .col-md-6.smview-b,
+  .mixvector,
+  .mainimg,
+  .broch-a,
+  .broch-b,
+  .div-fot,
+  .ck-star1,
+  .book1,
+  .jeep1 {
+    display: none;
+  }
+
+  .uni-mega {
+    padding-top: 21px;
+  }
+
+  .unigloble-top::before {
+    opacity: 0.4;
+  }
+
+  .brand_logo {
+    margin-top: 25px;
+    margin-left: 26px;
+  }
+
+  .uni-mega .mega-menu {
+    left: -319px;
+    top: -21px;
+    width: 375px;
+  }
+
+  .nav-column {
+    float: left;
+    padding: 2.3%;
+    margin-left: 23px;
+    width: 43.3%;
+    min-height: 305px;
+    overflow: hidden;
+  }
+
+  .main-banner {
+    margin-top: -111px;
+  }
+
+  .home {
+    height: 95vh;
+  }
+
+  .home-content {
+    padding-top: 125px;
+  }
+
+  .home-content h1,
+  .home-content h2 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .uni-vector img {
+    width: 34%;
+    margin-top: -15px;
+    margin-left: -117px;
+  }
+
+  .home video {
+    height: 77%;
+  }
+
+  .home p {
+    width: 95%;
+    font-size: 19px;
+    color: #efefef;
+  }
+
+  .home-content button {
+    display: block;
+    width: 89%;
+    margin: 25px auto;
+    font-size: 18px;
+  }
+
+  .my-virtualtour {
+    width: 89%;
+    margin: 25px auto;
+    border: 1px solid #b5b5b5;
+  }
+
+  .ck-journey {
+    margin-top: -204px;
+  }
+
+  .ck-journey h2,
+  .ck-journey h3 {
+    width: 100%;
+    font-size: 37px;
+    text-align: initial;
+    margin: 0;
+  }
+
+  .ck-journey h3 {
+    line-height: 42px;
+    margin-bottom: 25px;
+    width: 95%;
+  }
+
+  .ck-journey p {
+    text-align: initial;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .ck-star1 {
+    top: -454px;
+    right: -150px;
+  }
+
+  .ck-star1 img {
+    width: 61%;
+  }
+
+  .learn-now {
+    margin-left: 25px;
+  }
+
+  .learn-now h2 {
+    font-size: 41px;
+    width: 91%;
+    text-align: initial;
+  }
+
+  .learn-now p {
+    font-size: 21px;
+    width: 95%;
+    text-align: initial;
+  }
+
+  .category-demand .slick-prev:before,
+  .category-demand .slick-next:before {
+    display: none;
+  }
+
+  .category-demand .slick-slide {
+    margin: 0 5px;
+  }
+
+  .category-demand .hotel-circle {
+    height: 240px;
+  }
+
+  .principal-msg {
+    margin-bottom: 0;
+  }
+
+  .principal-img {
+    width: 85%;
+    height: 351px;
+  }
+
+  .principal-img img {
+    width: 92%;
+    margin-top: -24px;
+  }
+
+  .principal-content {
+    padding-left: 0;
+    margin-top: 125px;
+    position: relative;
+  }
+
+  .img-twitter.smview img {
+    width: 53%;
+  }
+
+  .community-top {
+    text-align: initial;
+    padding-left: 15px;
+  }
+
+  .community-top h2 {
+    margin-bottom: 21px;
+  }
+
+  .community-top p {
+    width: 100%;
+  }
+
+  .teacher,
+  .teacher.parents {
+    margin-bottom: 25px;
+  }
+
+  .academic-div {
+    margin-top: 0;
+  }
+
+  .academic-div h2 {
+    font-size: 36px;
+  }
+
+  .academic-div p {
+    width: 100%;
+    font-size: 21px;
+    color: #bedffb;
+  }
+
+  ul.mydiv-sec {
+    padding: 0;
+    width: 100%;
+  }
+
+  ul.mydiv-sec li {
+    display: block;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+  }
+
+  ul.mydiv-sec li a {
+    font-size: 21px;
+  }
+
+  .img-twitter.smview {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -50px;
+  }
+
+  .uni-vts-block {
+    padding: 75px 0 100px 0;
+  }
+
+  .vts-title,
+  .vts-title p {
+    text-align: initial;
+  }
+
+  .vts-title h2 {
+    font-size: 37px;
+    text-align: initial;
+    margin-bottom: 15px;
+  }
+
+  .vts-title p {
+    width: 100%;
+  }
+
+  .watch-vts-block.inner-a {
+    width: 100%;
+  }
+
+  .unslide-1.vts-a iframe {
+    width: 100%;
+    height: 250px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    display: block;
+    color: #ccc;
+    border: 0 !important;
+  }
+
+  .watch-vts-block.inner-a .slick-prev {
+    left: 115px;
+  }
+
+  .watch-vts-block.inner-a .slick-next {
+    right: 115px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    font-size: 51px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev,
+  .watch-vts-block.inner-a .slick-next {
+    height: initial;
+    width: initial;
+    top: 121%;
+  }
+
+  .more {
+    margin-top: 15px;
+  }
+
+  .more a {
+    width: 41%;
+    font-size: 19px;
+  }
+
+  .uni-interest {
+    text-align: initial;
+  }
+
+  .uni-interest p {
+    width: 100%;
+  }
+
+  .book1 {
+    top: 74px;
+    right: -38px;
+    left: initial;
+  }
+
+  .jeep1 img {
+    width: 49%;
+  }
+
+  .jeep1 {
+    right: -138px;
+    bottom: 0;
+    left: initial;
+  }
+
+  .team-title {
+    margin-top: 0;
+  }
+
+  .copen {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  .uni-events,
+  .article-block {
+    background-image: none !important;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .col-md-3.evn-a {
+    width: 45%;
+  }
+
+  .col-md-9.evn-b {
+    width: 55%;
+  }
+
+  .article-block h2 {
+    text-align: initial;
+    padding-left: 15px;
+  }
+
+  .detail {
+    margin-bottom: 35px;
+  }
+
+  .article-block {
+    padding-bottom: 75px;
+  }
+
+  .footer-logo {
+    margin-bottom: 35px;
+  }
+
+  .footer-logo img {
+    width: 61%;
+  }
+
+  .col-md-3.foot-a {
+    width: 50%;
+  }
+
+  ul.fotmenu li a {
+    color: #c7c6c6;
+  }
+
+  ul.continfo li {
+    width: 100%;
+    font-size: 19px;
+    line-height: 27px;
+    color: #c7c6c6;
+  }
+
+  .cinfo h4 {
+    font-size: 29px;
+  }
+
+  .social-info {
+    margin-top: 25px;
+    float: left;
+  }
+
+  ul.social-circule li:nth-child(1) {
+    padding-left: 0;
+  }
+
+  ul.social-circule li:nth-child(2),
+  ul.social-circule li:nth-child(3),
+  ul.social-circule li:nth-child(4),
+  ul.social-circule li:nth-child(5),
+  ul.social-circule li:nth-child(6) {
+    padding: 5px 9px;
+  }
+
+  .article-block{
+    margin-top: 20px !important;
+  }
+
+  .copyright {
+    font-size: 16px;
+  }
+
+  ul.school-p li {
+    float: left;
+  }
+
+  ul.school-p li {
+    padding: 5px 12px 0px 12px;
+  }
+
+  .inner-faq-content {
+    margin-top: 0px;
+  }
+
+  .col-md-6.smview-a.bb {
+    display: block;
+  }
+
+  /* About us Page */
+
+  .school-logo.outlg {
+    padding-bottom: 17px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 38px;
+  }
+
+  .ab-curve {
+    right: 0;
+  }
+
+  .ab-star img {
+    width: 75%;
+  }
+
+  .ab-star {
+    left: 41px;
+    bottom: initial;
+    top: 182px;
+  }
+
+  .about-inner p {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .tab-history h2 {
+    font-size: 37px;
+    line-height: 49px;
+    margin-bottom: 25px;
+  }
+
+  .school-house {
+    margin-top: 45px;
+  }
+
+  .about-tab {
+    padding-bottom: 0;
+  }
+
+  .education-root {
+    border-radius: 0;
+    padding: 15px;
+    text-align: initial;
+  }
+
+  .education-root h2 {
+    font-size: 37px;
+  }
+
+  .education-root h5 {
+    font-size: 16px;
+  }
+
+  .education-root p {
+    font-size: 18px;
+    width: 100%;
+    line-height: 29px;
+  }
+
+  .school-empowering {
+    padding-top: 55px;
+  }
+
+  .mvc-block {
+    border-radius: 13px;
+    padding: 21px;
+  }
+
+  .school-mission h2 {
+    font-size: 35px;
+  }
+
+  .school-mission p {
+    width: 100%;
+  }
+
+  .school-mission.cores {
+    padding-top: 0px;
+  }
+
+  ul.core-v li {
+    padding: 17px 15px;
+    margin-bottom: 15px;
+  }
+
+  /* Academic Page */
+
+  .tab-history.preshl {
+    margin-top: 0px;
+  }
+
+  .tab-history.preshl h2 {
+    margin-bottom: 25px;
+  }
+
+  .tab-history,
+  .core-sthtitle p {
+    width: 100%;
+  }
+
+  #tsum-tabs p.progsch,
+  ul.schpre {
+    display: none;
+  }
+
+  .core-sthtitle h2 {
+    font-size: 37px;
+  }
+
+  .story_title {
+    position: relative;
+  }
+
+  .story-img {
+    left: 0px;
+    top: 0px;
+  }
+
+  .uni_teach_frame {
+    min-height: auto;
+  }
+
+  .uni_teach_frame iframe {
+    border: 0;
+    height: 300px;
+    width: 100%;
+  }
+
+  ul.unipath li.path_a {
+    margin-bottom: 25px;
+  }
+
+  ul.unipath li a {
+    font-size: 18px;
+  }
+
+  .hear_from_uniglobe {
+    overflow: hidden;
+  }
+
+  /* Admission Page */
+
+  .querymore {
+    width: 50%;
+  }
+
+  .req_doc {
+    background-image: none !important;
+  }
+
+  .col-md-6.show-a {
+    display: none;
+  }
+
+  ul.imp_doc li {
+    line-height: 31px;
+  }
+
+  .presch_stud img {
+    width: 100%;
+  }
+
+  /* Career Page */
+
+  ul.category_block li {
+    margin-bottom: 15px;
+  }
+
+  .apply_a {
+    display: block;
+    margin: 15px auto 0;
+    text-align: center;
+    width: 100%;
+    float: none;
+  }
+
+  .opportunity_block {
+    padding-top: 0;
+  }
+
+  .oppr_display {
+    padding: 25px;
+  }
+
+  .opport_img {
+    position: initial;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .pro_content {
+    margin-top: 0;
+  }
+
+  .why_title h2 {
+    width: 100%;
+  }
+
+  .why-vdo {
+    margin-top: 25px;
+  }
+
+  /* Community Page */
+
+  div#tcom-tabs {
+    margin-top: -59px;
+  }
+
+  #tcom-tabs section {
+    border: 0;
+  }
+
+  .ssl_a video {
+    border-radius: 10px;
+  }
+
+  .meet_teacher-vslide .slick-prev:before,
+  .meet_teacher-vslide .slick-next:before {
+    font-size: 33px;
+    border: 0 !important;
+  }
+
+  .meet_teacher-vslide .slick-prev,
+  .meet_teacher-vslide .slick-next {
+    top: 99%;
+  }
+
+  .meet_teacher-vslide button.slick-prev.slick-arrow {
+    left: 139px;
+  }
+
+  .meet_teacher-vslide button.slick-next.slick-arrow {
+    right: 139px;
+  }
+
+  .col-md-5.tech-hide {
+    display: none;
+  }
+
+  .t_content {
+    margin-top: 0;
+  }
+
+  /* Contact Page */
+
+  .getin-touch h2 {
+    font-size: 41px;
+    line-height: 47px;
+  }
+
+  .contact_content {
+    width: 100%;
+  }
+
+  /* Event Page */
+
+  .col-md-2.evn-a {
+    width: 40%;
+  }
+
+  .col-md-10.evn-b {
+    width: 60%;
+  }
+
+  /* FAQ Page */
+
+  .more_faq a {
+    width: 41%;
+    border-radius: 15px;
+  }
+
+  /* News Page */
+
+  .ab-star.mnm {
+    top: 162px;
+  }
+
+  section.myrecent_pro.articless {
+    background-image: none !important;
+  }
+
+  /* News Detail Page */
+
+  .about-inner.ndetl h2 {
+    width: 100%;
+  }
+
+  .ndet_img_shape img {
+    width: 100%;
+  }
+
+  .ndet_content {
+    background-image: none !important;
+  }
+
+  .object_cue {
+    display: none;
+  }
+
+  .ndet_content p,
+  .ndet_share,
+  .recent_news {
+    width: 100%;
+  }
+
+  .share_tb {
+    display: block;
+    float: none;
+    margin-top: 8px;
+    text-align: center;
+    margin: 10px auto 0;
+    width: 50%;
+  }
+
+  .na_block_content {
+    margin-top: 25px;
+  }
+
+  /* Testimonial Page */
+
+  section.hear_from_uniglobe.reviews {
+    padding-bottom: 0;
+  }
+
+  .uni-vts-block {
+    padding-top: 0;
+  }
+
+  .vts-title.vreview p {
+    width: 100%;
+  }
+
+  .unslide-1 iframe {
+    height: 315px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  /* Home Page Section */
+
+  header.top-blocks {
+    overflow-x: hidden;
+  }
+
+  header.top-blocks.overlap-show {
+    overflow: visible;
+  }
+
+  #menu {
+    width: 414px;
+    top: 15px;
+    left: -352px;
+  }
+
+  ul#menu li {
+    width: 48%;
+  }
+
+  ul.pure-mega-a {
+    margin-top: 14px;
+  }
+
+  ul.pure-mega-a li a {
+    font-size: 14px;
+  }
+
+  .ck-mega-menu .vogar_home button {
+    font-size: clamp(11px, 1.5vw, 13px);
+    margin: 25px 3px 0px 0;
+    padding: 10px 16px;
+  }
+
+  .mega-logo img {
+    width: 50%;
+  }
+
+  .secondary-logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 25px;
+  }
+
+  .unib-t-a,
+  .unib-t-c {
+    width: 45%;
+  }
+
+  .unib-t-b {
+    width: 5%;
+  }
+
+  .unig-logo.white {
+    padding-top: 21px;
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .unig-logo.white img {
+    width: 100%;
+  }
+
+  .unig-logo,
+  .main-navigation,
+  .my-mouse,
+  .ck-star,
+  .img-lovee,
+  .img-twitter,
+  .wings-section,
+  .vdo-iso,
+  .vdo-layer,
+  .faq-img,
+  .welcome1,
+  .col-md-6.smview-b,
+  .mixvector,
+  .mainimg,
+  .broch-a,
+  .broch-b,
+  .div-fot,
+  .ck-star1,
+  .book1,
+  .jeep1 {
+    display: none;
+  }
+
+  .uni-mega {
+    padding-top: 21px;
+  }
+
+  .unigloble-top::before {
+    opacity: 0.4;
+  }
+
+  .brand_logo {
+    margin-top: 25px;
+    margin-left: 26px;
+  }
+
+  .uni-mega .mega-menu {
+    left: -319px;
+    top: -21px;
+    width: 375px;
+  }
+
+  .nav-column {
+    float: left;
+    padding: 2.3%;
+    margin-left: 23px;
+    width: 43.3%;
+    min-height: 305px;
+    overflow: hidden;
+  }
+
+  .main-banner {
+    margin-top: -109px;
+  }
+
+  .home {
+    height: 97vh;
+  }
+
+  .home-content {
+    padding-top: 125px;
+  }
+
+  .home-content h1,
+  .home-content h2 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .uni-vector img {
+    width: 34%;
+    margin-top: -15px;
+    margin-left: -117px;
+  }
+
+  .home video {
+    height: 77%;
+  }
+
+  .home p {
+    width: 95%;
+    font-size: 19px;
+    color: #efefef;
+  }
+
+  .home-content button {
+    display: block;
+    width: 89%;
+    margin: 25px auto;
+    font-size: 18px;
+  }
+
+  .my-virtualtour {
+    width: 89%;
+    margin: 25px auto;
+    border: 1px solid #b5b5b5;
+  }
+
+  .ck-journey {
+    margin-top: -204px;
+  }
+
+  .ck-journey h2,
+  .ck-journey h3 {
+    width: 100%;
+    font-size: 37px;
+    text-align: initial;
+    margin: 0;
+  }
+
+  .ck-journey h3 {
+    line-height: 42px;
+    margin-bottom: 25px;
+    width: 98%;
+  }
+
+  .ck-journey p {
+    text-align: initial;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .ck-star1 {
+    top: -454px;
+    right: -150px;
+  }
+
+  .ck-star1 img {
+    width: 61%;
+  }
+
+  .learn-now {
+    margin-left: 25px;
+  }
+
+  .learn-now h2 {
+    font-size: 41px;
+    width: 91%;
+    text-align: initial;
+  }
+
+  .learn-now p {
+    font-size: 21px;
+    width: 95%;
+    text-align: initial;
+  }
+
+  .category-demand .slick-prev:before,
+  .category-demand .slick-next:before {
+    display: none;
+  }
+
+  .category-demand .slick-slide {
+    margin: 0 5px;
+  }
+
+  .category-demand .hotel-circle {
+    height: 240px;
+  }
+
+  .principal-msg {
+    margin-bottom: 0;
+  }
+
+  .principal-img {
+    width: 85%;
+    height: 351px;
+  }
+
+  .principal-img img {
+    width: 92%;
+    margin-top: -24px;
+  }
+
+  .principal-content {
+    padding-left: 0;
+    margin-top: 125px;
+    position: relative;
+  }
+
+  .img-twitter.smview img {
+    width: 53%;
+  }
+
+  .community-top {
+    text-align: initial;
+    padding-left: 15px;
+  }
+
+  .community-top h2 {
+    margin-bottom: 21px;
+  }
+
+  .community-top p {
+    width: 100%;
+  }
+
+  .teacher,
+  .teacher.parents {
+    margin-bottom: 25px;
+  }
+
+  .academic-div {
+    margin-top: 0;
+  }
+
+  .academic-div h2 {
+    font-size: 36px;
+  }
+
+  .academic-div p {
+    width: 100%;
+    font-size: 21px;
+    color: #bedffb;
+  }
+
+  ul.mydiv-sec {
+    padding: 0;
+    width: 100%;
+  }
+
+  ul.mydiv-sec li {
+    display: block;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+  }
+
+  ul.mydiv-sec li a {
+    font-size: 21px;
+  }
+
+  .img-twitter.smview {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -50px;
+  }
+
+  .uni-vts-block {
+    padding: 75px 0 100px 0;
+  }
+
+  .vts-title,
+  .vts-title p {
+    text-align: initial;
+  }
+
+  .vts-title h2 {
+    font-size: 37px;
+    text-align: initial;
+    margin-bottom: 15px;
+  }
+
+  .vts-title p {
+    width: 100%;
+  }
+
+  .watch-vts-block.inner-a {
+    width: 100%;
+  }
+
+  .unslide-1.vts-a iframe {
+    width: 100%;
+    height: 250px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    display: block;
+    color: #ccc;
+    border: 0 !important;
+  }
+
+  .watch-vts-block.inner-a .slick-prev {
+    left: 115px;
+  }
+
+  .watch-vts-block.inner-a .slick-next {
+    right: 115px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    font-size: 51px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev,
+  .watch-vts-block.inner-a .slick-next {
+    height: initial;
+    width: initial;
+    top: 121%;
+  }
+
+  .more {
+    margin-top: 15px;
+  }
+
+  .more a {
+    width: 41%;
+    font-size: 19px;
+  }
+
+  .uni-interest {
+    text-align: initial;
+  }
+
+  .uni-interest p {
+    width: 100%;
+  }
+
+  .book1 {
+    top: 74px;
+    right: -38px;
+    left: initial;
+  }
+
+  .jeep1 img {
+    width: 49%;
+  }
+
+  .jeep1 {
+    right: -138px;
+    bottom: 0;
+    left: initial;
+  }
+
+  .team-title {
+    margin-top: 0;
+  }
+
+  .copen {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  .uni-events,
+  .article-block {
+    background-image: none !important;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .col-md-3.evn-a {
+    width: 45%;
+  }
+
+  .col-md-9.evn-b {
+    width: 55%;
+  }
+
+  .article-block h2 {
+    text-align: initial;
+    padding-left: 15px;
+  }
+
+  .detail {
+    margin-bottom: 35px;
+  }
+
+  .article-block {
+    padding-bottom: 75px;
+  }
+
+  .footer-logo {
+    margin-bottom: 35px;
+  }
+
+  .footer-logo img {
+    width: 61%;
+  }
+
+  .col-md-3.foot-a {
+    width: 50%;
+  }
+
+  ul.fotmenu li a {
+    color: #c7c6c6;
+  }
+
+  ul.continfo li {
+    width: 100%;
+    font-size: 19px;
+    line-height: 27px;
+    color: #c7c6c6;
+  }
+
+  .cinfo h4 {
+    font-size: 29px;
+  }
+
+  .social-info {
+    margin-top: 25px;
+    float: left;
+  }
+
+  ul.social-circule li:nth-child(1) {
+    padding-left: 0;
+  }
+
+  ul.social-circule li:nth-child(2),
+  ul.social-circule li:nth-child(3),
+  ul.social-circule li:nth-child(4),
+  ul.social-circule li:nth-child(5),
+  ul.social-circule li:nth-child(6) {
+    padding: 5px 9px;
+  }
+
+  .copyright {
+    font-size: 16px;
+  }
+
+  ul.school-p li {
+    float: left;
+  }
+
+  ul.school-p li {
+    padding: 5px 12px 0px 12px;
+  }
+
+  .inner-faq-content {
+    margin-top: 0px;
+  }
+
+  .col-md-6.smview-a.bb {
+    display: block;
+  }
+
+  /* About us Page */
+
+  .school-logo.outlg {
+    padding-bottom: 17px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 38px;
+  }
+
+  .ab-curve {
+    right: 0;
+  }
+
+  .ab-star img {
+    width: 75%;
+  }
+
+  .ab-star {
+    left: 41px;
+    bottom: initial;
+    top: 182px;
+  }
+
+  .about-inner p {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .tab-history h2 {
+    font-size: 37px;
+    line-height: 49px;
+    margin-bottom: 25px;
+  }
+
+  .school-house {
+    margin-top: 45px;
+  }
+
+  .about-tab {
+    padding-bottom: 0;
+  }
+
+  .education-root {
+    border-radius: 0;
+    padding: 15px;
+    text-align: initial;
+  }
+
+  .education-root h2 {
+    font-size: 37px;
+  }
+
+  .education-root h5 {
+    font-size: 16px;
+  }
+
+  .education-root p {
+    font-size: 18px;
+    width: 100%;
+    line-height: 29px;
+  }
+
+  .school-empowering {
+    padding-top: 55px;
+  }
+
+  .mvc-block {
+    border-radius: 13px;
+    padding: 21px;
+  }
+
+  .school-mission h2 {
+    font-size: 35px;
+  }
+
+  .school-mission p {
+    width: 100%;
+  }
+
+  .school-mission.cores {
+    padding-top: 0px;
+  }
+
+  ul.core-v li {
+    padding: 17px 15px;
+    margin-bottom: 15px;
+  }
+
+  /* Academic Page */
+
+  .tab-history.preshl {
+    margin-top: 0px;
+  }
+
+  .tab-history.preshl h2 {
+    margin-bottom: 25px;
+  }
+
+  .tab-history,
+  .core-sthtitle p {
+    width: 100%;
+  }
+
+  #tsum-tabs p.progsch,
+  ul.schpre {
+    display: none;
+  }
+
+  .core-sthtitle h2 {
+    font-size: 37px;
+  }
+
+  .story_title {
+    position: relative;
+  }
+
+  .story-img {
+    left: 0px;
+    top: 0px;
+  }
+
+  .uni_teach_frame {
+    min-height: auto;
+  }
+
+  .uni_teach_frame iframe {
+    border: 0;
+    height: 300px;
+    width: 100%;
+  }
+
+  ul.unipath li.path_a {
+    margin-bottom: 25px;
+  }
+
+  ul.unipath li a {
+    font-size: 18px;
+  }
+
+  .hear_from_uniglobe {
+    overflow: hidden;
+  }
+
+  /* Admission Page */
+
+  .querymore {
+    width: 50%;
+  }
+
+  .req_doc {
+    background-image: none !important;
+  }
+
+  .col-md-6.show-a {
+    display: none;
+  }
+
+  ul.imp_doc li {
+    line-height: 31px;
+  }
+
+  .presch_stud img {
+    width: 100%;
+  }
+
+  /* Career Page */
+
+  ul.category_block li {
+    margin-bottom: 15px;
+  }
+
+  .apply_a {
+    display: block;
+    margin: 15px auto 0;
+    text-align: center;
+    width: 100%;
+    float: none;
+  }
+
+  .opportunity_block {
+    padding-top: 0;
+  }
+
+  .oppr_display {
+    padding: 25px;
+  }
+
+  .opport_img {
+    position: initial;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .pro_content {
+    margin-top: 0;
+  }
+
+  .why_title h2 {
+    width: 100%;
+  }
+
+  .why-vdo {
+    margin-top: 25px;
+  }
+
+  /* Community Page */
+
+  div#tcom-tabs {
+    margin-top: -59px;
+  }
+
+  #tcom-tabs section {
+    border: 0;
+  }
+
+  .ssl_a video {
+    border-radius: 10px;
+  }
+
+  .meet_teacher-vslide .slick-prev:before,
+  .meet_teacher-vslide .slick-next:before {
+    font-size: 33px;
+    border: 0 !important;
+  }
+
+  .meet_teacher-vslide .slick-prev,
+  .meet_teacher-vslide .slick-next {
+    top: 99%;
+  }
+
+  .meet_teacher-vslide button.slick-prev.slick-arrow {
+    left: 139px;
+  }
+
+  .meet_teacher-vslide button.slick-next.slick-arrow {
+    right: 139px;
+  }
+
+  .col-md-5.tech-hide {
+    display: none;
+  }
+
+  .t_content {
+    margin-top: 0;
+  }
+
+  /* Contact Page */
+
+  .getin-touch h2 {
+    font-size: 41px;
+    line-height: 47px;
+  }
+
+  .contact_content {
+    width: 100%;
+  }
+
+  /* Event Page */
+
+  .col-md-2.evn-a {
+    width: 40%;
+  }
+
+  .col-md-10.evn-b {
+    width: 60%;
+  }
+
+  /* FAQ Page */
+
+  .more_faq a {
+    width: 41%;
+    border-radius: 15px;
+  }
+
+  /* News Page */
+
+  .ab-star.mnm {
+    top: 162px;
+  }
+
+  section.myrecent_pro.articless {
+    background-image: none !important;
+  }
+
+  /* News Detail Page */
+
+  .about-inner.ndetl h2 {
+    width: 100%;
+  }
+
+  .ndet_img_shape img {
+    width: 100%;
+  }
+
+  .ndet_content {
+    background-image: none !important;
+  }
+
+  .object_cue {
+    display: none;
+  }
+
+  .ndet_content p,
+  .ndet_share,
+  .recent_news {
+    width: 100%;
+  }
+
+  .share_tb {
+    display: block;
+    float: none;
+    margin-top: 8px;
+    text-align: center;
+    margin: 10px auto 0;
+    width: 50%;
+  }
+
+  .na_block_content {
+    margin-top: 25px;
+  }
+
+  /* Testimonial Page */
+
+  section.hear_from_uniglobe.reviews {
+    padding-bottom: 0;
+  }
+
+  .vts-title.vreview p {
+    width: 100%;
+  }
+
+  .unslide-1 iframe {
+    height: 315px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  /* Home Page Section */
+
+  header.top-blocks {
+    overflow-x: hidden;
+  }
+
+  header.top-blocks.overlap-show {
+    overflow: visible;
+  }
+
+  #menu {
+    width: 390px;
+    top: 15px;
+    left: -330px;
+  }
+
+  ul#menu li {
+    width: 48%;
+  }
+
+  ul.pure-mega-a {
+    margin-top: 14px;
+  }
+
+  ul.pure-mega-a li a {
+    font-size: 14px;
+  }
+
+  .ck-mega-menu .vogar_home button {
+    font-size: clamp(11px, 1.5vw, 13px);
+    margin: 25px 3px 0px 0;
+    padding: 10px 16px;
+  }
+
+  .mega-logo img {
+    width: 50%;
+  }
+
+  .secondary-logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 25px;
+  }
+
+  .unib-t-a,
+  .unib-t-c {
+    width: 45%;
+  }
+
+  .unib-t-b {
+    width: 5%;
+  }
+
+  .unig-logo.white {
+    padding-top: 21px;
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .unig-logo.white img {
+    width: 100%;
+  }
+
+  .unig-logo,
+  .main-navigation,
+  .my-mouse,
+  .ck-star,
+  .img-lovee,
+  .img-twitter,
+  .wings-section,
+  .vdo-iso,
+  .vdo-layer,
+  .faq-img,
+  .welcome1,
+  .col-md-6.smview-b,
+  .mixvector,
+  .mainimg,
+  .broch-a,
+  .broch-b,
+  .div-fot,
+  .ck-star1,
+  .book1,
+  .jeep1 {
+    display: none;
+  }
+
+  .uni-mega {
+    padding-top: 21px;
+  }
+
+  .unigloble-top::before {
+    opacity: 0.4;
+  }
+
+  .brand_logo {
+    margin-top: 25px;
+    margin-left: 26px;
+  }
+
+  .uni-mega .mega-menu {
+    left: -319px;
+    top: -21px;
+    width: 375px;
+  }
+
+  .nav-column {
+    float: left;
+    padding: 2.3%;
+    margin-left: 23px;
+    width: 43.3%;
+    min-height: 305px;
+    overflow: hidden;
+  }
+
+  .main-banner {
+    margin-top: -103px;
+  }
+
+  .home {
+    height: 105vh;
+  }
+
+  .home-content {
+    padding-top: 125px;
+  }
+
+  .home-content h1,
+  .home-content h2 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .uni-vector img {
+    width: 34%;
+    margin-top: -15px;
+    margin-left: -117px;
+  }
+
+  .home video {
+    height: 77%;
+  }
+
+  .home p {
+    width: 95%;
+    font-size: 19px;
+    color: #efefef;
+  }
+
+  .home-content button {
+    display: block;
+    width: 89%;
+    margin: 25px auto;
+    font-size: 18px;
+  }
+
+  .my-virtualtour {
+    width: 89%;
+    margin: 25px auto;
+    border: 1px solid #b5b5b5;
+  }
+
+  .ck-journey {
+    margin-top: -204px;
+  }
+
+  .ck-journey h2,
+  .ck-journey h3 {
+    width: 100%;
+    font-size: 37px;
+    text-align: initial;
+    margin: 0;
+  }
+
+  .ck-journey h3 {
+    line-height: 42px;
+    margin-bottom: 25px;
+  }
+
+  .ck-journey p {
+    text-align: initial;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .ck-star1 {
+    top: -454px;
+    right: -150px;
+  }
+
+  .ck-star1 img {
+    width: 61%;
+  }
+
+  .learn-now {
+    margin-left: 25px;
+  }
+
+  .learn-now h2 {
+    font-size: 41px;
+    width: 91%;
+    text-align: initial;
+  }
+
+  .learn-now p {
+    font-size: 21px;
+    width: 95%;
+    text-align: initial;
+  }
+
+  .category-demand .slick-prev:before,
+  .category-demand .slick-next:before {
+    display: none;
+  }
+
+  .category-demand .slick-slide {
+    margin: 0 5px;
+  }
+
+  .category-demand .hotel-circle {
+    height: 240px;
+  }
+
+  .principal-msg {
+    margin-bottom: 0;
+  }
+
+  .principal-img {
+    width: 85%;
+    height: 351px;
+  }
+
+  .principal-img img {
+    width: 92%;
+    margin-top: -24px;
+  }
+
+  .principal-content {
+    padding-left: 0;
+    margin-top: 75px;
+    position: relative;
+  }
+
+  .img-twitter.smview img {
+    width: 53%;
+  }
+
+  .community-top {
+    text-align: initial;
+    padding-left: 15px;
+  }
+
+  .community-top h2 {
+    margin-bottom: 21px;
+  }
+
+  .community-top p {
+    width: 100%;
+  }
+
+  .teacher,
+  .teacher.parents {
+    margin-bottom: 25px;
+  }
+
+  .academic-div {
+    margin-top: 0;
+  }
+
+  .academic-div h2 {
+    font-size: 36px;
+  }
+
+  .academic-div p {
+    width: 100%;
+    font-size: 21px;
+    color: #bedffb;
+  }
+
+  ul.mydiv-sec {
+    padding: 0;
+    width: 100%;
+  }
+
+  ul.mydiv-sec li {
+    display: block;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+  }
+
+  ul.mydiv-sec li a {
+    font-size: 21px;
+  }
+
+  .img-twitter.smview {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -50px;
+  }
+
+  .uni-vts-block {
+    padding: 75px 0 100px 0;
+  }
+
+  .vts-title,
+  .vts-title p {
+    text-align: initial;
+  }
+
+  .vts-title h2 {
+    font-size: 37px;
+    text-align: initial;
+    margin-bottom: 15px;
+  }
+
+  .vts-title p {
+    width: 100%;
+  }
+
+  .watch-vts-block.inner-a {
+    width: 100%;
+  }
+
+  .unslide-1.vts-a iframe {
+    width: 100%;
+    height: 250px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    display: block;
+    color: #ccc;
+    border: 0 !important;
+  }
+
+  .watch-vts-block.inner-a .slick-prev {
+    left: 115px;
+  }
+
+  .watch-vts-block.inner-a .slick-next {
+    right: 115px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    font-size: 51px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev,
+  .watch-vts-block.inner-a .slick-next {
+    height: initial;
+    width: initial;
+    top: 121%;
+  }
+
+  .more {
+    margin-top: 15px;
+  }
+
+  .more a {
+    width: 41%;
+    font-size: 19px;
+  }
+
+  .uni-interest {
+    text-align: initial;
+  }
+
+  .uni-interest p {
+    width: 100%;
+  }
+
+  .book1 {
+    top: 74px;
+    right: -38px;
+    left: initial;
+  }
+
+  .jeep1 img {
+    width: 49%;
+  }
+
+  .jeep1 {
+    right: -138px;
+    bottom: 0;
+    left: initial;
+  }
+
+  .team-title {
+    margin-top: 0;
+  }
+
+  .copen {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  .uni-events,
+  .article-block {
+    background-image: none !important;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .col-md-3.evn-a {
+    width: 45%;
+  }
+
+  .col-md-9.evn-b {
+    width: 55%;
+  }
+
+  .article-block h2 {
+    text-align: initial;
+    padding-left: 15px;
+  }
+
+  .detail {
+    margin-bottom: 35px;
+  }
+
+  .article-block {
+    padding-bottom: 75px;
+  }
+
+  .footer-logo {
+    margin-bottom: 35px;
+  }
+
+  .footer-logo img {
+    width: 61%;
+  }
+
+  .col-md-3.foot-a {
+    width: 50%;
+  }
+
+  ul.fotmenu li a {
+    color: #c7c6c6;
+  }
+
+  ul.continfo li {
+    width: 100%;
+    font-size: 19px;
+    line-height: 27px;
+    color: #c7c6c6;
+  }
+
+  .cinfo h4 {
+    font-size: 29px;
+  }
+
+  .social-info {
+    margin-top: 25px;
+    float: left;
+  }
+
+  ul.social-circule li:nth-child(1) {
+    padding-left: 0;
+  }
+
+  ul.social-circule li:nth-child(2),
+  ul.social-circule li:nth-child(3),
+  ul.social-circule li:nth-child(4),
+  ul.social-circule li:nth-child(5),
+  ul.social-circule li:nth-child(6) {
+    padding: 5px 9px;
+  }
+
+  .copyright {
+    font-size: 16px;
+  }
+
+  ul.school-p li {
+    float: left;
+  }
+
+  ul.school-p li {
+    padding: 5px 12px 0px 12px;
+  }
+
+  .inner-faq-content {
+    margin-top: 0px;
+  }
+
+  .col-md-6.smview-a.bb {
+    display: block;
+  }
+
+  /* About us Page */
+
+  .school-logo.outlg {
+    padding-bottom: 17px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 38px;
+  }
+
+  .ab-curve {
+    right: 0;
+  }
+
+  .ab-star img {
+    width: 75%;
+  }
+
+  .ab-star {
+    left: 41px;
+    bottom: initial;
+    top: 182px;
+  }
+
+  .about-inner p {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .tab-history h2 {
+    font-size: 37px;
+    line-height: 49px;
+    margin-bottom: 25px;
+  }
+
+  .school-house {
+    margin-top: 45px;
+  }
+
+  .about-tab {
+    padding-bottom: 0;
+  }
+
+  .education-root {
+    border-radius: 0;
+    padding: 15px;
+    text-align: initial;
+  }
+
+  .education-root h2 {
+    font-size: 37px;
+  }
+
+  .education-root h5 {
+    font-size: 16px;
+  }
+
+  .education-root p {
+    font-size: 18px;
+    width: 100%;
+    line-height: 29px;
+  }
+
+  .school-empowering {
+    padding-top: 55px;
+  }
+
+  .mvc-block {
+    border-radius: 13px;
+    padding: 21px;
+  }
+
+  .school-mission h2 {
+    font-size: 35px;
+  }
+
+  .school-mission p {
+    width: 100%;
+  }
+
+  .school-mission.cores {
+    padding-top: 0px;
+  }
+
+  ul.core-v li {
+    padding: 17px 15px;
+    margin-bottom: 15px;
+  }
+
+  /* Academic Page */
+
+  .tab-history.preshl {
+    margin-top: 0px;
+  }
+
+  .tab-history.preshl h2 {
+    margin-bottom: 25px;
+  }
+
+  .tab-history,
+  .core-sthtitle p {
+    width: 100%;
+  }
+
+  #tsum-tabs p.progsch,
+  ul.schpre {
+    display: none;
+  }
+
+  .core-sthtitle h2 {
+    font-size: 37px;
+  }
+
+  .story_title {
+    position: relative;
+  }
+
+  .story-img {
+    left: 0px;
+    top: 0px;
+  }
+
+  .uni_teach_frame {
+    min-height: auto;
+  }
+
+  .uni_teach_frame iframe {
+    border: 0;
+    height: 300px;
+    width: 100%;
+  }
+
+  ul.unipath li.path_a {
+    margin-bottom: 25px;
+  }
+
+  ul.unipath li a {
+    font-size: 18px;
+  }
+
+  .hearto_us .slick-prev:before,
+  .hearto_us .slick-next:before {
+    display: none;
+  }
+
+  .hear_from_uniglobe {
+    overflow: hidden;
+  }
+
+  /* Admission Page */
+
+  .querymore {
+    width: 50%;
+  }
+
+  .req_doc {
+    background-image: none !important;
+  }
+
+  .col-md-6.show-a {
+    display: none;
+  }
+
+  ul.imp_doc li {
+    line-height: 31px;
+  }
+
+  .presch_stud img {
+    width: 100%;
+  }
+
+  /* Career Page */
+
+  ul.category_block li {
+    margin-bottom: 15px;
+  }
+
+  .apply_a {
+    display: block;
+    margin: 15px auto 0;
+    text-align: center;
+    width: 100%;
+    float: none;
+  }
+
+  .opportunity_block {
+    padding-top: 0;
+  }
+
+  .oppr_display {
+    padding: 25px;
+  }
+
+  .opport_img {
+    position: initial;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .pro_content {
+    margin-top: 0;
+  }
+
+  .why_title h2 {
+    width: 100%;
+  }
+
+  .why-vdo {
+    margin-top: 25px;
+  }
+
+  /* Community Page */
+
+  div#tcom-tabs {
+    margin-top: -59px;
+  }
+
+  #tcom-tabs section {
+    border: 0;
+  }
+
+  .ssl_a video {
+    border-radius: 10px;
+  }
+
+  .meet_teacher-vslide .slick-prev:before,
+  .meet_teacher-vslide .slick-next:before {
+    font-size: 33px;
+    border: 0 !important;
+  }
+
+  .meet_teacher-vslide .slick-prev,
+  .meet_teacher-vslide .slick-next {
+    top: 99%;
+  }
+
+  .meet_teacher-vslide button.slick-prev.slick-arrow {
+    left: 139px;
+  }
+
+  .meet_teacher-vslide button.slick-next.slick-arrow {
+    right: 139px;
+  }
+
+  .col-md-5.tech-hide {
+    display: none;
+  }
+
+  .t_content {
+    margin-top: 0;
+  }
+
+  /* Contact Page */
+
+  .getin-touch h2 {
+    font-size: 41px;
+    line-height: 47px;
+  }
+
+  .contact_content {
+    width: 100%;
+  }
+
+  /* Event Page */
+
+  .col-md-2.evn-a {
+    width: 40%;
+  }
+
+  .col-md-10.evn-b {
+    width: 60%;
+  }
+
+  /* FAQ Page */
+
+  .more_faq a {
+    width: 41%;
+    border-radius: 15px;
+  }
+
+  /* News Page */
+
+  .ab-star.mnm {
+    top: 162px;
+  }
+
+  section.myrecent_pro.articless {
+    background-image: none !important;
+  }
+
+  /* News Detail Page */
+
+  .about-inner.ndetl h2 {
+    width: 100%;
+  }
+
+  .ndet_img_shape img {
+    width: 100%;
+  }
+
+  .ndet_content {
+    background-image: none !important;
+  }
+
+  .object_cue {
+    display: none;
+  }
+
+  .ndet_content p,
+  .ndet_share,
+  .recent_news {
+    width: 100%;
+  }
+
+  .share_tb {
+    display: block;
+    float: none;
+    margin-top: 8px;
+    text-align: center;
+    margin: 10px auto 0;
+    width: 50%;
+  }
+
+  .na_block_content {
+    margin-top: 25px;
+  }
+
+  /* Testimonial Page */
+
+  section.hear_from_uniglobe.reviews {
+    padding-bottom: 0;
+  }
+
+  .vts-title.vreview p {
+    width: 100%;
+  }
+
+  .unslide-1 iframe {
+    height: 315px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* Home Page Section */
+
+  header.top-blocks {
+    overflow-x: hidden;
+  }
+
+  header.top-blocks.overlap-show {
+    overflow: visible;
+  }
+
+  #menu {
+    width: 375px;
+    top: 15px;
+    left: -317px;
+  }
+
+  ul#menu li {
+    width: 48%;
+  }
+
+  ul.pure-mega-a {
+    margin-top: 14px;
+  }
+
+  ul.pure-mega-a li a {
+    font-size: 14px;
+  }
+
+  .ck-mega-menu .vogar_home button {
+    font-size: clamp(11px, 1.5vw, 13px);
+    margin: 25px 3px 0px 0;
+    padding: 10px 16px;
+  }
+
+  .mega-logo img {
+    width: 50%;
+  }
+
+  .secondary-logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 25px;
+  }
+
+  .unib-t-a,
+  .unib-t-c {
+    width: 45%;
+  }
+
+  .unib-t-b {
+    width: 5%;
+  }
+
+  .unig-logo.white {
+    padding-top: 21px;
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .unig-logo.white img {
+    width: 100%;
+  }
+
+  .unig-logo,
+  .main-navigation,
+  .my-mouse,
+  .ck-star,
+  .img-lovee,
+  .img-twitter,
+  .wings-section,
+  .vdo-iso,
+  .vdo-layer,
+  .faq-img,
+  .welcome1,
+  .col-md-6.smview-b,
+  .mixvector,
+  .mainimg,
+  .broch-a,
+  .broch-b,
+  .div-fot,
+  .ck-star1,
+  .book1,
+  .jeep1 {
+    display: none;
+  }
+
+  .uni-mega {
+    padding-top: 21px;
+  }
+
+  .unigloble-top::before {
+    opacity: 0.4;
+  }
+
+  .brand_logo {
+    margin-top: 25px;
+    margin-left: 26px;
+  }
+
+  .uni-mega .mega-menu {
+    left: -319px;
+    top: -21px;
+    width: 375px;
+  }
+
+  .nav-column {
+    float: left;
+    padding: 2.3%;
+    margin-left: 23px;
+    width: 43.3%;
+    min-height: 305px;
+    overflow: hidden;
+  }
+
+  .main-banner {
+    margin-top: -103px;
+  }
+
+  .home {
+    height: 133vh;
+  }
+
+  .home-content {
+    padding-top: 125px;
+  }
+
+  .home-content h1,
+  .home-content h2 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .uni-vector img {
+    width: 34%;
+    margin-top: -15px;
+    margin-left: -117px;
+  }
+
+  .home video {
+    height: 77%;
+  }
+
+  .home p {
+    width: 95%;
+    font-size: 19px;
+    color: #efefef;
+  }
+
+  .home-content button {
+    display: block;
+    width: 89%;
+    margin: 25px auto;
+    font-size: 18px;
+  }
+
+  .my-virtualtour {
+    width: 89%;
+    margin: 25px auto;
+    border: 1px solid #b5b5b5;
+  }
+
+  .ck-journey {
+    margin-top: -204px;
+  }
+
+  .ck-journey h2,
+  .ck-journey h3 {
+    width: 100%;
+    font-size: 37px;
+    text-align: initial;
+    margin: 0;
+  }
+
+  .ck-journey h3 {
+    line-height: 42px;
+    margin-bottom: 25px;
+  }
+
+  .ck-journey p {
+    text-align: initial;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .ck-star1 {
+    top: -454px;
+    right: -150px;
+  }
+
+  .ck-star1 img {
+    width: 61%;
+  }
+
+  .learn-now {
+    margin-left: 25px;
+  }
+
+  .learn-now h2 {
+    font-size: 41px;
+    width: 91%;
+    text-align: initial;
+  }
+
+  .learn-now p {
+    font-size: 21px;
+    width: 95%;
+    text-align: initial;
+  }
+
+  .category-demand .slick-prev:before,
+  .category-demand .slick-next:before {
+    display: none;
+  }
+
+  .category-demand .slick-slide {
+    margin: 0 5px;
+  }
+
+  .category-demand .hotel-circle {
+    height: 240px;
+  }
+
+  .principal-msg {
+    margin-bottom: 0;
+  }
+
+  .principal-img {
+    width: 85%;
+    height: 351px;
+  }
+
+  .principal-img img {
+    width: 92%;
+    margin-top: -24px;
+  }
+
+  .principal-content {
+    padding-left: 0;
+    margin-top: 75px;
+    position: relative;
+  }
+
+  .img-twitter.smview img {
+    width: 53%;
+  }
+
+  .community-top {
+    text-align: initial;
+    padding-left: 15px;
+  }
+
+  .community-top h2 {
+    margin-bottom: 21px;
+  }
+
+  .community-top p {
+    width: 100%;
+  }
+
+  .teacher,
+  .teacher.parents {
+    margin-bottom: 25px;
+  }
+
+  .academic-div {
+    margin-top: 0;
+  }
+
+  .academic-div h2 {
+    font-size: 36px;
+  }
+
+  .academic-div p {
+    width: 100%;
+    font-size: 21px;
+    color: #bedffb;
+  }
+
+  ul.mydiv-sec {
+    padding: 0;
+    width: 100%;
+  }
+
+  ul.mydiv-sec li {
+    display: block;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+  }
+
+  ul.mydiv-sec li a {
+    font-size: 21px;
+  }
+
+  .img-twitter.smview {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -50px;
+  }
+
+  .uni-vts-block {
+    padding: 75px 0 100px 0;
+  }
+
+  .vts-title,
+  .vts-title p {
+    text-align: initial;
+  }
+
+  .vts-title h2 {
+    font-size: 37px;
+    text-align: initial;
+    margin-bottom: 15px;
+  }
+
+  .vts-title p {
+    width: 100%;
+  }
+
+  .watch-vts-block.inner-a {
+    width: 100%;
+  }
+
+  .unslide-1.vts-a iframe {
+    width: 100%;
+    height: 250px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    display: block;
+    color: #ccc;
+    border: 0 !important;
+  }
+
+  .watch-vts-block.inner-a .slick-prev {
+    left: 115px;
+  }
+
+  .watch-vts-block.inner-a .slick-next {
+    right: 115px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    font-size: 51px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev,
+  .watch-vts-block.inner-a .slick-next {
+    height: initial;
+    width: initial;
+    top: 121%;
+  }
+
+  .more {
+    margin-top: 15px;
+  }
+
+  .more a {
+    width: 41%;
+    font-size: 19px;
+  }
+
+  .uni-interest {
+    text-align: initial;
+  }
+
+  .uni-interest p {
+    width: 100%;
+  }
+
+  .book1 {
+    top: 74px;
+    right: -38px;
+    left: initial;
+  }
+
+  .jeep1 img {
+    width: 49%;
+  }
+
+  .jeep1 {
+    right: -138px;
+    bottom: 0;
+    left: initial;
+  }
+
+  .team-title {
+    margin-top: 0;
+  }
+
+  .copen {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  .uni-events,
+  .article-block {
+    background-image: none !important;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .col-md-3.evn-a {
+    width: 45%;
+  }
+
+  .col-md-9.evn-b {
+    width: 55%;
+  }
+
+  .article-block h2 {
+    text-align: initial;
+    padding-left: 15px;
+  }
+
+  .detail {
+    margin-bottom: 35px;
+  }
+
+  .article-block {
+    padding-bottom: 75px;
+  }
+
+  .footer-logo {
+    margin-bottom: 35px;
+  }
+
+  .footer-logo img {
+    width: 61%;
+  }
+
+  .col-md-3.foot-a {
+    width: 50%;
+  }
+
+  ul.fotmenu li a {
+    color: #c7c6c6;
+  }
+
+  ul.continfo li {
+    width: 100%;
+    font-size: 19px;
+    line-height: 27px;
+    color: #c7c6c6;
+  }
+
+  .cinfo h4 {
+    font-size: 29px;
+  }
+
+  .social-info {
+    margin-top: 25px;
+    float: left;
+  }
+
+  ul.social-circule li:nth-child(1) {
+    padding-left: 0;
+  }
+
+  ul.social-circule li:nth-child(2),
+  ul.social-circule li:nth-child(3),
+  ul.social-circule li:nth-child(4),
+  ul.social-circule li:nth-child(5),
+  ul.social-circule li:nth-child(6) {
+    padding: 5px 9px;
+  }
+
+  .copyright {
+    font-size: 16px;
+  }
+
+  ul.school-p li {
+    float: left;
+  }
+
+  ul.school-p li {
+    padding: 5px 12px 0px 12px;
+  }
+
+  .inner-faq-content {
+    margin-top: 0px;
+  }
+
+  .col-md-6.smview-a.bb {
+    display: block;
+  }
+
+  /* About us Page */
+
+  .school-logo.outlg {
+    padding-bottom: 17px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 38px;
+  }
+
+  .ab-curve {
+    right: 0;
+  }
+
+  .ab-star img {
+    width: 75%;
+  }
+
+  .ab-star {
+    left: 41px;
+    bottom: initial;
+    top: 182px;
+  }
+
+  .about-inner p {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .tab-history h2 {
+    font-size: 37px;
+    line-height: 49px;
+    margin-bottom: 25px;
+  }
+
+  .school-house {
+    margin-top: 45px;
+  }
+
+  .about-tab {
+    padding-bottom: 0;
+  }
+
+  .education-root {
+    border-radius: 0;
+    padding: 15px;
+    text-align: initial;
+  }
+
+  .education-root h2 {
+    font-size: 37px;
+  }
+
+  .education-root h5 {
+    font-size: 16px;
+  }
+
+  .education-root p {
+    font-size: 18px;
+    width: 100%;
+    line-height: 29px;
+  }
+
+  .school-empowering {
+    padding-top: 55px;
+  }
+
+  .mvc-block {
+    border-radius: 13px;
+    padding: 21px;
+  }
+
+  .school-mission h2 {
+    font-size: 35px;
+  }
+
+  .school-mission p {
+    width: 100%;
+  }
+
+  .school-mission.cores {
+    padding-top: 0px;
+  }
+
+  ul.core-v li {
+    padding: 17px 15px;
+    margin-bottom: 15px;
+  }
+
+  /* Academic Page */
+
+  .tab-history.preshl {
+    margin-top: 0px;
+  }
+
+  .tab-history.preshl h2 {
+    margin-bottom: 25px;
+  }
+
+  .tab-history,
+  .core-sthtitle p {
+    width: 100%;
+  }
+
+  #tsum-tabs p.progsch,
+  ul.schpre {
+    display: none;
+  }
+
+  .core-sthtitle h2 {
+    font-size: 37px;
+  }
+
+  .story_title {
+    position: relative;
+  }
+
+  .story-img {
+    left: 0px;
+    top: 0px;
+  }
+
+  .uni_teach_frame {
+    min-height: auto;
+  }
+
+  .uni_teach_frame iframe {
+    border: 0;
+    height: 300px;
+    width: 100%;
+  }
+
+  ul.unipath li.path_a {
+    margin-bottom: 25px;
+  }
+
+  ul.unipath li a {
+    font-size: 18px;
+  }
+
+  .hearto_us .slick-prev:before,
+  .hearto_us .slick-next:before {
+    display: none;
+  }
+
+  .hear_from_uniglobe {
+    overflow: hidden;
+  }
+
+  /* Admission Page */
+
+  .querymore {
+    width: 50%;
+  }
+
+  .req_doc {
+    background-image: none !important;
+  }
+
+  .col-md-6.show-a {
+    display: none;
+  }
+
+  ul.imp_doc li {
+    line-height: 31px;
+  }
+
+  .presch_stud img {
+    width: 100%;
+  }
+
+  /* Career Page */
+
+  ul.category_block li {
+    margin-bottom: 15px;
+  }
+
+  .apply_a {
+    display: block;
+    margin: 15px auto 0;
+    text-align: center;
+    width: 100%;
+    float: none;
+  }
+
+  .opportunity_block {
+    padding-top: 0;
+  }
+
+  .oppr_display {
+    padding: 25px;
+  }
+
+  .opport_img {
+    position: initial;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .pro_content {
+    margin-top: 0;
+  }
+
+  .why_title h2 {
+    width: 100%;
+  }
+
+  .why-vdo {
+    margin-top: 25px;
+  }
+
+  /* Community Page */
+
+  div#tcom-tabs {
+    margin-top: -59px;
+  }
+
+  #tcom-tabs section {
+    border: 0;
+  }
+
+  .ssl_a video {
+    border-radius: 10px;
+  }
+
+  .meet_teacher-vslide .slick-prev:before,
+  .meet_teacher-vslide .slick-next:before {
+    font-size: 33px;
+    border: 0 !important;
+  }
+
+  .meet_teacher-vslide .slick-prev,
+  .meet_teacher-vslide .slick-next {
+    top: 99%;
+  }
+
+  .meet_teacher-vslide button.slick-prev.slick-arrow {
+    left: 139px;
+  }
+
+  .meet_teacher-vslide button.slick-next.slick-arrow {
+    right: 139px;
+  }
+
+  .col-md-5.tech-hide {
+    display: none;
+  }
+
+  .t_content {
+    margin-top: 0;
+  }
+
+  /* Contact Page */
+
+  .getin-touch h2 {
+    font-size: 41px;
+    line-height: 47px;
+  }
+
+  .contact_content {
+    width: 100%;
+  }
+
+  /* Event Page */
+
+  .col-md-2.evn-a {
+    width: 40%;
+  }
+
+  .col-md-10.evn-b {
+    width: 60%;
+  }
+
+  /* FAQ Page */
+
+  .more_faq a {
+    width: 41%;
+    border-radius: 15px;
+  }
+
+  /* News Page */
+
+  .ab-star.mnm {
+    top: 162px;
+  }
+
+  section.myrecent_pro.articless {
+    background-image: none !important;
+  }
+
+  /* News Detail Page */
+
+  .about-inner.ndetl h2 {
+    width: 100%;
+  }
+
+  .ndet_img_shape img {
+    width: 100%;
+  }
+
+  .ndet_content {
+    background-image: none !important;
+  }
+
+  .object_cue {
+    display: none;
+  }
+
+  .ndet_content p,
+  .ndet_share,
+  .recent_news {
+    width: 100%;
+  }
+
+  .share_tb {
+    display: block;
+    float: none;
+    margin-top: 8px;
+    text-align: center;
+    margin: 10px auto 0;
+    width: 50%;
+  }
+
+  .na_block_content {
+    margin-top: 25px;
+  }
+
+  /* Testimonial Page */
+
+  section.hear_from_uniglobe.reviews {
+    padding-bottom: 0;
+  }
+
+  .vts-title.vreview p {
+    width: 100%;
+  }
+
+  .unslide-1 iframe {
+    height: 315px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  /* Home Page Section */
+
+  header.top-blocks {
+    overflow-x: hidden;
+  }
+
+  header.top-blocks.overlap-show {
+    overflow: visible;
+  }
+
+  #menu {
+    width: 360px;
+    top: 15px;
+    left: -303px;
+  }
+
+  ul#menu li {
+    width: 48%;
+  }
+
+  ul.pure-mega-a {
+    margin-top: 14px;
+  }
+
+  ul.pure-mega-a li a {
+    font-size: 14px;
+  }
+
+  .ck-mega-menu .vogar_home button {
+    font-size: clamp(11px, 1.5vw, 13px);
+    margin: 25px 3px 0px 0;
+    padding: 10px 16px;
+  }
+
+  .mega-logo img {
+    width: 50%;
+  }
+
+  .secondary-logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 25px;
+  }
+
+  .unib-t-a,
+  .unib-t-c {
+    width: 45%;
+  }
+
+  .unib-t-b {
+    width: 5%;
+  }
+
+  .unig-logo.white {
+    padding-top: 21px;
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .unig-logo.white img {
+    width: 100%;
+  }
+
+  .unig-logo,
+  .main-navigation,
+  .my-mouse,
+  .ck-star,
+  .img-lovee,
+  .img-twitter,
+  .wings-section,
+  .vdo-iso,
+  .vdo-layer,
+  .faq-img,
+  .welcome1,
+  .col-md-6.smview-b,
+  .mixvector,
+  .mainimg,
+  .broch-a,
+  .broch-b,
+  .div-fot,
+  .ck-star1,
+  .book1,
+  .jeep1 {
+    display: none;
+  }
+
+  .uni-mega {
+    padding-top: 21px;
+  }
+
+  .unigloble-top::before {
+    opacity: 0.4;
+  }
+
+  .brand_logo {
+    margin-top: 25px;
+    margin-left: 26px;
+  }
+
+  .uni-mega .mega-menu {
+    left: -319px;
+    top: -21px;
+    width: 375px;
+  }
+
+  .nav-column {
+    float: left;
+    padding: 2.3%;
+    margin-left: 23px;
+    width: 43.3%;
+    min-height: 305px;
+    overflow: hidden;
+  }
+
+  .main-banner {
+    margin-top: -103px;
+  }
+
+  .home {
+    height: 140vh;
+  }
+
+  .home-content {
+    padding-top: 125px;
+  }
+
+  .home-content h1,
+  .home-content h2 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .uni-vector img {
+    width: 34%;
+    margin-top: -15px;
+    margin-left: -117px;
+  }
+
+  .home video {
+    height: 77%;
+  }
+
+  .home p {
+    width: 95%;
+    font-size: 19px;
+    color: #efefef;
+  }
+
+  .home-content button {
+    display: block;
+    width: 89%;
+    margin: 25px auto;
+    font-size: 18px;
+  }
+
+  .my-virtualtour {
+    width: 89%;
+    margin: 25px auto;
+    border: 1px solid #b5b5b5;
+  }
+
+  .ck-journey {
+    margin-top: -210px;
+  }
+
+  .ck-journey h2,
+  .ck-journey h3 {
+    width: 100%;
+    font-size: 37px;
+    text-align: initial;
+    margin: 0;
+  }
+
+  .ck-journey h3 {
+    line-height: 42px;
+    margin-bottom: 25px;
+  }
+
+  .ck-journey p {
+    text-align: initial;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .ck-star1 {
+    top: -454px;
+    right: -150px;
+  }
+
+  .ck-star1 img {
+    width: 61%;
+  }
+
+  .learn-now {
+    margin-left: 25px;
+  }
+
+  .learn-now h2 {
+    font-size: 41px;
+    width: 91%;
+    text-align: initial;
+  }
+
+  .learn-now p {
+    font-size: 21px;
+    width: 95%;
+    text-align: initial;
+  }
+
+  .category-demand .slick-prev:before,
+  .category-demand .slick-next:before {
+    display: none;
+  }
+
+  .category-demand .slick-slide {
+    margin: 0 5px;
+  }
+
+  .category-demand .hotel-circle {
+    height: 240px;
+  }
+
+  .principal-msg {
+    margin-bottom: 0;
+  }
+
+  .principal-img {
+    width: 85%;
+    height: 351px;
+  }
+
+  .principal-img img {
+    width: 92%;
+    margin-top: -24px;
+  }
+
+  .principal-content {
+    padding-left: 0;
+    margin-top: 75px;
+    position: relative;
+  }
+
+  .img-twitter.smview img {
+    width: 53%;
+  }
+
+  .community-top {
+    text-align: initial;
+    padding-left: 15px;
+  }
+
+  .community-top h2 {
+    margin-bottom: 21px;
+  }
+
+  .community-top p {
+    width: 100%;
+  }
+
+  .teacher,
+  .teacher.parents {
+    margin-bottom: 25px;
+  }
+
+  .academic-div {
+    margin-top: 0;
+  }
+
+  .academic-div h2 {
+    font-size: 36px;
+  }
+
+  .academic-div p {
+    width: 100%;
+    font-size: 21px;
+    color: #bedffb;
+  }
+
+  ul.mydiv-sec {
+    padding: 0;
+    width: 100%;
+  }
+
+  ul.mydiv-sec li {
+    display: block;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+  }
+
+  ul.mydiv-sec li a {
+    font-size: 21px;
+  }
+
+  .img-twitter.smview {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -50px;
+  }
+
+  .uni-vts-block {
+    padding: 75px 0 100px 0;
+  }
+
+  .vts-title,
+  .vts-title p {
+    text-align: initial;
+  }
+
+  .vts-title h2 {
+    font-size: 37px;
+    text-align: initial;
+    margin-bottom: 15px;
+  }
+
+  .vts-title p {
+    width: 100%;
+  }
+
+  .watch-vts-block.inner-a {
+    width: 100%;
+  }
+
+  .unslide-1.vts-a iframe {
+    width: 100%;
+    height: 250px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    display: block;
+    color: #ccc;
+    border: 0 !important;
+  }
+
+  .watch-vts-block.inner-a .slick-prev {
+    left: 115px;
+  }
+
+  .watch-vts-block.inner-a .slick-next {
+    right: 115px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev:before,
+  .watch-vts-block.inner-a .slick-next:before {
+    font-size: 51px;
+  }
+
+  .watch-vts-block.inner-a .slick-prev,
+  .watch-vts-block.inner-a .slick-next {
+    height: initial;
+    width: initial;
+    top: 121%;
+  }
+
+  .more {
+    margin-top: 15px;
+  }
+
+  .more a {
+    width: 41%;
+    font-size: 19px;
+  }
+
+  .uni-interest {
+    text-align: initial;
+  }
+
+  .uni-interest p {
+    width: 100%;
+  }
+
+  .book1 {
+    top: 74px;
+    right: -38px;
+    left: initial;
+  }
+
+  .jeep1 img {
+    width: 49%;
+  }
+
+  .jeep1 {
+    right: -138px;
+    bottom: 0;
+    left: initial;
+  }
+
+  .team-title {
+    margin-top: 0;
+  }
+
+  .copen {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  .uni-events,
+  .article-block {
+    background-image: none !important;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  .col-md-3.evn-a {
+    width: 45%;
+  }
+
+  .col-md-9.evn-b {
+    width: 55%;
+  }
+
+  .article-block h2 {
+    text-align: initial;
+    padding-left: 15px;
+  }
+
+  .detail {
+    margin-bottom: 35px;
+  }
+
+  .article-block {
+    padding-bottom: 75px;
+  }
+
+  .footer-logo {
+    margin-bottom: 35px;
+  }
+
+  .footer-logo img {
+    width: 61%;
+  }
+
+  .col-md-3.foot-a {
+    width: 50%;
+  }
+
+  ul.fotmenu li a {
+    color: #c7c6c6;
+  }
+
+  ul.continfo li {
+    width: 100%;
+    font-size: 19px;
+    line-height: 27px;
+    color: #c7c6c6;
+  }
+
+  .cinfo h4 {
+    font-size: 29px;
+  }
+
+  .social-info {
+    margin-top: 25px;
+    float: left;
+  }
+
+  ul.social-circule li:nth-child(1) {
+    padding-left: 0;
+  }
+
+  ul.social-circule li:nth-child(2),
+  ul.social-circule li:nth-child(3),
+  ul.social-circule li:nth-child(4),
+  ul.social-circule li:nth-child(5),
+  ul.social-circule li:nth-child(6) {
+    padding: 5px 9px;
+  }
+
+  .copyright {
+    font-size: 16px;
+  }
+
+  ul.school-p li {
+    float: left;
+  }
+
+  ul.school-p li {
+    padding: 5px 12px 0px 12px;
+  }
+
+  .inner-faq-content {
+    margin-top: 0px;
+  }
+
+  .col-md-6.smview-a.bb {
+    display: block;
+  }
+
+  /* About us Page */
+
+  .school-logo.outlg {
+    padding-bottom: 17px;
+  }
+
+  .ck-mega-menu {
+    padding-top: 38px;
+  }
+
+  .ab-curve {
+    right: 0;
+  }
+
+  .ab-star img {
+    width: 75%;
+  }
+
+  .ab-star {
+    left: 41px;
+    bottom: initial;
+    top: 182px;
+  }
+
+  .about-inner p {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .tab-history h2 {
+    font-size: 37px;
+    line-height: 49px;
+    margin-bottom: 25px;
+  }
+
+  .school-house {
+    margin-top: 45px;
+  }
+
+  .about-tab {
+    padding-bottom: 0;
+  }
+
+  .education-root {
+    border-radius: 0;
+    padding: 15px;
+    text-align: initial;
+  }
+
+  .education-root h2 {
+    font-size: 37px;
+  }
+
+  .education-root h5 {
+    font-size: 16px;
+  }
+
+  .education-root p {
+    font-size: 18px;
+    width: 100%;
+    line-height: 29px;
+  }
+
+  .school-empowering {
+    padding-top: 55px;
+  }
+
+  .mvc-block {
+    border-radius: 13px;
+    padding: 21px;
+  }
+
+  .school-mission h2 {
+    font-size: 35px;
+  }
+
+  .school-mission p {
+    width: 100%;
+  }
+
+  .school-mission.cores {
+    padding-top: 0px;
+  }
+
+  ul.core-v li {
+    padding: 17px 15px;
+    margin-bottom: 15px;
+  }
+
+  /* Academic Page */
+
+  .tab-history.preshl {
+    margin-top: 0px;
+  }
+
+  .tab-history.preshl h2 {
+    margin-bottom: 25px;
+  }
+
+  .tab-history,
+  .core-sthtitle p {
+    width: 100%;
+  }
+
+  #tsum-tabs p.progsch,
+  ul.schpre {
+    display: none;
+  }
+
+  .core-sthtitle h2 {
+    font-size: 37px;
+  }
+
+  .story_title {
+    position: relative;
+  }
+
+  .story-img {
+    left: 0px;
+    top: 0px;
+  }
+
+  .uni_teach_frame {
+    min-height: auto;
+  }
+
+  .uni_teach_frame iframe {
+    border: 0;
+    height: 300px;
+    width: 100%;
+  }
+
+  ul.unipath li.path_a {
+    margin-bottom: 25px;
+  }
+
+  ul.unipath li a {
+    font-size: 18px;
+  }
+
+  .hear_from_uniglobe {
+    overflow: hidden;
+  }
+
+  /* Admission Page */
+
+  .querymore {
+    width: 50%;
+  }
+
+  .req_doc {
+    background-image: none !important;
+  }
+
+  .col-md-6.show-a {
+    display: none;
+  }
+
+  ul.imp_doc li {
+    line-height: 31px;
+  }
+
+  .presch_stud img {
+    width: 100%;
+  }
+
+  /* Career Page */
+
+  ul.category_block li {
+    margin-bottom: 15px;
+  }
+
+  .apply_a {
+    display: block;
+    margin: 15px auto 0;
+    text-align: center;
+    width: 100%;
+    float: none;
+  }
+
+  .opportunity_block {
+    padding-top: 0;
+  }
+
+  .oppr_display {
+    padding: 25px;
+  }
+
+  .opport_img {
+    position: initial;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .pro_content {
+    margin-top: 0;
+  }
+
+  .why_title h2 {
+    width: 100%;
+  }
+
+  .why-vdo {
+    margin-top: 25px;
+  }
+
+  /* Community Page */
+
+  div#tcom-tabs {
+    margin-top: -59px;
+  }
+
+  #tcom-tabs section {
+    border: 0;
+  }
+
+  .ssl_a video {
+    border-radius: 10px;
+  }
+
+  .meet_teacher-vslide .slick-prev:before,
+  .meet_teacher-vslide .slick-next:before {
+    font-size: 33px;
+    border: 0 !important;
+  }
+
+  .meet_teacher-vslide .slick-prev,
+  .meet_teacher-vslide .slick-next {
+    top: 99%;
+  }
+
+  .meet_teacher-vslide button.slick-prev.slick-arrow {
+    left: 139px;
+  }
+
+  .meet_teacher-vslide button.slick-next.slick-arrow {
+    right: 139px;
+  }
+
+  .col-md-5.tech-hide {
+    display: none;
+  }
+
+  .t_content {
+    margin-top: 0;
+  }
+
+  /* Contact Page */
+
+  .getin-touch h2 {
+    font-size: 41px;
+    line-height: 47px;
+  }
+
+  .contact_content {
+    width: 100%;
+  }
+
+  /* Event Page */
+
+  .col-md-2.evn-a {
+    width: 40%;
+  }
+
+  .col-md-10.evn-b {
+    width: 60%;
+  }
+
+  /* FAQ Page */
+
+  .more_faq a {
+    width: 41%;
+    border-radius: 15px;
+  }
+
+  /* News Page */
+
+  .ab-star.mnm {
+    top: 162px;
+  }
+
+  section.myrecent_pro.articless {
+    background-image: none !important;
+  }
+
+  /* News Detail Page */
+
+  .about-inner.ndetl h2 {
+    width: 100%;
+  }
+
+  .ndet_img_shape img {
+    width: 100%;
+  }
+
+  .ndet_content {
+    background-image: none !important;
+  }
+
+  .object_cue {
+    display: none;
+  }
+
+  .ndet_content p,
+  .ndet_share,
+  .recent_news {
+    width: 100%;
+  }
+
+  .share_tb {
+    display: block;
+    float: none;
+    margin-top: 8px;
+    text-align: center;
+    margin: 10px auto 0;
+    width: 50%;
+  }
+
+  .na_block_content {
+    margin-top: 25px;
+  }
+
+  /* Testimonial Page */
+
+  section.hear_from_uniglobe.reviews {
+    padding-bottom: 0;
+  }
+
+  .uni-vts-block {
+    padding-top: 0;
+  }
+
+  .vts-title.vreview p {
+    width: 100%;
+  }
+
+  .unslide-1 iframe {
+    height: 315px;
+  }
+}
