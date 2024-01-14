@@ -106,12 +106,23 @@
   .col-md-6.show-b {
     display: none;
   }
+
+  /* Star */
+  .ab-star{
+    top:45%;
+    left:20%;
+  }
+
+  .ab-star img{
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1920px) {
   section.wrap {
     overflow: hidden;
   }
+
 
   .home {
     height: 211vh;
@@ -243,6 +254,16 @@
   .col-md-6.show-b {
     display: none;
   }
+
+    /* Star */
+    .ab-star{
+      top:45%;
+      left:20%;
+    }
+    
+    .ab-star img{
+      width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1680px) {
@@ -375,6 +396,22 @@
   .col-md-6.show-b {
     display: none;
   }
+
+
+  /* FAQ Page */
+  .faq-section{
+    margin:100px 0px;
+  }
+
+    /* Star */
+    .ab-star{
+      top:45%;
+      left:20%;
+    }
+    
+    .ab-star img{
+      width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -511,6 +548,11 @@
 
   .col-md-6.show-b {
     display: none;
+  }
+
+  /* FAQ Page */
+  .faq-section{
+    margin:100px 0px;
   }
 }
 
@@ -666,6 +708,14 @@
   .col-md-6.show-b {
     display: none;
   }
+
+
+  /* FAQ Page */
+  .faq-section{
+    padding-top:30px;
+    padding-bottom:60px;
+    margin:0px;
+  }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -777,12 +827,93 @@
     display: none;
   }
 
+  .ab-curve{
+    z-index: 100;
+    top:20%;
+    right: 5%; 
+    opacity: 0.3;
+  }
+
   /* Community Page */
 
   .t_img.tohide {
     display: none;
   }
+
+    /* Star */
+    .ab-star{
+      top:45%;
+      left:40%;
+    }
+    
+    .ab-star img{
+      width: 100%;
+    }
+
+    /* ABout Page */
+
 }
+
+@media (max-width:1280px) {
+  .ab-star{
+    top:40%;
+    left:10%;
+  }
+
+  .ab-curve{
+   z-index: 100;
+   top:20%;
+   right: 5%; 
+   opacity: 0.3;
+  }
+
+  .ab-curve img{
+    width: 90%;
+  }
+
+  /* Star */
+  .ab-star{
+    top:45%;
+    left:20%;
+  }
+  
+  .ab-star img{
+    width: 100%;
+  }
+
+  /* About us Page */
+  .about-inner p{
+    width: 100%;
+  }
+
+  #content3 .teacher-1 img{
+    width:60%;
+  }
+
+  #content3 .teacher-2 img{
+    width:40%;
+  }
+}
+
+@media (max-width:1080px)
+{
+  .broch-a,.broch-b{
+    display:none;
+  }
+
+  .content-2-main-content{
+    width: 100% !important;
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    gap:20px;
+  }
+
+  .content-2-main-content .image-container img{
+    width:90%;
+  }
+}
+
 
 @media only screen and (max-width: 912px) {
   /* Home Page Section */
@@ -790,6 +921,11 @@
   header.top-blocks.overlap-show {
     overflow: visible;
   }
+
+  .more_faq a{
+    width:fit-content !important;
+  }
+
 
   #menu {
     width: 912px;
@@ -989,6 +1125,15 @@
     font-size: 21px;
     width: 95%;
     text-align: initial;
+  }
+
+  .tsum-content .content{
+    padding: 20px 16px !important;
+  }
+
+  .icon-container{
+    width: 100px !important;
+    height: 100px !important;
   }
 
   .category-demand .slick-prev:before,
@@ -1338,9 +1483,9 @@
 
   /* Academic Page */
 
-  .about-top-block {
+  /* .about-top-block {
     margin-top: -153px;
-  }
+  } */
 
   .tab-history.preshl {
     margin-top: 0px;
@@ -1389,6 +1534,11 @@
 
   ul.unipath li a {
     font-size: 18px;
+  }
+
+  .image {
+    width: 300px !important;
+    height: 400px !important;
   }
 
   .hear_from_uniglobe {
@@ -1528,19 +1678,76 @@
   .unslide-1 iframe {
     height: 315px;
   }
-}
 
-@media only screen and (max-width: 820px) {
-  .swiper-slide img{
-    border-radius: 10px !important;
-    -webkit-border-radius: 10px !important;
-    -moz-border-radius: 10px !important;
-    -ms-border-radius: 10px !important;
-    -o-border-radius: 10px !important;
-}
-  /* Home Page Section */
+  /* Star */
+  .ab-star{
+    top:45%;
+    left:20%;
+  }
+  
+  .ab-star img{
+    width: 100%;
+  }
 
-  header.top-blocks.overlap-show {
+  /* About */
+  .teacher-1,.teacher-2{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: start;
+  }
+
+  #content3{
+    padding:30px 16px;
+  }
+
+
+  /* About Page */
+  #content3 .header{
+    align-items: flex-start !important;
+    justify-content: center;
+    text-align: left;
+  }
+
+  #content3 .header .btn-container{
+    margin-top: 20px;
+    display: flex;
+    gap:16px;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    text-align: left;
+    padding-left:0px;
+    flex-direction: column;
+  }
+
+  .content-3-main-content{
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    text-align: left;
+  }
+
+  .content-3-main-content h2,.content-3-main-content p{
+    width: 100%;
+    text-align: left;
+  }
+
+
+
+  .teacher-1,.teacher-2{
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    text-align: start;
+  }
+
+  .teacher-1 .image-container,.teacher-2 .image-container{
+    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+
+  .header.top-blocks.overlap-show {
     overflow: visible;
   }
 
@@ -2066,13 +2273,13 @@
   }
 
   .ab-star img {
-    width: 75%;
+    width: 90%;
   }
 
-  .ab-star {
-    left: 41px;
-    bottom: initial;
-    top: 182px;
+  .ab-star{
+    position: absolute;
+    left: 20%;
+    top:45%;
   }
 
   .about-inner p {
@@ -2093,9 +2300,9 @@
 
   /* Academic Page */
 
-  .about-top-block {
+  /* .about-top-block {
     margin-top: -153px;
-  }
+  } */
 
   .tab-history.preshl {
     margin-top: 0px;
@@ -2283,6 +2490,11 @@
   .unslide-1 iframe {
     height: 315px;
   }
+
+  #tsum-tabs#content3 .header{
+    padding-left:0px !important;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -2538,6 +2750,27 @@
     margin-top: 80px;
   }
 
+  .tsum-content#content2 {
+    margin:0px;
+    text-align: left;
+  }
+
+  .tsum-content#content2 h2, .tsum-content#content2 .btn-container{
+    width: 100%;
+    text-align: left;
+  }
+
+  .btn-container .adv-btn{
+    margin: 10px 0px;
+  }
+
+  .tsum-content .image-container{
+    width: 100%;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+  }
+
+
   .img-twitter.smview img {
     width: 53%;
   }
@@ -2573,6 +2806,10 @@
 
   .academic-div h2 {
     font-size: 36px;
+  }
+
+  #tsum-tabs section{
+    padding:30px 16px !important;
   }
 
   .academic-div p {
@@ -2625,6 +2862,16 @@
     text-align: initial;
     margin-bottom: 15px;
   }
+
+  .school-detail{
+    padding:0px !important;
+  }
+
+  .school-detail .education-root{
+    padding:20px !important;
+  }
+
+
 
   .vts-title p {
     width: 100%;
@@ -2807,9 +3054,9 @@
 
   /* About us Page */
 
-  .about-top-block {
+  /* .about-top-block {
     margin-top: -155px;
-  }
+  } */
 
   .school-logo.outlg {
     padding-bottom: 17px;
@@ -2835,7 +3082,6 @@
 
   .about-inner p {
     width: 100%;
-    margin-bottom: 35px;
   }
 
   .tab-history h2 {
@@ -3096,11 +3342,56 @@
   .unslide-1 iframe {
     height: 315px;
   }
-}
-@media only screen and (max-width:750px){
-  .faq-section .more {
-      margin-left: 0;
+
+  /* Star */
+  .ab-star{
+    left:20%;
+    top:45%;
   }
+
+  /* Facility Section */
+  #uniglo-tabs section{
+    padding: 30px 16px 60px 16px;
+  }
+
+  #uniglo-tabs .label-container{
+    padding:0px;
+  }
+
+  .ready_path{
+    padding:0px 16px 60px 16px;
+  }
+
+  .ready_path p{
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .unipath{
+    width: 100%;
+  }
+
+  .path_a,.daf_b{
+    width:100%;
+  }
+
+  .path_a{
+    margin-top: 10px;
+  }
+
+  /* AboutPage */
+  /* School History start */
+  .school-detail {
+    padding:20px;
+  }
+
+  .education-root {
+    background-color: #1d514e;
+    padding: 60px 16px;;
+    text-align: left;
+    margin:0px 0px;
+  }
+  
 
   .accordion_wrapper {
     width: 100%;
@@ -3204,6 +3495,14 @@
     width: 5%;
   }
 
+  #tsum-tabs#content3 .header{
+    margin-bottom: 0px !important;
+  }
+
+  .teacher-1{
+    padding-top:0px !important;
+  }
+  
   .unig-logo.white {
     padding-top: 21px;
     display: block;
@@ -3672,7 +3971,6 @@
 
   .about-inner p {
     width: 100%;
-    margin-bottom: 35px;
   }
 
   .tab-history h2 {
@@ -3984,6 +4282,12 @@
 
   .unslide-1 iframe {
     height: 315px;
+  }
+
+  /* Star */
+  .ab-star{
+    left:20%;
+    top:40%;
   }
 }
 
@@ -4508,14 +4812,12 @@
   }
 
   .ab-star {
-    left: 41px;
-    bottom: initial;
-    top: 182px;
+    top:35;
+    left:15%;
   }
 
   .about-inner p {
     width: 100%;
-    margin-bottom: 35px;
   }
 
   .tab-history h2 {
@@ -4824,6 +5126,14 @@
   .unslide-1 iframe {
     height: 315px;
   }
+
+
+  /* Facility Page */
+  .ready_path h2,.ready_path p{
+    text-align: left;
+  }
+
+ 
 }
 
 @media only screen and (max-width: 390px) {
@@ -4996,6 +5306,11 @@
 
   .ck-journey {
     margin-top: -204px;
+  }
+
+  .image{
+    width:250px !important;
+    height: 300px !important;
   }
 
   .ck-journey h2,
@@ -5342,14 +5657,12 @@
   }
 
   .ab-star {
-    left: 41px;
-    bottom: initial;
-    top: 182px;
+    top:38%;
+    left:10%;
   }
 
   .about-inner p {
     width: 100%;
-    margin-bottom: 35px;
   }
 
   .tab-history h2 {
@@ -6178,14 +6491,12 @@
   }
 
   .ab-star {
-    left: 41px;
-    bottom: initial;
-    top: 182px;
+    top:40%;
+    left:10%;
   }
 
   .about-inner p {
     width: 100%;
-    margin-bottom: 35px;
   }
 
   .tab-history h2 {
@@ -6499,6 +6810,7 @@
   .unslide-1 iframe {
     height: 315px;
   }
+
 }
 
 @media only screen and (max-width: 360px) {
@@ -7016,14 +7328,12 @@
   }
 
   .ab-star {
-    left: 41px;
-    bottom: initial;
-    top: 182px;
+    top:38%;
+    left:8%;
   }
 
   .about-inner p {
     width: 100%;
-    margin-bottom: 35px;
   }
 
   .tab-history h2 {
@@ -7337,3 +7647,7 @@
     height: 315px;
   }
 }
+
+
+
+@m
