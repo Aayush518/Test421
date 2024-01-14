@@ -1,4 +1,12 @@
 /* Menu  */
+@media (max-width: 767px){
+    .custom_modal_wrapper .modal-body {
+        width: 100%;
+       margin: 0;
+    }
+}
+
+
 .site_navbar-brand img {
     height: 60px;
 }
