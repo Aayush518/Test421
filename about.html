@@ -260,202 +260,146 @@
     </section>
     <div class="clearfix"></div><!-- about top block end -->
 
-    <section class="about-tab w-100">
+    <section class="about-tab">
       <div class="container-fluid">
-        <div class="row w-100 d-flex align-items-center justify-content-center">
-          <div class="col-md-12 d-flex align-items-center justify-content-center">
+        <div class="row">
+          <div class="col-md-12">
 
             <div id="tsum-tabs">
               <main>
 
-                <input id="tab1" type="radio" onclick="showSchoolDetail()" name="tabs" checked>
-                <label for="tab1">History</label>
+                <div class="label-container">
+                  <button onclick="displayTsum('content1'), displaySchoolDetail('.school-detail')" class="tsum-tab active" id="tab1">History</button>
+                  <button onclick="displayTsum('content2')" class="tsum-tab" id="tab2">Governing Body</button>
+                  <button onclick="displayTsum('content3')" class="tsum-tab" id="tab3">School Leadership</button>
+                  <button onclick="displayTsum('content4')" class="tsum-tab" id="tab4">Core Strengths</button>
+                </div>
 
-                <input id="tab2" onclick="hideSchoolDetail()" type="radio" name="tabs">
-                <label for="tab2">Governing Body</label>
-
-                <input id="tab3" onclick="hideSchoolDetail()" type="radio" name="tabs">
-                <label for="tab3">School Leadership</label>
-
-                <input id="tab4" onclick="hideSchoolDetail()" type="radio" name="tabs">
-                <label for="tab4">Core Strengths</label>
-
-                <section id="content1">
-
+                <section class="tsum-content" id="content1">
                   <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-7 col-lg-6">
                       <div class="tab-history">
-                        <h2>Uniglobe School's Story of Excellance</h2>
+                        <h2>Interactive and Inspiring Learning Spaces</h2>
 
-                        <p>Where Tradition Meets Innovation</p>
+                        <p>Our classrooms are more than just rooms; they are dynamic learning environments.</p>
 
-                        <p>Discover the journey, people, and values that make Uniglobe School a beacon of educational
-                          excellence in Kathmandu.</p>
+                        <p>Each classroom is equipped with interactive whiteboards, ergonomic furniture, and ample
+                          nature light, creating a comfortable and stimulating atmosphere conducive to learning.</p>
 
-                        <div class="info-school"><a href="#">Contact Us</a></div>
                       </div>
                     </div>
 
-                    <div class="col-md-5">
+                    <div class="col-md-5 col-lg-5">
                       <div class="school-house">
-                        <img src="assets/images/school-building.png" class="img-responsive">
+                        <img src="assets/images/inspiring_study.png" class="img-responsive">
                       </div>
                     </div>
                   </div>
                 </section>
 
-                <section id="content2">
-                  <div class="justify-content-center text-center">
-                    <div class="tab-history">
+                <section class="tsum-content" id="content2">
+                  <div class="row">
+                    <div class="col-md-12 d-flex align-items-center justify-content-between flex-column mb-5">
                       <h2>Governing Body: Guiding Our Path</h2>
-
-                      <p class="text-danger">Leadership Rooted in Experience and Vision</p>
-
-                      <ul class="btn-container nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link adv-btn active" id="pills-home-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                            aria-selected="true">Advisory</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link bod-btn" id="pills-profile-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                            aria-selected="false">Board of Directors</button>
-                        </li>
-                      </ul>
-                      <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                          aria-labelledby="pills-home-tab" tabindex="0">
-                          <div class="row d-flex align-items-center justify-content-between">
-                            <div class="col-md-4">
-                              <div class="card mb-3 border-0">
-                                <img src="assets/images/Mask group.svg" class="card-img-top" alt="">
-                                <div class="card-body">
-                                  <h5 class="card-title">Prof. Pushkar Bajracharya, PhD</h5>
-                                  <p class="card-text">Chief Advisor, Professional Educators Limited</p>
-                                </div>
-                              </div>
-
-                            </div>
-                            <div class="col-md-4">
-                              <div class="card mb-3 border-0">
-                                <img src="assets/images/Mask group.svg" class="card-img-top" alt="">
-                                <div class="card-body">
-                                  <h5 class="card-title">Prof. Pushkar Bajracharya, PhD</h5>
-                                  <p class="card-text">Chief Advisor, Professional Educators Limited</p>
-                                </div>
-                              </div>
-
-                            </div>
-                            <div class="col-md-4">
-                              <div class="card mb-3  border-0">
-                                <img src="assets/images/Mask group.svg" class="card-img-top" alt="">
-                                <div class="card-body">
-                                  <h5 class="card-title">Prof. Pushkar Bajracharya, PhD</h5>
-                                  <p class="card-text">Chief Advisor, Professional Educators Limited</p>
-                                </div>
-                              </div>
-
-                            </div>
-                          </div>
-                        </div>
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                          aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+                      <p class="" style="color: #E2543B;">Leadership Rooted in Experience and Vision</p>
+                      <div class="btn-container">
+                        <button class="adv-btn active">Advisory</button>
+                        <button class="bod-btn">Board of Directors</button>
                       </div>
-
+                    </div>
+                    <div class="content-2-main-content col-md-12 d-flex align-items-start justify-content-center flex-wrap">
+                      <div class="adv-content image-container d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6">
+                        <img class="gov-bdy-1" src="assets/images/Mask group.svg" alt="">
+                        <h2 class="title">Prof. Pushkar Bajracharya, PhD</h2>
+                        <p>Chief Advisor, Professional Educators Limited</p>
+                      </div>
+                      <div class="adv-content image-container d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6">
+                        <img class="gov-bdy-1" src="assets/images/Mask group.svg" width="50%" alt="">
+                        <h2 class="title">Prof. Pushkar Bajracharya, PhD</h2>
+                        <p>Chief Advisor, Professional Educators Limited</p>
+                      </div>
+                      <div class="adv-content image-container d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6">
+                        <img class="gov-bdy-1" src="assets/images/Mask group.svg" alt="">
+                        <h2 class="title">Prof. Pushkar Bajracharya, PhD</h2>
+                        <p>Chief Advisor, Professional Educators Limited</p>
+                      </div>
+                      <div class="bod-content image-container d-flex flex-column align-items-center justify-content-center  col-md-6 col-lg-6">
+                        <img class="gov-bdy-1" src="assets/images/Mask group.svg" alt="">
+                        <h2 class="title">Prof. Pushkar Bajracharya, PhD</h2>
+                        <p>Chief Advisor, Professional Educators Limited</p>
+                      </div>
                     </div>
                   </div>
+
                 </section>
 
-                <section id="content3">
-                  <div class="justify-content-center text-center">
-                    <div class="tab-history">
+                <section class="tsum-content" id="content3">
+                  <div class="row">
+                    <div class="header col-md-12 d-flex align-items-center justify-content-center flex-column mb-5">
                       <h2>School Leadership: At the Helm of Innovation</h2>
-                      <p class="" style="color: #31BBA1;">Leadership Rooted in Experience and Vision</p>
-                      <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                          aria-labelledby="pills-home-tab" tabindex="0">
-                          <div class="row d-flex align-items-center justify-content-between">
-                            <div class="col-md-4">
-                              <div class="card mb-3 border-0">
-                                <img src="assets/images/khagendrasir.jfif" class="card-img-top" alt="">
-                                <div class="card-body">
-                                  <h5 class="card-title">Dr. Khagendra Prasad Ojha</h5>
-                                  <p class="card-text mb-2">Chief Executive Officer of Global College associates</p>
-                                  <ul class="text-start">
-                                    <li class="mb-2">Chairman of Kathmandu World School Bhaktapur, Valley View English School Kathmandu, Uniglobe College Kathmandu, Uniglobe Higher Secondary School Kathmandu, and Global College International.</li>
-                                    <li class="mb-2">Former Associate Professor at Tribhuvan University, Senate member of Lumbini Bouddha University, and academic council member of </li>
-                                    <li class="mb-4">Mid-Western University.</li>
-                                    <li class="mb-2"><strong>Awards: </strong>Nepal Vidya Bhushan and Gold Medal from Tribhuvan University.</li>
-                                    <li class="mb-2"><strong>Education: </strong> Ph.D. in Economics from University of Warsaw.</li>
-                                    <li class="mb-2"><strong>Publications: Several books and research works in accounting and finance.</strong></li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-md-4 p-4" style="background-color: rgba(226, 84, 59, 0.10);">
-                              <div class="card mb-3 border-0 bg-transparent">
-                                <img src="assets/images/vanimam.jfif" class="card-img-top" alt="">
-                                <div class="card-body">
-                                  <h5 class="card-title">Ms. Vani Rana</h5>
-                                  <p class="card-text mb-2">Principal of Uniglobe School</p>
-                                  <ul class="text-start">
-                                    <li class="mb-2"><strong>Career: </strong> Master’s in Educational Leadership from Bank Street College of Education, USA, and in Sociology from TU; Certificate in development of reading-writing abilities from Teacher's College, Columbia University, USA; pursuing instructional leadership certificate from Harvard Graduate School of Education, USA.</li>
-                                    <li class="mb-2"><strong>Education: </strong> Started as a lecturer at St. Xavier's College, Maitighar, then specialized in progressive teaching-learning approaches in school education.</li>
-                                    <li class="mb-2"><strong>Experience: </strong> : Over 10 years in academic administration and management.</li>
-                                    <li class="mb-2"><strong>Benefits: </strong> Strong proponent of teacher development, conducted trainings for private and public school teachers.</li>
-                                   
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                      <p class="" style="color: #31BBA1;">Dynamic Leadership for a Dynamic School</p>
+                    </div>
+                    <div class="content-3-main-content col-md-12 d-flex align-items-start justify-content-start flex-wrap">
+                      <div class="teacher-1 d-flex flex-wrap col-md-12 align-items-center justify-content-between mb-5 ">
+                        <div class="image-container mb-5 d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6">
+                          <div class="image"></div>
                         </div>
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                          aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+                        <div class="school-leadership-content d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6">
+                          <h2 class="title">Dr. Khagendra Prasad Ojha</h2>
+                          <p>Chief Executive Officer of Global College associates</p>
+                          <ul>
+                            <li>Chairman of Kathmandu World School Bhaktapur, Valley View English School Kathmandu, Uniglobe College Kathmandu, Uniglobe Higher Secondary School Kathmandu, and Global College International.</li>
+                            <li>Former Associate Professor at Tribhuvan University, Senate member of Lumbini Bouddha University, and academic council member of Mid-Western University.</li>
+                            <li><strong>Awards: </strong>Nepal Vidya Bhushan and Gold Medal from Tribhuvan University.</li>
+                            <li><strong>Education: </strong>Ph.D. in Economics from University of Warsaw</li>
+                            <li><strong>Publications: </strong>Several books and research works in accounting and finance.</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="teacher-2 d-flex flex-wrap col-md-12 align-items-center justify-content-between mb-5 " style="background-color:rgba(226, 84, 59, 0.10);">
+                        <div class="image-container d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6">
+                          <div class="image"></div>
+                        </div>
+                        <div class="school-leadership-content d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6">
+                          <h2 class="title">Ms. Vani Rana</h2>
+                          <p>Principal of Uniglobe School</p>
+                          <ul>
+                            <li><strong>Career: </strong>Started as a lecturer at St. Xavier's College, Maitighar, then specialized in progressive teaching-learning approaches in school education.</li>
+                            <li><strong>Education: </strong>Master’s in Educational Leadership from Bank Street College of Education, USA, and in Sociology from TU; Certificate in development of reading-writing abilities from Teacher's College, Columbia University, USA; pursuing instructional leadership certificate from Harvard Graduate School of Education, USA.</li>
+                            <li><strong>Experience: </strong>Over 10 years in academic administration and management.</li>
+                            <li><strong>Beliefs: </strong>Strong proponent of teacher development, conducted trainings for private and public school teachers.</li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </section>
 
-                <section id="content4">
-                  <div class="justify-content-between text-center">
-                    <div class="tab-history">
-                      <h2>Our Core Strengths</h2>
-                      <p class="" style="color:rgba(0, 0, 0, 0.60);;">Our core strengths are the pillars that support our vision of nurturing well-rounded, confident, and responsible individuals.</p>
-                         
-                      <div class="d-flex flex-wrap justify-content-between align-items-start gap-2">
-
-                            <div class="detil-container d-flex flex-column align-items-center justify-content-start">
-                              <div class="img-container d-flex align-items-center justify-content-center">
-                                <img src="assets/images/OBJECTS (1).svg" alt="">
-                              </div>
-                              <div class="detail-text text-dark mt-0">Rigorous Curriculum Delivered through Progressive Pedagogy</div>
-                            </div>
-
-                          <div class="detil-container">
-                            <div class="img-container d-flex align-items-center justify-content-center">
-                              <img src="assets/images/Layer_2 (2).svg" alt="">
-                            </div>
-                            <div class="detail-text text-dark">Professional Expertise</div>
-                          </div>
-
-                          <div class="detil-container">
-                            <div class="img-container d-flex align-items-center justify-content-center">
-                              <img src="assets/images/Layer_2 (3).svg" alt="">
-                            </div>
-                            <div class="detail-text text-dark">Prime Location</div>
-                          </div>
-
-                        <div class="detil-container">
-                          <div class="img-container d-flex align-items-center justify-content-center">
-                            <img src="assets/images/Vector.svg" alt="">
-                          </div>
-                          <div class="detail-text text-dark">Purposeful Spaces</div>
-                        </div>
-
-                      </div>
-                        
+                <section class="tsum-content" id="content4">
+                  <div class="label-container">
+                    <div class="content content1">
+                      <div class="icon-container"></div>
+                      <p>Personalized Learning</p>
+                    </div>
+                    <div class="content content2">
+                      <div class="icon-container"></div>
+                      <p>Rigorous Curriculum Delivered through Progressive Pedagogy</p>
+                    </div>
+                    <div class="content content3">
+                      <div class="icon-container"></div>
+                      <p>Professional Expertise</p>
+                    </div>
+                    <div class="content content4">
+                      <div class="icon-container"></div>
+                      <p>Prime Location</p>
+                    </div>
+                    <div class="content content5">
+                      <div class="icon-container"></div>
+                      <p>Purposeful Spaces</p>
+                    </div>
+                    <div class="content content6">
+                      <div class="icon-container"></div>
+                      <p>Partnerships with Parents and Educational Organizations</p>
                     </div>
                   </div>
                 </section>
@@ -466,8 +410,7 @@
           </div>
         </div>
       </div>
-    </section>
-    <div class="clearfix"></div><!-- about tab section end -->
+    </section><!-- about tab section end -->
 
     <section class="school-detail">
       <div class="container-fluid p-0">
@@ -528,8 +471,7 @@
 
                 <p>These values are the cornerstones of our community. They guide our decisions, shape our curriculum,
                   and inspire our students to become the best versions of themselves.</p>
-              </div>
-              <div class="clearfix"></div><!-- core values end -->
+              </div><!-- core values end -->
 
 
 
@@ -537,8 +479,7 @@
           </div>
         </div>
       </div>
-    </section>
-    <div class="clearfix"></div><!-- mission, vission and value section end -->
+    </section><!-- mission, vission and value section end -->
 
 
 
@@ -549,7 +490,7 @@
           <div class="col-md-12">
             <div class="down-broch">
               <h3>Want to know more about our school?</h3>
-              <div class="download-a"> <a href="#"> Download Brochure </a> </div>
+              <div class="download-a"> <a href="https://drive.google.com/file/d/1170oP4HlsE_6DJ_t_iQfzQicZ9XBqRVp/view"> Download Brochure </a> </div>
 
               <div class="broch-a"> <img src="assets/images/see1.png" class="img-responsive"> </div>
               <div class="broch-b"> <img src="assets/images/see2.png" class="img-responsive"> </div>
@@ -557,8 +498,7 @@
           </div>
         </div>
       </div>
-    </section>
-    <div class="clearfix"></div><!--  download brochure end  -->
+    </section><!--  download brochure end  -->
 
     <footer class="uni-footer-section">
       <div class="container">
@@ -585,7 +525,6 @@
                     <li><a href="news.php">News & Articles</a></li>
                     <li><a href="faq.php">FAQs</a></li>
                   </ul>
-                  <div class="clearfix"></div>
 
                 </div>
               </div>
@@ -599,7 +538,6 @@
                     <li><a href="academic.php">Middle School</a></li>
                     <li><a href="academic.php">Senior School</a></li>
                   </ul>
-                  <div class="clearfix"></div>
 
                 </div>
               </div>
@@ -809,5 +747,5 @@
 </script>
 
 
-
+  <script src="assets/js/main.js"></script>
 </html>
