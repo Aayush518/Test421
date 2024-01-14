@@ -1,0 +1,331 @@
+/* Menu  */
+.site_navbar-brand img {
+    height: 60px;
+}
+.site_navbar-brand {
+    padding: 40px 0;
+}
+.site_navbar .navbar-nav li a {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 58px 30px !important;
+    display: inline-block;
+}
+.static_horizontal_sub_menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgb(218 218 218 / 80%);
+    text-align: center;
+    
+}
+
+.nav-item {
+    position: static;
+}
+.nav-item:hover .static_horizontal_sub_menu{
+    display: block;
+     
+    
+}
+.static_horizontal_sub_menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.static_horizontal_sub_menu li a {
+    text-decoration: none;
+    padding: 30px 40px;
+     
+}
+.nav-item:hover > a {
+    border-bottom: 3px solid #31BEA4;
+     
+}
+span.badge_style {
+  
+    background: rgba(255, 241, 238, 0.70);
+    padding: 5px;
+    font-size: 12px;
+    color: #E2543B;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+  
+}
+/* ***********END MENU************************************* */
+
+
+.custom_modal_wrapper .modal-dialog {
+    max-width: 100%;
+    height: 100vh;
+    margin: 0;
+    overflow-y: scroll;
+}
+.custom_modal_wrapper .modal-content {
+    border-radius: 0;
+}
+.custom_modal_wrapper .modal-header {
+    border-bottom: none;
+}
+.custom_modal_wrapper .modal-body h3 {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Neuton;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+.menu_style a {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.menu_style li {
+    list-style: none;
+}
+
+.menu_style {
+    padding-left: 0;
+    text-align: left;
+}
+
+.custom_modal_wrapper .modal-body .col-lg-3:not(:last-of-type) {
+    border-right: 1px solid #31BBA1;
+}
+
+.button_group_wrapper button.btn {
+    width: 320px;
+    padding: 20px 40px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+
+
+.button_group_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 82px;
+    margin-bottom: 100px;
+}
+.custom_modal_wrapper .modal-body {
+    width: 80%;
+    margin: 46px auto 0;
+}
+.custom_modal_wrapper .btn-close {
+    
+    width: 75px;
+    background-size: 32px;
+}
+
+
+/* *************************************************** */
+/* footer start  */
+
+footer.site_footer_wrapper {
+    background: #1D514E;
+}
+.footer_logo img {
+    height: 80px;
+}
+
+
+.footer_link h4 {
+    color: #FFF;
+    font-family: Neuton;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.footer_link ul li a {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.footer_link ul {
+    padding-left: 0;
+}
+
+.footer_link ul li {
+    list-style: none;
+}
+
+.footer_link ul li:not(:last-child) {
+    margin-bottom: 14px;
+}
+footer.site_footer_wrapper {
+    padding: 60px 0;
+}
+
+.badge_wrap {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 2px;
+    background: #FB9CB3;
+    padding: 5px 7px;
+}
+.footer_btn_wrapper .btn {
+    border-radius: 4px;
+    background: rgba(250, 226, 178, 0.50);
+    width: 100%;
+    padding: 20px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;  
+}
+.footer_contact_wrap h4{
+    color: #FFF;
+    font-family: Neuton;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+.footer_contact_wrap ul{
+    padding-left: 0;
+}
+.footer_contact_wrap ul li {
+    margin-bottom: 8px;
+    list-style: none;
+}
+
+.footer_contact_wrap ul li a {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    text-decoration: none;
+}
+.footer_contact_wrap {
+    width: 60%;
+}
+.top_buttom_gap {
+    padding: 50px 0;
+}
+.footer_btn_wrapper {
+    margin-top: 50px;
+}
+.social_link ul {
+    padding-left: 0;
+}
+
+.social_link li {
+    list-style: none;
+    display: inline-block;
+}
+.social_link li:nth-child(1){
+    color: #FFF;
+    font-family: Neuton;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    vertical-align: bottom;
+    margin-right: 35px;
+}
+
+.social_link ul li a {
+    color: #31BBA1;
+    width: 55px;
+    display: block;
+    font-size: 22px;
+}
+.social_link {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+}
+.copy_right_wrap p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.copy_right_wrap ul {
+    padding-left: 0;
+}
+
+.copy_right_wrap ul li {
+    list-style: none;
+    display: inline;
+}
+.copy_right_wrap ul li:not(:last-child){
+    margin-right:25px;
+}
+
+.copy_right_wrap ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (max-width:769px){
+    .footer_logo {
+        margin-bottom: 48px;
+    }
+}
+ 
+@media (max-width:448px){
+    .social_link li:nth-child(1) {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .copy_right_wrap ul.text-end {
+        text-align: left !important;
+        margin-top: 5px;
+    }
+}
+@media (max-width:413px){
+   
+    
+    
+}
+
+
+
+
+
+/* footer start ENd */
