@@ -516,10 +516,10 @@ section.bread_wrapper-block:after{
 
     /* The Cloud */
     section.bread_wrapper-block:after{
-        width: 214px;
+        width: 180px;
         height: 100px;
         top: -60px;
-        right: -20px;
+        right: 30px;
     }
 
 }
