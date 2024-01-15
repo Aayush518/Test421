@@ -32,6 +32,7 @@
     <link href="assets/css/unibreak.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/layout-style.css">
     <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="assets/css/styling.css">
 
 
   </head>
@@ -222,7 +223,7 @@
                     </div>
                   </div>
                   <div class="response-div col-md-4 col-lg-3 col-sm-12 d-flex align-items-center justify-content-center">
-                    <button onclick="applyJob('job1')" class="apply_btn">Apply Now</button>
+                    <button data-bs-toggle="modal" data-bs-target="#jobApply" class="apply_btn">Apply Now</button>
                   </div>
               </div>
             </div>
@@ -242,7 +243,7 @@
                   </div>
 
                   <div class="response-div col-md-4 col-lg-3 col-sm-12 d-flex align-items-center justify-content-center">
-                    <button onclick="applyJob('job2')" class="apply_btn">Apply Now</button>
+                    <button data-bs-toggle="modal" data-bs-target="#jobApply" class="apply_btn">Apply Now</button>
                   </div>
               </div>
             </div>
@@ -259,7 +260,7 @@
 
                   <div class="d-flex flex-column gap-3 col-md-4 col-lg-3 col-sm-12 d-flex align-items-center justify-content-center">
                     <button class="upload_cv"><i class="fas fa-file-upload"></i> Upload Your Cv</button>
-                    <button onclick="" class="apply_btn">Apply Now</button>
+                    <button data-bs-toggle="modal" data-bs-target="#jobApply" class="apply_btn">Apply Now</button>
                   </div>
               </div>
             </div>
@@ -279,7 +280,7 @@
                   </div>
 
                   <div class="response-div col-md-4 col-lg-3 col-sm-12 d-flex align-items-center justify-content-center">
-                    <button onclick="applyJob('job3')" class="apply_btn">Apply Now</button>
+                    <button data-bs-toggle="modal" data-bs-target="#jobApply" class="apply_btn">Apply Now</button>
                   </div>
               </div>
             </div>
@@ -299,7 +300,7 @@
                   </div>
 
                   <div class="response-div col-md-4 col-lg-3 col-sm-12 d-flex align-items-center justify-content-center">
-                    <button onclick="applyJob('job3')" class="apply_btn">Apply Now</button>
+                    <button data-bs-toggle="modal" data-bs-target="#jobApply" class="apply_btn">Apply Now</button>
                   </div>
               </div>
             </div>
@@ -319,7 +320,7 @@
                   </div>
 
                   <div class="response-div col-md-4 col-lg-3 col-sm-12 d-flex align-items-center justify-content-center">
-                    <button onclick="applyJob('job3')" class="apply_btn">Apply Now</button>
+                    <button data-bs-toggle="modal" data-bs-target="#jobApply" class="apply_btn">Apply Now</button>
                   </div>
               </div>
             </div>
@@ -332,6 +333,55 @@
         </div>
       </div>
     </section><!-- career apply block end -->
+
+
+        <!-- Online Inquiry Form Modal -->
+        <div class="modal inquiryModal " tabindex="-1" id="jobApply">
+          <div class="modal-dialog modal-lg  ms-auto me-auto" style="max-width: 90%; height: auto;">
+            <div class="modal-content">
+              <div class="modal-header p-0" style="background-color: rgba(0, 0, 0, 0.8);">
+                <button type="button" class="ms-auto close-button shdaow-none" data-bs-dismiss="modal" aria-label="Close">Close</button>
+              </div>
+              <div class="modal-body d-flex align-items-center justify-content-between pt-0 pb-0 pe-0">
+                <div class="inq-form col-lg-12 col-md-12 col-sm-12 col-12">
+                  <h2 class="inquiry-header" style="text-align: left; width: 100%;">Applying For Job</h2>
+                  <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
+                    <input type="text" name="name" id="name" placeholder="Full Name*">
+                  </div>
+                  <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
+                    <input type="text" name="name" id="name" placeholder="Mobile Number*">
+                  </div>
+                  <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
+                    <input type="text" name="name" id="name" placeholder="Email*">
+                  </div>
+                  <div class="inp-grp col-lg-5 col-md-5 col-sm-12 col-12">
+                    <select name="reason-for-inquiry" id="reason-for-inquiry">
+                      <option value="">Playgoup/Foundation Teacher (School Unit)</option>
+                      <option value="Playgroup/Foundation Teacher (School Unit)">Playgroup/Foundation Teacher (School Unit)</option>
+                      <option value="Operations In-Charge">Operations In-Charge</option>
+                      <option value="Admissions and Public Relations Officer">Admissions and Public Relations Officer</option>
+                    </select>
+                  </div>
+                  <div class="inp-grp col-lg-5 col-md-5 col-sm-12 col-12">
+                    <select name="How did you hear about us?" id="How did you hear about us?">
+                      <option value="">How did you hear about us?</option>
+                      <option value="Social Media">Social Media</option>
+                      <option value="Friends">Friends</option>
+                      <option value="Internet">Internet</option>
+                      <option value="News">News</option>
+                    </select>
+                  </div>
+                  <button class="btn-submit mb-2 col-lg-3 col-md-3 col-sm-5 col-5" style="background-color:#0A50A3;">Submit</button>
+                  <div class="w-100 privacy-notice">
+                    <p class="mb-2"><strong>Privacy Notice: </strong>Your privacy is important to us. The information provided here will be used solely for Uniglobe School's admission purposes.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    
 
     <section class="opportunity_block">
       <div class="container">
