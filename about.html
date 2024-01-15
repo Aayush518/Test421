@@ -34,214 +34,162 @@
   <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
   <link href="assets/css/unistyle.css" rel="stylesheet">
   <link href="assets/css/unibreak.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/layout-style.css">
 
 
 </head>
 
 <body>
 
-  <div id="wrapper">
-
-    <header class="top-blocks overlap-show">
-      <div class="top-section_a">
-        <div class="top-inner_section bg-white">
+      <!-- Navbar -->
+      <header class="site_header_wrapper">
+        <nav class="navbar navbar-expand-lg site_navbar">
           <div class="container">
-            <div class="row">
-              <div class="col-md-2 unib-t-a">
-                <div class="school-logo">
-                  <a href="#"><img src="assets/images/uniglobe_logo.png" class="img-responsive bright-image" alt="logo"></a>
+            <a class="site_navbar-brand" href="#"><img src="assets/images/uniglobe_logo.png" alt=""></a>
+            <button class="navbar-toggler d-sm-none d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav_trigger d-lg-none">
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="26" viewBox="0 0 38 26" fill="none">
+                  <path d="M1 1H37M1 13H37M1 25H37" stroke="black" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </button>
+             </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                  <ul class="static_horizontal_sub_menu">
+                    <Li><a href="#">About Us</a></Li>
+                    <Li><a href="#">Contact Us</a></Li>
+                    <Li><a href="#">Our Community</a></Li>
+                    <Li><a href="#">News & Events</a></Li>
+                    <Li><a href="#">Career <span class="badge_style">3</span></a></Li>
+                    <Li><a href="#">Testimonials</a></Li>
+                    <Li><a href="#">News & Arricles</a></Li>
+                    <Li><a href="#">FAQs</a></Li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Academic</a>
+                  <ul class="static_horizontal_sub_menu">
+                    <Li><a href="#">About Us1</a></Li>
+                    <Li><a href="#">Contact Us</a></Li>
+                    <Li><a href="#">Our Community</a></Li>
+                    <Li><a href="#">News & Events</a></Li>
+                    <Li><a href="#">Career</a></Li>
+                    <Li><a href="#">Testimonials</a></Li>
+                    <Li><a href="#">News & Arricles</a></Li>
+                    <Li><a href="#">FAQs</a></Li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Admissions</a>
+                  <ul class="static_horizontal_sub_menu">
+                    <Li><a href="#">About Us1</a></Li>
+                    <Li><a href="#">Contact Us</a></Li>
+                    <Li><a href="#">Our Community</a></Li>
+                    <Li><a href="#">News & Events</a></Li>
+                    <Li><a href="#">Career</a></Li>
+                    <Li><a href="#">Testimonials</a></Li>
+                    <Li><a href="#">News & Arricles</a></Li>
+                    <Li><a href="#">FAQs</a></Li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Facilities</a>
+                  <ul class="static_horizontal_sub_menu">
+                    <Li><a href="#">About Us1</a></Li>
+                    <Li><a href="#">Contact Us</a></Li>
+                    <Li><a href="#">Our Community</a></Li>
+                    <Li><a href="#">News & Events</a></Li>
+                    <Li><a href="#">Career</a></Li>
+                    <Li><a href="#">Testimonials</a></Li>
+                    <Li><a href="#">News & Arricles</a></Li>
+                    <Li><a href="#">FAQs</a></Li>
+                  </ul>
+                </li>
+              </ul>
+               <div class="nav_trigger">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="38" height="26" viewBox="0 0 38 26" fill="none">
+                    <path d="M1 1H37M1 13H37M1 25H37" stroke="black" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+               </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
+      <!-- header model  -->
+      
+      <!-- Modal -->
+      <div class="modal fade custom_modal_wrapper" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                <a class="site_navbar-brand" href="#"><img src="assets/images/uniglobe_logo.png" alt=""></a>
+              </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-3 col-6">
+                  <h3>About Us</h3>
+                  <ul class="menu_style">
+                    <li><a href="about.php"> About Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="community.php">Our Community</a></li>
+                    <li><a href="news.php">News &amp; Events</a></li>
+                    <li><a href="career.php">Career</a></li>
+                    <li><a href="testimonial.php">Testimonials</a></li>
+                    <li><a href="news.php">News &amp; Articles</a></li>
+                    <li><a href="faq.php">FAQs</a></li>
+                  </ul>
                 </div>
-                <div class="clearfix"></div>
-
-                <div class="secondary-logo">
-                  <a href="#"><img src="assets/images/uniglobe_logo.png" class="img-responsive" alt="logo"></a>
+                <div class="col-lg-3 col-6">
+                  <h3>Academic</h3>
+                  <ul class="menu_style">
+                    <li><a href="academic.php">School </a></li>
+                    <li><a href="academic.php">Junior School </a></li>
+                    <li><a href="academic.php">Middle School </a></li>
+                    <li><a href="academic.php">Senior School </a></li>
+                  </ul>
                 </div>
-                <div class="clearfix"></div>
-              </div><!-- logo end -->
-
-              <div class="col-md-8 unib-t-b">
-                <div class="main-navigation">
-                  <nav id="navbar_top" class="navbar navbar-expand-lg" aria-label="Fourth navbar example">
-                    <div class="container">
-                      <a class="navbar-brand" href="#">UNIGLOBE</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-
-                      <div class="collapse navbar-collapse" id="navbarsExample04">
-                        <ul class="navbar-nav me-auto mb-lg-0">
-
-                          <li class="nav-item dropdown position-static">
-                            <a class="nav-link dropdown-toggle text-dark" href="about.php" data-bs-toggle="dropdown"
-                              aria-expanded="false">About Us</a>
-                            <ul class="dropdown-menu w-100">
-                              <div class="container-fluid">
-                                <div class="row">
-                                  <div class="col-md-12">
-                                    <li><a class="dropdown-item" href="about.php"> About Us </a></li>
-                                    <li><a class="dropdown-item" href="contact.php"> Contact Us </a></li>
-                                    <li><a class="dropdown-item" href="community.php"> Our Community </a></li>
-                                    <li><a class="dropdown-item" href="news.php"> News & Articles </a></li>
-                                    <li><a class="dropdown-item" href="career.php"> Career <span class="newaa"> 3
-                                          opening! </span> </a></li>
-                                    <li><a class="dropdown-item" href="testimonial.php"> Testimonials </a></li>
-                                    <li><a class="dropdown-item" href="faq.php"> FAQs </a></li>
-                                  </div>
-                                </div>
-                              </div>
-                            </ul>
-                          </li>
-
-                          <li class="nav-item dropdown position-static">
-                            <a class="nav-link dropdown-toggle text-dark" href="academic.php" data-bs-toggle="dropdown"
-                              aria-expanded="false">Academic</a>
-                            <ul class="dropdown-menu w-100">
-                              <div class="container-fluid">
-                                <div class="row">
-                                  <div class="col-md-12">
-                                    <li><a class="dropdown-item" href="academic.php"> Junior School </a></li>
-                                    <li><a class="dropdown-item" href="academic.php"> Middle School </a></li>
-                                    <li><a class="dropdown-item" href="academic.php"> Senior School </a></li>
-                                  </div>
-                                </div>
-                              </div>
-                            </ul>
-                          </li>
-
-                          <li class="nav-item dropdown position-static">
-                            <a class="nav-link dropdown-toggle text-dark" href="admission.php" data-bs-toggle="dropdown"
-                              aria-expanded="false">Admissions</a>
-                            <ul class="dropdown-menu w-100">
-                              <div class="container-fluid">
-                                <div class="row">
-                                  <div class="col-md-12">
-                                    <li><a class="dropdown-item" href="admission.php"> Admission Process </a></li>
-                                    <li><a class="dropdown-item" href="admission.php"> Required Documents </a></li>
-                                  </div>
-                                </div>
-                              </div>
-                            </ul>
-                          </li>
-
-                          <li class="nav-item dropdown position-static">
-                            <a class="nav-link dropdown-toggle text-dark" href="facility.php" data-bs-toggle="dropdown"
-                              aria-expanded="false">Facilities</a>
-                            <ul class="dropdown-menu w-100">
-                              <div class="container-fluid">
-                                <div class="row">
-                                  <div class="col-md-12">
-                                    <li><a class="dropdown-item" href="facility.php"> Classrooms </a></li>
-                                    <li><a class="dropdown-item" href="facility.php"> Reading Room </a></li>
-                                    <li><a class="dropdown-item" href="facility.php"> Digital Hall </a></li>
-                                    <li><a class="dropdown-item" href="facility.php"> Playgrounds and Community Spaces
-                                      </a></li>
-                                    <li><a class="dropdown-item" href="facility.php"> Learning Lab </a></li>
-                                    <li><a class="dropdown-item" href="facility.php"> Multipurpose Hall </a></li>
-                                    <li><a class="dropdown-item" href="facility.php"> ECA Rooms </a></li>
-                                  </div>
-                                </div>
-                              </div>
-                            </ul>
-                          </li>
-
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>
+                <div class="col-lg-3 col-6">
+                  <h3>Admissions</h3>
+                  <ul class="menu_style">
+                    <li><a href="admission.php">Admission Process </a></li>
+                    <li><a href="admission.php">Required Documents </a></li>
+                  </ul>
                 </div>
-                <div class="clearfix"></div>
-              </div><!-- Navigation end -->
-
-              <div class="col-md-2 unib-t-c">
-                <div class="ck-mega-menu">
-
-                  <nav role="navigation">
-                    <div id="menuToggle" data-bs-toggle="modal" data-bs-target="#menuModal">
-                      <input type="checkbox" />
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                    <div class="modal menu-modal" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel"
-                      aria-hidden="true">
-                      <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
-                        <div class="modal-content">
-                          <button type="button" class="btn-close modal-close text-dark" data-bs-dismiss="modal"
-                            aria-label="Close"></button>
-
-
-                          <div class="modal-body">
-                            <ul id="menu">
-                              <div class="mega-logo"><img src="assets/images/uniglobe_logo.png" class="img-responsive">
-                              </div>
-                              <div class="toogle-list-wrapper d-flex align-items-center justify-content-between flex-wrap">
-                                <li class="abcd"><span>About Us</span>
-                                  <ul class="pure-mega-a">
-                                    <li><a href="about.php"> About Us</a></li>
-                                    <li><a href="contact.php">Contact Us</a></li>
-                                    <li><a href="community.php">Our Community</a></li>
-                                    <li><a href="news.php">News & Events</a></li>
-                                    <li><a href="career.php">Career</a></li>
-                                    <li><a href="testimonial.php">Testimonials</a></li>
-                                    <li><a href="news.php">News & Articles</a></li>
-                                    <li><a href="faq.php">FAQs</a></li>
-                                  </ul>
-                                </li>
-                                <li class="abcd"><span>Academic</span>
-                                  <ul class="pure-mega-a">
-                                    <li><a href="academic.php">School </a></li>
-                                    <li><a href="academic.php">Junior School </a></li>
-                                    <li><a href="academic.php">Middle School </a></li>
-                                    <li><a href="academic.php">Senior School </a></li>
-                                  </ul>
-                                </li>
-                                <li class="abcd"><span>Admissions</span>
-                                  <ul class="pure-mega-a">
-                                    <li><a href="admission.php">Admission Process </a></li>
-                                    <li><a href="admission.php">Required Documents </a></li>
-                                  </ul>
-                                </li>
-                                <li class="abcd border-0"><span>Facilities</span>
-                                  <ul class="pure-mega-a">
-                                    <li><a href="facility.php">Classrooms </a></li>
-                                    <li><a href="facility.php">Reading Room </a></li>
-                                    <li><a href="facility.php">Digital Hall </a></li>
-                                    <li><a href="facility.php">Playgrounds and Community Spaces </a></li>
-                                    <li><a href="facility.php">Learning Lab </a></li>
-                                    <li><a href="facility.php">Multipurpose Hall </a></li>
-                                    <li><a href="facility.php">ECA Rooms </a></li>
-                                  </ul>
-                                </li>
-                              </div>
-              
-                              <div class="clearfix"></div>
-
-                              <div class="vogar_home">
-                                <button><i class="bi bi-book"></i> Take a Virtual Tour </button>
-                                <button><i class="fa-solid fa-phone-volume"></i> 01-4221049</button>
-                              </div>
-                            </ul>
-                          </div>
-
-                        </div>
-                      </div>
-                    </div>
+                <div class="col-lg-3 col-6">
+                  <h3>Facilities</h3>
+                  <ul class="menu_style">
+                    <li><a href="facility.php">Classrooms </a></li>
+                    <li><a href="facility.php">Reading Room </a></li>
+                    <li><a href="facility.php">Digital Hall </a></li>
+                    <li><a href="facility.php">Playgrounds and Community Spaces </a></li>
+                    <li><a href="facility.php">Learning Lab </a></li>
+                    <li><a href="facility.php">Multipurpose Hall </a></li>
+                    <li><a href="facility.php">ECA Rooms </a></li>
+                  </ul>
                 </div>
-                </nav>
-
               </div>
-            </div><!-- Mega Menu end -->
-
+               
+              <div class="button_group_wrapper">
+                <button class="btn"><i class="bi bi-book"></i> Take a Virtual Tour </button>
+                <button class="btn"><i class="fa-solid fa-phone-volume"></i> 01-4221049</button>
+              </div>
+            </div>
+             
           </div>
         </div>
       </div>
-      </div>
-    </header>
-    <div class="clearfix"></div><!-- Header Section End -->
-
-
+  
 
     <section class="about-top-block">
       <div class="container-fluid">
@@ -632,12 +580,9 @@
         </div>
         <div class="clearfix"></div>
       </div>
-    </footer>
-    <div class="clearfix"></div><!--  main footer end  -->
+    </footer><!--  main footer end  -->
 
 
-  </div>
-  <div class="clearfix"></div><!-- wrapper end -->
 
 
 </body>
