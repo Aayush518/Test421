@@ -426,6 +426,106 @@ section.bread_wrapper-block:after{
     background-size: 158px;
     background-repeat: no-repeat;
 }
+
+
+/* Making the common Header Responsive */
+@media (max-width: 768px) {
+
+    .bread_content-wrap{
+        width: 100% ;
+    }
+
+    .bread_content-wrap h1{
+        font-size: 38px;
+    }
+
+
+    .bread_content-wrap p{
+        font-size:18px ;
+    }
+
+    /* The Star */
+    section.bread_wrapper-block::before{
+        top: 50px;
+        left: 50px;
+        width: 46px;
+        height: 49px;
+    }
+
+    /* The Cloud */
+    section.bread_wrapper-block:after{
+        width: 214px;
+        height: 100px;
+        top: -60px;
+        right: 40px;
+        background-size: 158px;
+        background-repeat: no-repeat;
+    }
+
+}
+
+
+@media (max-width:560px)
+{
+    /* The Star */
+    section.bread_wrapper-block::before{
+        top: 63px;
+        left: 60px;
+        width: 46px;
+        height: 49px;
+    }
+
+    /* The Cloud */
+    section.bread_wrapper-block:after{
+        width: 214px;
+        height: 100px;
+        top: -60px;
+        right: 10px;
+    }
+}
+
+@media (max-width:520px)
+{
+    /* The Star */
+    section.bread_wrapper-block::before{
+        top: 60px;
+        left: 70px;
+        width: 46px;
+        height: 49px;
+    }
+
+    /* The cloud */
+    section.bread_wrapper-block:after{
+        width: 214px;
+        height: 100px;
+        top: -60px;
+        right: 5px;
+    }
+
+}
+
+@media (max-width:480px)
+{
+    /* The Star */
+    section.bread_wrapper-block::before{
+        top: 60px;
+        left: 20px;
+        width: 46px;
+        height: 49px;
+    }
+
+    /* The Cloud */
+    section.bread_wrapper-block:after{
+        width: 214px;
+        height: 100px;
+        top: -60px;
+        right: -20px;
+    }
+
+}
+
+
+
 /* common header style bread ENd */
 
 
