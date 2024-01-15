@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+
+html{
+  overflow-x: hidden;
+}
+
+
 body {
   font-family: "Manrope", sans-serif;
   color: #000;
@@ -878,7 +884,7 @@ div#accordionPanelsStayOpenExample .accordion-item {
   justify-content: flex-start;
   border-bottom: 1px solid #e0f5f1;
   position: relative;
-  padding:0px 60px;
+  padding:0px 30px;
   overflow:auto;
   padding-bottom: 0px;
 }
@@ -1542,6 +1548,10 @@ a.home_index {
   color: #7c7979;
 }
 
+#tsum-tabs #content5{
+  display: block !important;
+}
+
 #tsum-tabs main {
     width: 100%;
     padding: 0;
@@ -1551,7 +1561,7 @@ a.home_index {
 
 #tsum-tabs section {
   display: none;
-  padding:0px 60px;
+  padding:100px 16px;
   border-top: 1px solid #ddd;
 }
 
@@ -1561,8 +1571,8 @@ a.home_index {
   width: fit-content;
   flex-direction: column;
   margin: 0 0 -1px;
-  padding: 15px 25px;
-  font-size: 13.5px;
+  padding: 30px 60px;
+  font-size: 20px;
   font-weight: 300;
   white-space: nowrap;
   text-align: center;
@@ -1584,12 +1594,19 @@ a.home_index {
 .tsum-content h2{
   color: rgba(0, 0, 0, 0.80);
   font-family: Manrope;
-  font-size: 24px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: -0.48px;
+  text-align: center;
 }
+
+.info-school a{
+  width: fit-content !important;
+  max-width: 100%;
+}
+
 
 .tsum-content p{
   color: rgba(0, 0, 0, 0.80);
@@ -1598,7 +1615,18 @@ a.home_index {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-align: center;
 }
+
+.tsum-content .content {
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.tsum-content .content p{
+  width: 100%;
+  text-align: center !important;
+} 
 
 .tsum-tab:hover {
   color: #888;
@@ -2073,9 +2101,86 @@ ul.schpre li {
 .uni_teach_frame {
   border: 3px solid #fff;
   border-radius: 7px;
-  box-shadow: 0px 0px 17px #dbdada;
+  /* box-shadow: 0px 0px 17px #dbdada; */
   min-height: 570px;
   overflow: hidden;
+}
+
+
+/* Inquiry Modal */
+button.close-button{
+  background-color:#5D5D5D;
+  box-shadow: 0 0 0 0 rgba(93, 93, 93, 1) !important;
+  outline:none;
+  border:none;
+  color:white;
+  padding:10px 40px ;
+}
+
+.inquiry-header{
+  color: rgba(0, 0, 0, 0.80);
+  font-family: Neuton;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+/* Inquiry form */
+.inq-form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.inp-grp input{
+  width: 90%;
+  height: 50px;
+  padding:20px;
+  margin-bottom: 20px;
+
+  border-radius: 4px;
+  background: #F2F2F2;
+  border:none;
+
+  color: rgba(0, 0, 0, 0.25);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.inp-form-img {
+  height: auto; /* Set your desired height */
+  width: 100%; /* Set your desired width */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border:1px solid black;
+  background-color: red;
+}
+
+.btn-submit{
+  border-radius: 4px;
+  background: #31BBA1;
+  padding: 20px;
+
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  outline:none;
+  border:none;
+}
+
+.privacy-notice p{
+  text-align:left;
 }
 
 /* meet our teacher end */
@@ -2314,10 +2419,6 @@ ul.imp_doc li:nth-child(4)::before {
   background: #fff;
 }
 
-#content5{
-  display: block !important;
-}
-
 #uniglo-tabs section h2{
   color: rgba(0, 0, 0, 0.80);
   font-family: Neuton;
@@ -2363,7 +2464,7 @@ ul.imp_doc li:nth-child(4)::before {
   width: fit-content;
   flex-direction: column;
   margin: 0 0 -1px;
-  padding: 15px 25px;
+  padding: 20px 50px;
   font-size: 13.5px;
   font-weight: 300;
   white-space: nowrap;
@@ -2371,6 +2472,7 @@ ul.imp_doc li:nth-child(4)::before {
   color: #bbb;
   border: 1px solid transparent;
   background-color: transparent;
+  padding-bottom: 0px;
 }
 
 .facility-tab:before{
@@ -2384,37 +2486,40 @@ ul.imp_doc li:nth-child(4)::before {
   display: block !important;
 }
 
+.label-container p{
+  color: rgba(0, 0, 0, 0.40);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
-.facility-tab#tab1:before{
+
+/* .facility-tab#tab1:before{
   content: "\f51c";
+} */
+
+.facility-tab-icon-container{
+  height: 24px;
+  width: 24px;
+  margin-bottom: 2px;
 }
 
-.facility-tab#tab2:before {
-  content: "\f5da";
-}
-.facility-tab#tab3:before {
-  content: "\f167";
-}
-.facility-tab#tab4:before {
-  content: "\e54d";
-}
-.facility-tab#tab5:before {
-  content: "\f1cb";
-}
-.facility-tab#tab6:before {
-  content: "\e53d";
-}
-.facility-tab#tab7:before {
-  content: "\e53d";
-}
 .facility-tab:hover{
   color: #888;
   cursor: pointer;
 }
 .facility-tab.active {
   color: #1c1a1a;
-  border-bottom: 3px solid #31bba1;
+  border-bottom: 4px solid #31bba1; 
 }
+
+.facility-tab.active path{
+  fill: #31bba1;
+}
+
+
 
 
 

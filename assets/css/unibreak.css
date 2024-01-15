@@ -3066,20 +3066,6 @@
     padding-top: 54px;
   }
 
-  .ab-curve {
-    right: 0;
-  }
-
-  .ab-star img {
-    width: 75%;
-  }
-
-  .ab-star {
-    left: 41px;
-    bottom: initial;
-    top: 182px;
-  }
-
   .about-inner p {
     width: 100%;
   }
@@ -3144,6 +3130,22 @@
     margin-bottom: 15px;
   }
 
+  #tsum-tabs section{
+    padding: 60px 16px !important;
+  }
+
+  .tsum-content h2{
+    text-align: left;
+    padding:0 16px;
+  }
+
+  .tsum-content p{
+    font-size:18px !important;
+    margin-bottom: 10px !important;
+    text-align: left !important;
+    padding:0 16px;
+  }
+
   /* Academic Page */
 
   .tab-history.preshl {
@@ -3202,6 +3204,10 @@
   .hearto_us .slick-prev:before,
   .hearto_us .slick-next:before {
     display: none;
+  }
+
+  .hear_from_uniglobe h2, .hear_from_uniglobe p{
+    text-align: left !important;
   }
 
   /* Admission Page */
@@ -3343,15 +3349,10 @@
     height: 315px;
   }
 
-  /* Star */
-  .ab-star{
-    left:20%;
-    top:45%;
-  }
 
   /* Facility Section */
   #uniglo-tabs section{
-    padding: 30px 16px 60px 16px;
+    padding: 30px 16px 60px 16px !important;
   }
 
   #uniglo-tabs .label-container{
@@ -3422,6 +3423,8 @@
   .principal-speech {
       width: 100%;
   }
+
+
 
 }
 @media only screen and (max-width: 430px) {
@@ -4284,11 +4287,11 @@
     height: 315px;
   }
 
-  /* Star */
-  .ab-star{
-    left:20%;
-    top:40%;
+  /* Facility Page */
+  #uniglo-tabs section{
+    padding: 30px 16px 0px 16px !important;
   }
+
 }
 
 @media only screen and (max-width: 414px) {
