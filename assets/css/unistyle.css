@@ -75,11 +75,10 @@ p {
 
 .main-banner {
   height: 100vh;
-  margin-top: -147px;
+  margin-top: -163px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../images/hero.gif) no-repeat;
   background-size: cover;
   background-position: center;
-
   width: 100%;
   display: flex;
   align-items: center;
