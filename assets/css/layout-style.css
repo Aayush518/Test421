@@ -104,6 +104,13 @@ span.badge_style {
     text-align: center;
   
 }
+
+.home_page_menu_class .nav-item .nav-link{
+    color:white;
+}
+.home_page_menu_class{
+    border-bottom: 1px solid rgb(169 169 169 / 25%);
+}
 /* ***********END MENU************************************* */
 
 
