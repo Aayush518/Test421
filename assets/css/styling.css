@@ -1,0 +1,90 @@
+.inp-img-container{
+    height:400px;
+    width: 100%;
+    padding:0px;
+
+    background:url('../images/inp-form-img.jfif') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Inquiry form */
+.inq-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .inp-grp input{
+    width: 90%;
+    height: 50px;
+    padding:20px;
+    margin-bottom: 20px;
+  
+    border-radius: 4px;
+    background: #F2F2F2;
+    border:none;
+  
+    color: rgba(0, 0, 0, 0.25);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+  }
+
+  .inp-grp input::placeholder{
+    color: rgba(0, 0, 0, 0.25);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .inp-grp select {
+    width: 90%;
+    height: 50px; /* Adjust this height based on your design */
+    padding: 10px; /* Adjust the padding as needed */
+    margin-bottom: 20px;
+    
+    border-radius: 4px;
+    background: #F2F2F2;
+    border: none;
+    
+    color: rgba(0, 0, 0, 0.25);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+    box-sizing: border-box; /* Include padding in the total height calculation */
+  }
+
+  .privacy-notice p{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+  }
+  
+  
+@media (max-width:780px)
+{
+    .ready_path h2{
+        text-align: left;
+        width: 100%;;
+    }
+
+    .ready_path p{
+        text-align: left;
+        width: 100%;
+    }
+}

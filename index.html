@@ -46,6 +46,7 @@
   <link href="assets/css/unistyle.css" rel="stylesheet">
   <link href="assets/css/unibreak.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/layout-style.css">
+  <link rel="stylesheet" href="assets/css/styling.css">
 
   <style>
     .cloud{
@@ -559,6 +560,61 @@
     </section>
     <div class="clearfix"></div><!--  video testimonial end  -->
 
+
+    <!-- Online Inquiry Form Modal -->
+    <div class="modal inquiryModal " tabindex="-1" id="inquiryModal">
+      <div class="modal-dialog modal-lg  ms-auto me-auto" style="max-width: 90%; height: auto;">
+        <div class="modal-content">
+          <div class="modal-header p-0" style="background-color: rgba(0, 0, 0, 0.8);">
+            <button type="button" class="ms-auto close-button shdaow-none" data-bs-dismiss="modal" aria-label="Close">Close</button>
+          </div>
+          <div class="modal-body d-flex align-items-center justify-content-between pt-0 pb-0 pe-0">
+            <div class="inq-form col-lg-9 col-md-9 col-sm-12 col-12">
+              <h2 class="inquiry-header" style="text-align: left; width: 100%;">Online Inquiry Form</h2>
+              <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
+                <input type="text" name="name" id="name" placeholder="Parent/Guardian Name*">
+              </div>
+              <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
+                <input type="text" name="name" id="name" placeholder="Mobile Number*">
+              </div>
+              <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
+                <input type="text" name="name" id="name" placeholder="Email*">
+              </div>
+              <div class="inp-grp col-lg-5 col-md-5 col-sm-12 col-12">
+                <select name="reason-for-inquiry" id="reason-for-inquiry">
+                  <option value="">Reason for Inquiry</option>
+                  <option value="General Inquiry">General Inquiry</option>
+                  <option value="Admissions Inquiry">Admissions Inquiry</option>
+                  <option value="Program Information">Program Information</option>
+                  <option value="School Facilities and Services">School Facilities and Services</option>
+                  <option value="Fee Structure and Scholarships">Fee Structure and Scholarships</option>
+                </select>
+              </div>
+              <div class="inp-grp col-lg-5 col-md-5 col-sm-12 col-12">
+                <select name="How did you hear about us?" id="How did you hear about us?">
+                  <option value="">How did you hear about us?</option>
+                  <option value="Social Media">Social Media</option>
+                  <option value="Friends">Friends</option>
+                  <option value="Internet">Internet</option>
+                  <option value="News">News</option>
+                </select>
+              </div>
+              <button class="btn-submit mb-2 col-lg-3 col-md-3 col-sm-5 col-5">Submit</button>
+              <div class="privacy-notice">
+                <p class="mb-2"><strong>Privacy Notice: </strong>Your privacy is important to us. The information provided here will be used solely for Uniglobe School's admission purposes.</p>
+              </div>
+            </div>
+            <div class="inp-form-img col-lg-3 col-md-3 col-sm-0">
+              <div class="inp-img-container">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Online Inquiry Form Modal End -->
+
     <section class="faq-section">
       <div class="container">
         <div class="row">
@@ -681,7 +737,7 @@
                 Registering your interest is the first step in becoming a part of our vibrant learning environment.</p>
               <div class="clearfix"></div>
 
-              <div class="reg-int"><a href="#"> Register Interests </a> </div>
+              <div data-bs-toggle="modal" data-bs-target="#inquiryModal" class="reg-int"><a class="text-white" style="width:fit-content;"> Register Interests </a> </div>
             </div>
             <div class="clearfix"></div>
 

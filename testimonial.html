@@ -33,6 +33,7 @@
     <link href="assets/css/unistyle.css" rel="stylesheet">
     <link href="assets/css/unibreak.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/layout-style.css">
+    <link rel="stylesheet" href="assets/css/styling.css">
 
   </head>
 
@@ -336,14 +337,69 @@
               </div><div class="clearfix"></div>
 
               <ul class="unipath">
-                <li class="path_a"><a href="#">Apply Now</a></li>
-                <li class="daf_b"><a href="#">Download Application Form</a></li>
+                <li data-bs-toggle="modal" data-bs-target="#inquiryModal" class="path_a"><a class="text-white" style="width:fit-content;">Apply Now</a></li>
+                <li class="daf_b"><a href="https://drive.google.com/file/d/1iKzVxpegW1VySn5yT06Mjded0zdII4jH/view?usp=drive_link">Download Application Form</a></li>
               </ul>
 
             </div>
         </div>
       </div>
     </section><!-- ready for journey section end -->
+
+
+        <!-- Online Inquiry Form Modal -->
+        <div class="modal inquiryModal " tabindex="-1" id="inquiryModal">
+          <div class="modal-dialog modal-lg  ms-auto me-auto" style="max-width: 90%; height: auto;">
+            <div class="modal-content">
+              <div class="modal-header p-0" style="background-color: rgba(0, 0, 0, 0.8);">
+                <button type="button" class="ms-auto close-button shdaow-none" data-bs-dismiss="modal" aria-label="Close">Close</button>
+              </div>
+              <div class="modal-body d-flex align-items-center justify-content-between pt-0 pb-0 pe-0">
+                <div class="inq-form col-lg-9 col-md-9 col-sm-12 col-12">
+                  <h2 class="inquiry-header" style="text-align: left; width: 100%;">Online Inquiry Form</h2>
+                  <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
+                    <input type="text" name="name" id="name" placeholder="Parent/Guardian Name*">
+                  </div>
+                  <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
+                    <input type="text" name="name" id="name" placeholder="Mobile Number*">
+                  </div>
+                  <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
+                    <input type="text" name="name" id="name" placeholder="Email*">
+                  </div>
+                  <div class="inp-grp col-lg-5 col-md-5 col-sm-12 col-12">
+                    <select name="reason-for-inquiry" id="reason-for-inquiry">
+                      <option value="">Reason for Inquiry</option>
+                      <option value="General Inquiry">General Inquiry</option>
+                      <option value="Admissions Inquiry">Admissions Inquiry</option>
+                      <option value="Program Information">Program Information</option>
+                      <option value="School Facilities and Services">School Facilities and Services</option>
+                      <option value="Fee Structure and Scholarships">Fee Structure and Scholarships</option>
+                    </select>
+                  </div>
+                  <div class="inp-grp col-lg-5 col-md-5 col-sm-12 col-12">
+                    <select name="How did you hear about us?" id="How did you hear about us?">
+                      <option value="">How did you hear about us?</option>
+                      <option value="Social Media">Social Media</option>
+                      <option value="Friends">Friends</option>
+                      <option value="Internet">Internet</option>
+                      <option value="News">News</option>
+                    </select>
+                  </div>
+                  <button class="btn-submit mb-2 col-lg-3 col-md-3 col-sm-5 col-5">Submit</button>
+                  <div class="privacy-notice">
+                    <p class="mb-2"><strong>Privacy Notice: </strong>Your privacy is important to us. The information provided here will be used solely for Uniglobe School's admission purposes.</p>
+                  </div>
+                </div>
+                <div class="inp-form-img col-lg-3 col-md-3 col-sm-0">
+                  <div class="inp-img-container">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
 
       
 
@@ -353,7 +409,7 @@
             <div class="col-md-12">
               <div class="down-broch">
                 <h3>Want to know more about our school?</h3>
-                <div class="download-a"> <a href="#"> Download Brochure </a> </div>
+                <div class="download-a"> <a href="https://drive.google.com/file/d/1170oP4HlsE_6DJ_t_iQfzQicZ9XBqRVp/view"> Download Brochure </a> </div>
 
                 <div class="broch-a"> <img src="assets/images/see1.png" class="img-responsive"> </div>
                 <div class="broch-b"> <img src="assets/images/see2.png" class="img-responsive"> </div>

@@ -1,6 +1,5 @@
 // Career Page
 var vacancies = document.querySelectorAll('.vacancy');
-console.log(vacancies);
 if(vacancies.lenth==0)
 {
     document.querySelector('.no-vacancy').style = "display: block !important; transition: all 0.5s ease-in-out;";
@@ -12,7 +11,7 @@ else
 
 // Career 
 let viewMore = document.querySelectorAll('.view-more');
-let viewMoreBtn = document.querySelector('.viewMoreBtn');
+let viewMoreBtn = document.querySelector('.MoreEventBtn');
 
 function viewMoreJobs() {
     viewMoreBtn.innerHTML = viewMoreBtn.innerHTML === 'View Less' ? 'View More' : 'View Less';
