@@ -113,3 +113,6 @@ function displayAcademicContent(content)
     });
     document.getElementById(content).style = "display: block !important; transition: all 0.5s ease-in-out;";
 }
+
+
+

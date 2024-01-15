@@ -39,6 +39,24 @@
   <link rel="stylesheet" href="assets/css/layout-style.css">
   <link rel="stylesheet" href="assets/css/styling.css">
 
+
+  <style>
+    body.modal-open {
+    overflow: hidden;
+    position: fixed;
+    }
+  </style>
+
+<script>
+
+  $("#exampleModal").on("show", function () {
+    $("body").addClass("modal-open");
+  }).on("hidden", function () {
+    $("body").removeClass("modal-open")
+  });
+
+</script>
+
 </head>
 
 <body>
@@ -191,7 +209,6 @@
           </div>
         </div>
       </div>
-  
 
      
     <section class="bread_wrapper-block">
@@ -587,6 +604,54 @@
               <div class="inp-img-container">
                 
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Submission Success Response -->
+    <div class="modal inquiryModal " tabindex="-1" id="thankyouModal">
+      <div class="modal-dialog modal-lg  ms-auto me-auto" style="max-width: 90%; height: auto;">
+        <div class="modal-content">
+          <div class="modal-header p-4" style="background-color: rgba(0, 0, 0, 0.8);">
+            <button type="button" class="ms-auto close-button shdaow-none" data-bs-dismiss="modal" aria-label="Close">Close</button>
+          </div>
+          <div class="modal-body d-flex flex-column align-items-center justify-content-between pt-0 pb-0 pe-0">
+            <div class="thankyou-icon mb-5 mt-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="101" height="100" viewBox="0 0 101 100" fill="none">
+                <path d="M27.1666 49.9999L47.1666 66.6666L60.4999 49.9999L73.8333 33.3333M50.4999 96.6666C44.3716 96.6666 38.3032 95.4595 32.6414 93.1143C26.9795 90.7691 21.835 87.3316 17.5016 82.9982C13.1682 78.6648 9.73076 73.5203 7.38554 67.8585C5.04032 62.1966 3.83325 56.1283 3.83325 49.9999C3.83325 43.8716 5.04032 37.8032 7.38554 32.1414C9.73076 26.4795 13.1682 21.335 17.5016 17.0016C21.835 12.6682 26.9795 9.23076 32.6414 6.88554C38.3032 4.54032 44.3716 3.33325 50.4999 3.33325C62.8767 3.33325 74.7465 8.24991 83.4982 17.0016C92.2499 25.7533 97.1666 37.6231 97.1666 49.9999C97.1666 62.3767 92.2499 74.2465 83.4982 82.9982C74.7465 91.7499 62.8767 96.6666 50.4999 96.6666Z" stroke="#31BBA1" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="thankyou-header mb-3">
+              <h2 class="text-center">Thank you for your interest in Uniglobe School! </h2>
+            </div>
+            <div class="thankyou-content mb-3">
+              <p class="text-center">We're excited to share more about our learning community with you. One of our admissions representatives will contact you shortly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Submission Failed Response -->
+    <div class="modal inquiryModal " tabindex="-1" id="failedModal">
+      <div class="modal-dialog modal-lg  ms-auto me-auto" style="max-width: 90%; height: auto;">
+        <div class="modal-content">
+          <div class="modal-header p-4" style="background-color: rgba(0, 0, 0, 0.8);">
+            <button type="button" class="ms-auto close-button shdaow-none" data-bs-dismiss="modal" aria-label="Close">Close</button>
+          </div>
+          <div class="modal-body d-flex flex-column align-items-center justify-content-between pt-0 pb-0 pe-0">
+            <div class="thankyou-icon mb-5 mt-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 82 82" fill="none">
+                <path d="M27.6667 27.6667L54.3333 54.3333M54.3333 27.6667L27.6667 54.3333M41 81C35.7471 81 30.5457 79.9654 25.6927 77.9552C20.8396 75.945 16.4301 72.9986 12.7157 69.2843C9.00139 65.5699 6.05501 61.1604 4.04482 56.3073C2.03463 51.4543 1 46.2529 1 41C1 35.7471 2.03463 30.5457 4.04482 25.6927C6.05501 20.8396 9.00139 16.4301 12.7157 12.7157C16.4301 9.00138 20.8396 6.05501 25.6927 4.04482C30.5457 2.03463 35.7471 1 41 1C51.6087 1 61.7828 5.21427 69.2843 12.7157C76.7857 20.2172 81 30.3913 81 41C81 51.6087 76.7857 61.7828 69.2843 69.2843C61.7828 76.7857 51.6087 81 41 81Z" stroke="black" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="thankyou-header mb-3">
+              <h2 class="text-center">Something went wrong! </h2>
+            </div>
+            <div class="thankyou-content mb-3">
+              <p class="text-center">Please try Again !</p>
             </div>
           </div>
         </div>

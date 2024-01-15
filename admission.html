@@ -38,26 +38,22 @@
     <link rel="stylesheet" href="assets/css/layout-style.css">
     <link rel="stylesheet" href="assets/css/styling.css">
 
-    <style>
-      /* Making Star Responsive for this page */
-      @media (max-width:520px)
-      {
-        .ab-star{
-          top:35%;
-          left:15%;
-        }
-      }
+  <style>
+    body.modal-open {
+    overflow: hidden;
+    position: fixed;
+    }
+  </style>
 
-      @media (max-width: 440px)
-      {
-        .ab-star{
-          top:32%;
-          left:15%;
-        }
-      }
+  <script>
 
+  $("#exampleModal").on("show", function () {
+    $("body").addClass("modal-open");
+  }).on("hidden", function () {
+    $("body").removeClass("modal-open")
+  });
 
-    </style>
+  </script>
 
   </head>
 

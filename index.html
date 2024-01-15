@@ -52,7 +52,22 @@
     .cloud{
       display: none;
     }
+
+    body.modal-open {
+    overflow: hidden;
+    position: fixed;
+    }
   </style>
+
+<script>
+
+  $("#exampleModal").on("show", function () {
+    $("body").addClass("modal-open");
+  }).on("hidden", function () {
+    $("body").removeClass("modal-open")
+  });
+
+</script>
 
 </head>
 
@@ -142,7 +157,7 @@
       
     <!-- header model  -->
     <!-- Modal -->
-    <div class="modal fade custom_modal_wrapper" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="main-modal modal fade custom_modal_wrapper" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -1174,6 +1189,8 @@
     },
   });
 </script>
+
+<script src="assets/js/scroll.js"></script>
 
 </body>
 

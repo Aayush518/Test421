@@ -36,6 +36,24 @@
     <link rel="stylesheet" href="assets/css/icons.css">
 
 
+    <style>
+      body.modal-open {
+      overflow: hidden;
+      position: fixed;
+      }
+    </style>
+  
+  <script>
+  
+    $("#exampleModal").on("show", function () {
+      $("body").addClass("modal-open");
+    }).on("hidden", function () {
+      $("body").removeClass("modal-open")
+    });
+  
+  </script>
+
+
   </head>
 
   <body>
