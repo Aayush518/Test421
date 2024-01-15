@@ -542,3 +542,159 @@ section.bread_wrapper-block:after{
 
 
 /* ****************************************** */
+
+/* community page  */
+.custom_program_group_container {
+    background-color: #1D514E;
+}
+ 
+
+#custom_program-group li button {
+    border-bottom: 2px solid transparent;
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#custom_program-group li .active {
+    border-bottom: 4px solid green !important;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.inside_tab_container_content {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:60%;
+    margin: 0 auto;
+}
+
+.inside_tab_container_content h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Neuton;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.inside_tab_container_content p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    
+}
+.inside_tab_container_slider_content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.info_owl-carousel.owl-carousel.owl-loaded.owl-drag {
+    border-radius: 25px;
+    
+}
+.owl-nav.disabled {
+    display: block !important;
+}
+
+.owl-nav button span {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: block;
+    font-size: 43px;
+    text-align: center;
+    line-height: 42px;
+    color: white;
+}
+.owl-nav button{
+    position: absolute;
+    top: 50%;
+}
+.owl-nav button.owl-next{
+    right:-74px;
+}
+.owl-nav button.owl-prev{
+    left: -74px;
+}
+.image_radius_wrapper {
+    border-radius: 21px;
+    overflow: hidden;
+}
+.teacher_monthly_wrapper {
+    padding: 100px 0;
+}
+.teacher_image_wrapper {
+    position: relative;
+}
+
+.teacher_image_wrapper img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.teacher_info_content h3 {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Neuton;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.teacher_info_content p:nth-of-type(1) {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.teacher_info_content p:nth-of-type(2) {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.teacher_info_content p:nth-of-type(3) {
+    color: #E2543B;
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+
+}
+.teacher_info_content {
+    width: 61%;
+    margin-left: 201px;
+}
+.teacher_image_wrapper:after {
+    content: '';
+    background: orange;
+    width: 100%;
+    height: 83%;
+    position: absolute;
+    right: -43px;
+    top: 40px;
+    z-index: -9;
+    border-radius: 25px;
+}
+/* end community page */
