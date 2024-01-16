@@ -606,11 +606,11 @@ section.bread_wrapper-block:after{
     border-radius: 25px;
     
 }
-.owl-nav.disabled {
+.info_owl-carousel .owl-nav.disabled {
     display: block !important;
 }
 
-.owl-nav button span {
+.info_owl-carousel .owl-nav button span {
     width: 50px;
     height: 50px;
     border: 1px solid white;
@@ -621,14 +621,14 @@ section.bread_wrapper-block:after{
     line-height: 42px;
     color: white;
 }
-.owl-nav button{
+.info_owl-carousel .owl-nav button{
     position: absolute;
     top: 50%;
 }
-.owl-nav button.owl-next{
+.info_owl-carousel .owl-nav button.owl-next{
     right:-74px;
 }
-.owl-nav button.owl-prev{
+.info_owl-carousel .owl-nav button.owl-prev{
     left: -74px;
 }
 .image_radius_wrapper {
@@ -654,6 +654,7 @@ section.bread_wrapper-block:after{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 20px;
 }
 .teacher_info_content p:nth-of-type(1) {
     color: rgba(0, 0, 0, 0.60);
@@ -671,6 +672,7 @@ section.bread_wrapper-block:after{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-bottom: 42px;
 }
 .teacher_info_content p:nth-of-type(3) {
     color: #E2543B;
@@ -685,10 +687,11 @@ letter-spacing: -0.48px;
 .teacher_info_content {
     width: 61%;
     margin-left: 201px;
+    margin-top: 57px;
 }
 .teacher_image_wrapper:after {
     content: '';
-    background: orange;
+    background: #f8d4ce;
     width: 100%;
     height: 83%;
     position: absolute;
@@ -697,4 +700,179 @@ letter-spacing: -0.48px;
     z-index: -9;
     border-radius: 25px;
 }
+@media  (max-width:769px) {
+    .team-img {
+        margin-left: -48px;
+    }
+    .jeepsvg {
+        position: absolute;
+        right: -94px;
+        bottom: 19px;
+    }
+    section.interest-block {
+        padding-bottom: 56px;
+    }
+    .reg-int a {
+        width: 85%;
+        margin-bottom: 10px;
+    }
+    .faq-section .more {
+        margin-left: 0;
+    }
+    ul.mydiv-sec {
+        margin-top: 30px;
+    }
+    .watch-vts-block.inner-a .slick-next {
+        right: 82px;
+    }
+    /* home page  */
+    .watch-vts-block.inner-a .slick-prev {
+        left: 83px;
+    }
+    .community-top {
+        margin-bottom: 30px;
+    }
+    section.principal-msg {
+        padding-bottom: 50px;
+    }
+    section.uni-community {
+        padding-top: 0;
+    }
+    .header {
+        margin-bottom: 30px;
+    }
+    section.learningAt {
+        padding: 0;
+    }
+    .nav_trigger button {
+        z-index: 99999;
+        position: relative;
+    }
+    .main-banner {
+        margin-top: -157px;
+    }
+    /* home page end */
+    .inside_tab_container_content {
+        width: 100%;
+    }
+    .inside_tab_container_slider_content {
+        width: 100%;
+    }
+    .image_radius_wrapper img {
+        width: 100% !important;
+    }
+    .info_owl-carousel .owl-nav button {
+        position: relative;
+        top: unset;
+    }
+    .info_owl-carousel .owl-nav button.owl-next {
+        right: unset;
+        margin-left: 30px;
+    }
+    .info_owl-carousel .owl-nav button.owl-prev {
+        left: unset;
+    }
+    .info_owl-carousel .owl-nav {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .responsive_mode_1 {
+        margin-left: 0;
+        margin-bottom: 60px;
+        margin-top: 0;
+    }
+    .teacher_image_wrapper {
+        width: 55%;
+    }
+    .teacher_info_content {
+        width: 100%;
+        margin-left: 0;
+    }
+    .teacher_info_content p:nth-of-type(2) {
+        margin-bottom: 42px !important;
+    }
+    .wrap_slick_1 .stories_block:not(:last-child) {
+        margin-right: 0 !important;
+        margin-bottom: 15px;
+    }
+    .wrap_slick_1 {
+        flex-direction: column;
+    }
+    .hearto_us .slick-slide {
+        margin: 0;
+        padding: 0;
+    }
+    .hearto_us {
+        margin-top: 30px;
+    }
+    .hearto_us .slick-prev {
+        left: 80px;
+    }
+    .hearto_us .slick-next {
+        right: 101px;
+    }
+    .hearto_us .responsive .slick-prev:after {
+        content: '<' !important;
+        position: absolute;
+        top: 31px;
+        color: black;
+        z-index: 99999;
+        font-size: 51px;
+        left: 19px;
+    }
+    .hearto_us .responsive .slick-next:after {
+        content: '>' !important;
+        position: absolute;
+        top: 31px;
+        color: black;
+        z-index: 99999;
+        font-size: 51px;
+        left: 19px;
+    }
+    .for_tab_scroll {
+        overflow-x: scroll;
+    }   
+}
 /* end community page */
+
+.slick-arrow {
+    border: 1px solid #6a6969;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.wrap_slick_1 {
+    display: flex;
+}
+
+.wrap_slick_1 .stories_block:not(:last-child) {
+    margin-right: 15px;
+}
+ul#custom_program-group {
+    margin: 0 auto;
+}
+.cloud-png {
+    position: absolute;
+    top: 79px;
+    right: 134px;
+}
+@media only screen and (max-width: 1680px){
+    .faq-section {
+        margin: 0;
+    }
+}
+@media (max-width:1367px){
+    .principal-speech{
+        width:100%;
+    }
+    .principal-content {
+        margin-top: 60px;
+    }
+    .more a, .more_faq a {
+        width: 36%;
+    }
+}
+.principal-msg {
+    padding: 100px 0;
+    margin: 0;
+}
