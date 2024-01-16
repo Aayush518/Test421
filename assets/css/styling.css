@@ -140,6 +140,16 @@ margin-bottom: 10px;
 }
 
 
+@media(max-width:1280px)
+{
+  .cloud-png{
+    top:0px;
+    right:-80px;
+  }
+}
+
+
+
 @media(max-width:960px)
 {
 
@@ -157,6 +167,22 @@ margin-bottom: 10px;
   .privacy-image img{
     width: 98%;
   }
+
+  .uni-vector img{
+    width: 200px;
+  }
+
+  .hero-btns button{
+    width: 89%;
+  }
+
+  .main-banner{
+    height: 75vh;
+  }
+
+  .home-content{
+    padding-top:100px ;
+  }
   
 
 }
@@ -169,6 +195,10 @@ margin-bottom: 10px;
   
   .privacy-image img{
     width: 100%;
+  }
+
+  .uni-vector img{
+    width: 120px;
   }
 
 }

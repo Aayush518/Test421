@@ -3591,7 +3591,7 @@ input.ap-btm.btn.btn-success.btn-send {
   }
 
   .main-banner{
-    height: auto;
+    height: 100vh;
     padding-top:50px;
   }
 
