@@ -253,11 +253,6 @@ margin-bottom: 10px;
   border-radius: 5px;
 }
 
-.na-block1.abc img{
-  height: 350px !important;
-}
-
-
 @media (max-width:760px)
 {
   .newsAndArticle{
@@ -291,18 +286,18 @@ margin-bottom: 10px;
 }
 
 
-.newsAndArticle .news img{
+/* .newsAndArticle .news img{
   width: 300px;
   height: 200px;
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 20px;
-}
+} */
 
 .content-2-main-content h2{
   font-size: 30px !important;
 }
-
+/* 
 .content-2-main-content .image-container img{
   width: 300px;
-}
+} */
