@@ -896,6 +896,7 @@ ul#custom_program-group {
     margin-top: 10px !important;
     margin-bottom: 0 !important;
     text-align: center !important;
+    text-transform: capitalize;
 }
 
 .staff_image {
