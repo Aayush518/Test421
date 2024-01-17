@@ -676,12 +676,12 @@ section.bread_wrapper-block:after{
 }
 .teacher_info_content p:nth-of-type(3) {
     color: #E2543B;
-font-family: Manrope;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.48px;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
 
 }
 .teacher_info_content {

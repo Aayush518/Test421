@@ -35,6 +35,12 @@
     <link rel="stylesheet" href="assets/css/layout-style.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 
+    <style>
+      #parentOfMonth, #studentOfMonth{
+        display: none;
+      }
+    </style>
+
   </head>
 
   <body>
@@ -198,13 +204,13 @@
             <div class="for_tab_scroll">
               <ul class="nav nav-tabs" id="custom_program-group" role="tablist">
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Our Teachers</button>
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" onclick="displayOfMonth('teacherOfMonth')" role="tab" aria-controls="home-tab-pane" aria-selected="true">Our Teachers</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Our Parents</button>
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" onclick="displayOfMonth('parentOfMonth')" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Our Parents</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Our Students</button>
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" onclick="displayOfMonth('studentOfMonth')" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Our Students</button>
                 </li>
                 
               </ul>
@@ -369,7 +375,7 @@
       </div>
     </section>
 
-    <section class="teacher_monthly_wrapper">
+    <section class="of-month teacher_monthly_wrapper" id="teacherOfMonth">
       <div class="container">
         <div class="row">
           <div class="col-12 d-lg-none">
@@ -388,6 +394,62 @@
             <div class="teacher_info_content">
               <h3 class="d-none d-lg-block">Teacher of the month</h3>
               <p>Teacher Name</p>
+              <p>Teacher, Uniglobe Schoo</p>
+
+              <p>“ It is with great pleasure that I welcome you and your family to Uniglobe School - a school located at a landmark location in a lovely campus with abundant outdoor green space and a building with character and interesting history”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="of-month teacher_monthly_wrapper"  id="parentOfMonth">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-lg-none">
+
+            <div class="teacher_info_content responsive_mode_1">
+              <h3>Parent of the month</h3>
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-12">
+            <div class="teacher_image_wrapper">
+              <img src="assets/images/82853a27ffcac834cc50a29531549fe5.jfif" alt="">
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="teacher_info_content">
+              <h3 class="d-none d-lg-block">Parent of the month</h3>
+              <p>Teacher Name</p>
+              <p>Teacher, Uniglobe School</p>
+
+              <p>“ It is with great pleasure that I welcome you and your family to Uniglobe School - a school located at a landmark location in a lovely campus with abundant outdoor green space and a building with character and interesting history”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="of-month teacher_monthly_wrapper" id="studentOfMonth">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-lg-none">
+
+            <div class="teacher_info_content responsive_mode_1">
+              <h3>Student of the month</h3>
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-12">
+            <div class="teacher_image_wrapper">
+              <img src="assets/images/f8d42cdc6bfc28224e9c5b4fbd74d808.jfif" alt="">
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="teacher_info_content">
+              <h3 class="d-none d-lg-block">Teacher of the month</h3>
+              <p>Student Name</p>
               <p>Teacher, Uniglobe Schoo</p>
 
               <p>“ It is with great pleasure that I welcome you and your family to Uniglobe School - a school located at a landmark location in a lovely campus with abundant outdoor green space and a building with character and interesting history”</p>
@@ -709,6 +771,16 @@ $('.responsive').slick({
   $('#custom_program-group').css('width', w*n);
   }
 
+
+  let of_month = document.querySelectorAll('.of-month');
+  function displayOfMonth(name)
+  {
+    content = document.getElementById(name);
+    of_month.forEach(function(item){
+      item.style.display = 'none';
+    })
+    content.style.display = 'flex';
+  }
 </script>
 
   </body>
