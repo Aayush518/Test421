@@ -34,6 +34,7 @@
     <link href="assets/css/unibreak.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/layout-style.css">
     <link rel="stylesheet" href="assets/css/styling.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 
     <style>
       body.modal-open {
@@ -221,10 +222,11 @@
               </div><div class="clearfix"></div>
 
               <div class="hearto_us">
-                <div class="responsive slider">
 
-                  <div class="slick-slide">
-                    <div class="stories_block">
+                <div class="Testimonial_owl-carousel owl-carousel">
+                  <div>
+                    <div class="testimonial_wrapper">
+                      <div class="stories_block">
                         <div class="story_title">
                           <div class="story-img"><img src="assets/images/demo1.png" class="img-responsive"></div>
                           <h4>"A Nurturing Start to Education"</h4>
@@ -233,22 +235,11 @@
                         <p class="caringup">"My son's first experience of school in the Uniglobe School has been wonderful. The teacher are so caring and attentive, and it's amazing to see how much. School has been wonderful. The teachers are so...</p>
 
                     </div>
-                  </div><!-- slide one end here -->
-
-                  <div class="slick-slide">
-                    <div class="stories_block">
-                        <div class="story_title">
-                          <div class="story-img"><img src="assets/images/demo2.png" class="img-responsive"></div>
-                          <h4>"Support and Growth at Every Stage"</h4>
-                          <p>-Sunita, Parent of Middle School Student</p>
-                        </div>
-                        <p class="caringup">"As a parent, i've been continually impressed by the dedication of the teachers at Uniglobe. They genuinely care about each student's well-being and academic growth. School has been wonderful. The teachers are so...</p>
-
                     </div>
-                  </div><!-- slide one end here -->
-
-                   <div class="slick-slide">
-                    <div class="stories_block">
+                  </div>
+                  <div>
+                    <div class="testimonial_wrapper">
+                      <div class="stories_block">
                         <div class="story_title">
                           <div class="story-img"><img src="assets/images/demo1.png" class="img-responsive"></div>
                           <h4>"A Nurturing Start to Education"</h4>
@@ -257,24 +248,22 @@
                         <p class="caringup">"My son's first experience of school in the Uniglobe School has been wonderful. The teacher are so caring and attentive, and it's amazing to see how much. School has been wonderful. The teachers are so...</p>
 
                     </div>
-                  </div><!-- slide one end here -->
-
-                  <div class="slick-slide">
-                    <div class="stories_block">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="testimonial_wrapper">
+                      <div class="stories_block">
                         <div class="story_title">
-                          <div class="story-img"><img src="assets/images/demo2.png" class="img-responsive"></div>
-                          <h4>"Support and Growth at Every Stage"</h4>
-                          <p>-Sunita, Parent of Middle School Student</p>
+                          <div class="story-img"><img src="assets/images/demo1.png" class="img-responsive"></div>
+                          <h4>"A Nurturing Start to Education"</h4>
+                          <p>-Priya, Mother of Schooler</p>
                         </div>
-                        <p class="caringup">"As a parent, i've been continually impressed by the dedication of the teachers at Uniglobe. They genuinely care about each student's well-being and academic growth. School has been wonderful. The teachers are so...</p>
+                        <p class="caringup">"My son's first experience of school in the Uniglobe School has been wonderful. The teacher are so caring and attentive, and it's amazing to see how much. School has been wonderful. The teachers are so...</p>
 
                     </div>
-                  </div><!-- slide one end here -->
-
+                    </div>
+                  </div>
                 </div>
-              </div><div class="clearfix"></div>
-
-
             </div>
         </div>
       </div>
@@ -549,6 +538,30 @@
      <script src="assets/js/bootstrap.min.js"></script>
      
      <script src="assets/js/slick.js"></script>
+     <script src="assets/js/owl.carousel.min.js"></script>
+
+     <script>
+      $('.Testimonial_owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:true
+        },
+        1000:{
+            items:2,
+            nav:true,
+            loop:true
+        }
+    }
+})
+     </script>
      <script type="text/javascript">
 
       $('.autoplay').slick({
@@ -597,7 +610,7 @@
                 {
                   breakpoint: 1024,
                   settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: true
