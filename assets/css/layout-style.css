@@ -4,6 +4,15 @@
         width: 100% !important;
        margin: 0 !important;
     }
+    .uni_teach_frame {
+        height: auto;
+    }
+    #tsum-tabs section {
+        padding-bottom: 0 !important;
+    }
+    .tsum-content {
+        padding-top: 50px !important;
+    }
 
 }
 @media (max-width: 460px){
@@ -932,3 +941,40 @@ ul#custom_program-group {
 .academic-block .slick-next.slick-arrow {
     display: none !important;
 }
+
+@media (max-width:1200px){
+    .custom_modal_wrapper .modal-body .col-lg-3{
+        border:none !important;
+    }
+}
+@media (min-width:540px) and (max-width:600px){
+    .hearto_us .slick-prev, .hearto_us .slick-next {
+        top: 115%;
+    }
+}
+.Testimonial_owl-carousel .owl-nav{
+    margin-top: 30px;
+}
+.Testimonial_owl-carousel .owl-nav .owl-next span{
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 28px;
+    font-size: 28px;
+    text-align: center;
+}
+.Testimonial_owl-carousel .owl-nav .owl-prev span{
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 28px;
+    font-size: 28px;
+    text-align: center;
+    margin-right: 30px;
+     
+}
+/* '\f053' */

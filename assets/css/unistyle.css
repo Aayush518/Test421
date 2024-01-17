@@ -1557,7 +1557,7 @@ a.home_index {
 
 #tsum-tabs section {
   display: none;
-  padding:100px 16px;
+  padding:100px 16px 0;
   border-top: 1px solid #ddd;
 }
 
@@ -2078,11 +2078,11 @@ ul.schpre li {
 }
 
 .hearto_us .slick-prev {
-  left: 510px;
+  left: 33%;
 }
 
 .hearto_us .slick-next {
-  right: 510px;
+  right: 33%;
 }
 
 /* hear from uniglobe end */
