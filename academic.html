@@ -35,7 +35,6 @@
   <link href="assets/css/unistyle.css" rel="stylesheet">
   <link href="assets/css/unibreak.css" rel="stylesheet">
  
-  <!-- <link rel="stylesheet" href="assets/css/nav.css"> -->
   <link rel="stylesheet" href="assets/css/layout-style.css">
   <link rel="stylesheet" href="assets/css/styling.css">
 
@@ -45,383 +44,377 @@
     overflow: hidden;
     position: fixed;
     }
+
+    /* Displaying the content5 at first and hiding the rest */
+    #tsum-tabs #content5{
+      display: block !important;
+    }
   </style>
 
-<script>
+  <script>
 
   $("#exampleModal").on("show", function () {
-    $("body").addClass("modal-open");
+  $("body").addClass("modal-open");
   }).on("hidden", function () {
-    $("body").removeClass("modal-open")
+  $("body").removeClass("modal-open")
   });
 
-</script>
-
-<style>
-  
-  #tsum-tabs #content5{
-    display: block !important;
-  }
-
-</style>
+  </script>
 
 </head>
 
 <body>
 
-      <!-- Navbar -->
-      <header class="site_header_wrapper">
-        <nav class="navbar navbar-expand-lg site_navbar">
-          <div class="container">
-            <a class="site_navbar-brand" href="index.html"><img src="assets/images/uniglobe_logo.png" alt=""></a>
-            <button class="navbar-toggler d-sm-none d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="nav_trigger d-lg-none">
-              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="26" viewBox="0 0 38 26" fill="none">
-                  <path d="M1 1H37M1 13H37M1 25H37" stroke="black" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-              </button>
-             </div>
-             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link " href="about.html">About Us</a>
-                  <ul class="static_horizontal_sub_menu">
-                    <Li><a href="about.html">About Us</a></Li>
-                    <Li><a href="contact.html">Contact Us</a></Li>
-                    <Li><a href="community-a.html">Our Community</a></Li>
-                    <Li><a href="event.html">News & Events</a></Li>
-                    <Li><a href="career.html">Career <span>3! Openings</span></a></Li>
-                    <Li><a href="testimonial.html">Testimonials</a></Li>
-                    <Li><a href="news.html">News & Arricles</a></Li>
-                    <Li><a href="faq.html">FAQs</a></Li>
-                  </ul>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link " href="academic.html">Academic</a>
-                  <ul class="static_horizontal_sub_menu">
-                    <Li><a href="academic.html">PreSchool</a></Li>
-                    <Li><a href="academic.html">Junior School</a></Li>
-                    <Li><a href="academic.html">Middle School</a></Li>
-                    <Li><a href="academic.html">Senior School</a></Li>
-                  </ul>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link " href="admission.html">Admissions</a>
-                  <ul class="static_horizontal_sub_menu">
-                    <Li><a href="admission-process.html">Admissions Process</a></Li>
-                    <Li><a href="required-documents.html">Required documents</a></Li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="facility.html">Facilities</a>
-                  <ul class="static_horizontal_sub_menu">
-                    <Li><a href="facility.html">Classrooms</a></Li>
-                    <Li><a href="facility.html">Reading Room</a></Li>
-                    <Li><a href="facility.html">Digital Hall</a></Li>
-                    <Li><a href="facility.html">Playgrounds</a></Li>
-                    <Li><a href="facility.html">Learning Lab</a></Li>
-                    <Li><a href="facility.html">Multipurpose Hall</a></Li>
-                    <Li><a href="facility.html">News & Arricles</a></Li>
-                    <Li><a href="facility.html">ECA Rooms</a></Li>
-                  </ul>
-                </li>
+  <!-- Navbar -->
+  <header class="site_header_wrapper">
+    <nav class="navbar navbar-expand-lg site_navbar">
+      <div class="container">
+        <a class="site_navbar-brand" href="index.html"><img src="assets/images/uniglobe_logo.png" alt=""></a>
+        <button class="navbar-toggler d-sm-none d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="nav_trigger d-lg-none">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="26" viewBox="0 0 38 26" fill="none">
+              <path d="M1 1H37M1 13H37M1 25H37" stroke="black" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " href="about.html">About Us</a>
+              <ul class="static_horizontal_sub_menu">
+                <Li><a href="about.html">About Us</a></Li>
+                <Li><a href="contact.html">Contact Us</a></Li>
+                <Li><a href="community.html">Our Community</a></Li>
+                <Li><a href="event.html">News & Events</a></Li>
+                <Li><a href="career.html">Career <span>3! Openings</span></a></Li>
+                <Li><a href="testimonial.html">Testimonials</a></Li>
+                <Li><a href="news.html">News & Arricles</a></Li>
+                <Li><a href="faq.html">FAQs</a></Li>
               </ul>
-               <div class="nav_trigger">
-                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="38" height="26" viewBox="0 0 38 26" fill="none">
-                    <path d="M1 1H37M1 13H37M1 25H37" stroke="black" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-               </div>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Academic</a>
+              <ul class="static_horizontal_sub_menu">
+                <Li><a href="#">PreSchool</a></Li>
+                <Li><a href="#">Junior School</a></Li>
+                <Li><a href="#">Middle School</a></Li>
+                <Li><a href="#">Senior School</a></Li>
+              </ul>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="admission.html">Admissions</a>
+              <ul class="static_horizontal_sub_menu">
+                <Li><a href="admission-process.html">Admissions Process</a></Li>
+                <Li><a href="required-documents.html">Required documents</a></Li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="facility.html">Facilities</a>
+              <ul class="static_horizontal_sub_menu">
+                <Li><a href="facility.html">Classrooms</a></Li>
+                <Li><a href="facility.html">Reading Room</a></Li>
+                <Li><a href="facility.html">Digital Hall</a></Li>
+                <Li><a href="facility.html">Playgrounds</a></Li>
+                <Li><a href="facility.html">Learning Lab</a></Li>
+                <Li><a href="facility.html">Multipurpose Hall</a></Li>
+                <Li><a href="facility.html">News & Arricles</a></Li>
+                <Li><a href="facility.html">ECA Rooms</a></Li>
+              </ul>
+            </li>
+          </ul>
+            <div class="nav_trigger">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="26" viewBox="0 0 38 26" fill="none">
+                <path d="M1 1H37M1 13H37M1 25H37" stroke="black" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
             </div>
-          </div>
-        </nav>
-      </header>
-      
-      <!-- header model  -->
-      
-    <!-- Modal -->
-    <div class="main-modal modal fade custom_modal_wrapper" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">
-              <a class="site_navbar-brand" href="index.html"><img src="assets/images/uniglobe_logo.png" alt=""></a>
-            </h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-lg-3 col-6">
-                <h3>About Us</h3>
-                <ul class="menu_style">
-                  <li><a href="about.html"> About Us</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
-                  <li><a href="community-a.html">Our Community</a></li>
-                  <li><a href="event.html">News &amp; Events</a></li>
-                  <li><a href="career.html">Career</a></li>
-                  <li><a href="testimonial.html">Testimonials</a></li>
-                  <li><a href="news.html">News &amp; Articles</a></li>
-                  <li><a href="faq.html">FAQs</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-3 col-6">
-                <h3>Academic</h3>
-                <ul class="menu_style">
-                  <li><a href="academic.html">PreSchool </a></li>
-                  <li><a href="academic.html">Junior School </a></li>
-                  <li><a href="academic.html">Middle School </a></li>
-                  <li><a href="academic.html">Senior School </a></li>
-                </ul>
-              </div>
-              <div class="col-lg-3 col-6">
-                <h3>Admissions</h3>
-                <ul class="menu_style">
-                  <li><a href="admission.html">Admission Process </a></li>
-                  <li><a href="admission.html">Required Documents </a></li>
-                </ul>
-              </div>
-              <div class="col-lg-3 col-6">
-                <h3>Facilities</h3>
-                <ul class="menu_style">
-                  <li><a href="facility.html">Classrooms </a></li>
-                  <li><a href="facility.html">Reading Room </a></li>
-                  <li><a href="facility.html">Digital Hall </a></li>
-                  <li><a href="facility.html">Playgrounds and Community Spaces </a></li>
-                  <li><a href="facility.html">Learning Lab </a></li>
-                  <li><a href="facility.html">Multipurpose Hall </a></li>
-                  <li><a href="facility.html">ECA Rooms </a></li>
-                </ul>
-              </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+    
+  <!-- Modal -->
+  <div class="main-modal modal fade custom_modal_wrapper" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            <a class="site_navbar-brand" href="index.html"><img src="assets/images/uniglobe_logo.png" alt=""></a>
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-3 col-6">
+              <h3>About Us</h3>
+              <ul class="menu_style">
+                <li><a href="about.html"> About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="community.html">Our Community</a></li>
+                <li><a href="event.html">News &amp; Events</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="testimonial.html">Testimonials</a></li>
+                <li><a href="news.html">News &amp; Articles</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+              </ul>
             </div>
-            
-            <div class="button_group_wrapper">
-              <button class="btn"><i class="bi bi-book"></i> Take a Virtual Tour </button>
-              <button class="btn"><i class="fa-solid fa-phone-volume"></i> 01-4221049</button>
+            <div class="col-lg-3 col-6">
+              <h3>Academic</h3>
+              <ul class="menu_style">
+                <li><a href="#">PreSchool </a></li>
+                <li><a href="#">Junior School </a></li>
+                <li><a href="#">Middle School </a></li>
+                <li><a href="#">Senior School </a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-6">
+              <h3>Admissions</h3>
+              <ul class="menu_style">
+                <li><a href="admission-process.html">Admission Process </a></li>
+                <li><a href="required-documents.html">Required Documents </a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-6">
+              <h3>Facilities</h3>
+              <ul class="menu_style">
+                <li><a href="facility.html">Classrooms </a></li>
+                <li><a href="facility.html">Reading Room </a></li>
+                <li><a href="facility.html">Digital Hall </a></li>
+                <li><a href="facility.html">Playgrounds and Community Spaces </a></li>
+                <li><a href="facility.html">Learning Lab </a></li>
+                <li><a href="facility.html">Multipurpose Hall </a></li>
+                <li><a href="facility.html">ECA Rooms </a></li>
+              </ul>
             </div>
           </div>
           
+          <div class="button_group_wrapper">
+            <button class="btn"><i class="bi bi-book"></i> Take a Virtual Tour </button>
+            <button class="btn"><i class="fa-solid fa-phone-volume"></i> 01-4221049</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <section class="bread_wrapper-block">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="bread_content-wrap">
+            <h2>Academic Divisions</h2>
+            <p>We believe in each student's great potential to achieve dreams through education, confidence, values, and knowledge.</p>
+          </div>
         </div>
       </div>
     </div>
+  </section>
+  <!-- about top block end -->
 
+  <section class="about-tab">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
 
-     
-    <section class="bread_wrapper-block">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="bread_content-wrap">
-              <h2>Academic Divisions</h2>
-              <p>We believe in each student's great potential to achieve dreams through education, confidence, values, and knowledge.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- about top block end -->
+          <div id="tsum-tabs">
+            <main>          
 
-    <section class="about-tab">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
+              <div class="label-container">
+                <button onclick="displayAcademicContent('content5')" class="tsum-tab active" id="tab5">PreSchool</button>
+                <button onclick="displayAcademicContent('content6')" class="tsum-tab" id="tab6">Junior School</button>
+                <button onclick="displayAcademicContent('content7')" class="tsum-tab" id="tab7">Middle School</button>
+                <button onclick="displayAcademicContent('content8')" class="tsum-tab" id="tab8">Senior School</button>
+              </div>
 
-            <div id="tsum-tabs">
-              <main>          
+              <section class="academic-content" id="content5">
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="tab-history preshl">
+                      <h2>Fostering Early Learning and Development</h2>
 
-                <div class="label-container">
-                  <button onclick="displayAcademicContent('content5')" class="tsum-tab active" id="tab5">PreSchool</button>
-                  <button onclick="displayAcademicContent('content6')" onclick="" class="tsum-tab" id="tab6">Junior School</button>
-                  <button onclick="displayAcademicContent('content7')" onclick="" class="tsum-tab" id="tab7">Middle School</button>
-                  <button onclick="displayAcademicContent('content8')" onclick="" class="tsum-tab" id="tab8">Senior School</button>
+                      <p class="progsch">PreSchool Programme:</p>
+
+                      <ul class="schpre">
+                        <li>Playgroup</li>
+                        <li>Nursery</li>
+                        <li>LKG</li>
+                        <li>UKG</li>
+
+                      </ul>
+
+                      <p>Our School program lays the foundation for a lifetime of learning. Here, we focus on
+                        nurturing the whole child-emotionally, socially, and intellectually.</p>
+
+                      <p>Through play-based and experiential learning activities, we encourage our youngest learners
+                        to explore their surrounding, develop essential social skills, and begin their academic
+                        journey with joy and curiosity.</p>
+
+                      <div data-bs-toggle="modal" data-bs-target="#inquiryModal" class="info-school" data-dismiss="modal"><a class="text-white" style="cursor: pointer;">Register Interests</a></div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-5">
+                    <div class="school-house">
+                      <img src="assets/images/preschool_img.png" class="img-responsive">
+                    </div>
+                  </div>
                 </div>
 
-                <section class="academic-content" id="content5">
-                  <div class="row">
-                    <div class="col-md-7">
-                      <div class="tab-history preshl">
-                        <h2>Fostering Early Learning and Development</h2>
+              </section>
 
-                        <p class="progsch">PreSchool Programme:</p>
+              <section class="academic-content" id="content6">
 
-                        <ul class="schpre">
-                          <li>Playgroup</li>
-                          <li>Nursery</li>
-                          <li>LKG</li>
-                          <li>UKG</li>
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="tab-history preshl">
+                      <h2>Building Strong Foundations for Future Success</h2>
 
-                        </ul>
+                      <p class="progsch">Grade</p>
 
-                        <p>Our School program lays the foundation for a lifetime of learning. Here, we focus on
-                          nurturing the whole child-emotionally, socially, and intellectually.</p>
+                      <ul class="schpre">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
 
-                        <p>Through play-based and experiential learning activities, we encourage our youngest learners
-                          to explore their surrounding, develop essential social skills, and begin their academic
-                          journey with joy and curiosity.</p>
+                      </ul>
+
+                      <p>In our Junior School, we build upon the foundational skills developed in Preschool. Our
+                        curriculum, encompassing Mathematics, English Language, and Integrated Studies, is designed to
+                        spark curiosity and encourage exploration.</p>
+
+                      <p>We emphasize personalized attention, ensuring that each student develops a strong educational
+                        base and a love for learning.</p>
+
+                      <div data-bs-toggle="modal" data-bs-target="#inquiryModal" class="info-school" data-dismiss="modal"><a class="text-white" style="cursor: pointer;">Register Interests</a></div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-5">
+                    <div class="school-house">
+                      <img src="assets/images/academic-content-2.png" class="img-responsive">
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="academic-content" id="content7">
+
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="tab-history preshl">
+                      <h2>Expanding Knowledge and Experiences</h2>
+
+                      <p class="progsch">Grade</p>
+
+                      <ul class="schpre">
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+
+                      </ul>
+
+                      <p>As students progress to Middle School, the curriculum broadens to include a diverse range of
+                        subjects and practical experiences.</p>
+
+                      <p>This stage is crucial for widening their knowledge base and preparing them for the complex
+                        challenges of Senior School. Our approach is to blend academic rigor with opportunities for
+                        experiential learning, fostering both intellectual and personal growth.</p>
 
                         <div data-bs-toggle="modal" data-bs-target="#inquiryModal" class="info-school" data-dismiss="modal"><a class="text-white" style="cursor: pointer;">Register Interests</a></div>
                       </div>
-                    </div>
-
-                    <div class="col-md-5">
-                      <div class="school-house">
-                        <img src="assets/images/preschool_img.png" class="img-responsive">
-                      </div>
-                    </div>
                   </div>
 
-                </section>
-
-                <section class="academic-content" id="content6">
-
-                  <div class="row">
-                    <div class="col-md-7">
-                      <div class="tab-history preshl">
-                        <h2>Building Strong Foundations for Future Success</h2>
-
-                        <p class="progsch">Grade</p>
-
-                        <ul class="schpre">
-                          <li>1</li>
-                          <li>2</li>
-                          <li>3</li>
-                          <li>4</li>
-                          <li>5</li>
-
-                        </ul>
-
-                        <p>In our Junior School, we build upon the foundational skills developed in Preschool. Our
-                          curriculum, encompassing Mathematics, English Language, and Integrated Studies, is designed to
-                          spark curiosity and encourage exploration.</p>
-
-                        <p>We emphasize personalized attention, ensuring that each student develops a strong educational
-                          base and a love for learning.</p>
-
-                        <div data-bs-toggle="modal" data-bs-target="#inquiryModal" class="info-school" data-dismiss="modal"><a class="text-white" style="cursor: pointer;">Register Interests</a></div>
-                      </div>
-                    </div>
-
-                    <div class="col-md-5">
-                      <div class="school-house">
-                        <img src="assets/images/academic-content-2.png" class="img-responsive">
-                      </div>
+                  <div class="col-md-5">
+                    <div class="school-house">
+                      <img src="assets/images/academic-content-3.png" class="img-responsive">
                     </div>
                   </div>
-                </section>
+                </div>
+              </section>
 
-                <section class="academic-content" id="content7">
+              <section class="academic-content" id="content8">
 
-                  <div class="row">
-                    <div class="col-md-7">
-                      <div class="tab-history preshl">
-                        <h2>Expanding Knowledge and Experiences</h2>
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="tab-history preshl">
+                      <h2>Challenging Curriculum for College and Career Readiness</h2>
 
-                        <p class="progsch">Grade</p>
+                      <p class="progsch">Grade</p>
 
-                        <ul class="schpre">
-                          <li>6</li>
-                          <li>7</li>
-                          <li>8</li>
+                      <ul class="schpre">
+                        <li>9</li>
+                        <li>10</li>
+                        <li>11</li>
+                        <li>12</li>
 
-                        </ul>
+                      </ul>
 
-                        <p>As students progress to Middle School, the curriculum broadens to include a diverse range of
-                          subjects and practical experiences.</p>
+                      <p>In our Junior School, we build upon the foundational skills developed in Preschool. Our
+                        curriculum, encompassing Mathematics, English Language, and Integrated Studies, is designed to
+                        spark curiosity and encourage exploration.</p>
 
-                        <p>This stage is crucial for widening their knowledge base and preparing them for the complex
-                          challenges of Senior School. Our approach is to blend academic rigor with opportunities for
-                          experiential learning, fostering both intellectual and personal growth.</p>
+                      <p>We emphasize personalized attention, ensuring that each student develops a strong educational
+                        base and a love for learning.</p>
 
-                          <div data-bs-toggle="modal" data-bs-target="#inquiryModal" class="info-school" data-dismiss="modal"><a class="text-white" style="cursor: pointer;">Register Interests</a></div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-5">
-                      <div class="school-house">
-                        <img src="assets/images/academic-content-3.png" class="img-responsive">
+                        <div data-bs-toggle="modal" data-bs-target="#inquiryModal" data-dismiss="modal" class="info-school"><a class="text-white" style="cursor: pointer;">Register Interests</a></div>
                       </div>
+                  </div>
+
+                  <div class="col-md-5">
+                    <div class="school-house">
+                      <img src="assets/images/academic-content-4.png" class="img-responsive">
                     </div>
                   </div>
-                </section>
+                </div>
+              </section>
 
-                <section class="academic-content" id="content8">
-
-                  <div class="row">
-                    <div class="col-md-7">
-                      <div class="tab-history preshl">
-                        <h2>Challenging Curriculum for College and Career Readiness</h2>
-
-                        <p class="progsch">Grade</p>
-
-                        <ul class="schpre">
-                          <li>9</li>
-                          <li>10</li>
-                          <li>11</li>
-                          <li>12</li>
-
-                        </ul>
-
-                        <p>In our Junior School, we build upon the foundational skills developed in Preschool. Our
-                          curriculum, encompassing Mathematics, English Language, and Integrated Studies, is designed to
-                          spark curiosity and encourage exploration.</p>
-
-                        <p>We emphasize personalized attention, ensuring that each student develops a strong educational
-                          base and a love for learning.</p>
-
-                          <div data-bs-toggle="modal" data-bs-target="#inquiryModal" data-dismiss="modal" class="info-school"><a class="text-white" style="cursor: pointer;">Register Interests</a></div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-5">
-                      <div class="school-house">
-                        <img src="assets/images/academic-content-4.png" class="img-responsive">
-                      </div>
-                    </div>
-                  </div>
-                </section>
-
-              </main>
-            </div>
-
+            </main>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- about tab section end -->
 
-    <section class="tsum-content mb-3" id="content4">
-      <h2>Our Core Strengths</h2>
-      <p>Our core strengths are the pillars that support our vision of nurturing well-rounded, confident, and responsible individuals.</p>
-      <div class="label-container"  style="padding:30px;">
-        <div class="content content1">
-          <div class="icon-container"></div>
-          <p>Personalized Learning</p>
-        </div>
-        <div class="content content2">
-          <div class="icon-container"></div>
-          <p>Rigorous Curriculum Delivered through Progressive Pedagogy</p>
-        </div>
-        <div class="content content3">
-          <div class="icon-container"></div>
-          <p>Professional Expertise</p>
-        </div>
-        <div class="content content4">
-          <div class="icon-container"></div>
-          <p>Prime Location</p>
-        </div>
-        <div class="content content5">
-          <div class="icon-container"></div>
-          <p>Purposeful Spaces</p>
-        </div>
-        <div class="content content6">
-          <div class="icon-container"></div>
-          <p>Partnerships with Parents and Educational Organizations</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  <!-- about tab section end -->
+
+  <!-- Our Core Strength Section -->
+  <section class="tsum-content mb-3" id="content4">
+    <h2>Our Core Strengths</h2>
+    <p>Our core strengths are the pillars that support our vision of nurturing well-rounded, confident, and responsible individuals.</p>
+    <div class="label-container"  style="padding:30px;">
+      <div class="content content1">
+        <div class="icon-container"></div>
+        <p>Personalized Learning</p>
+      </div>
+      <div class="content content2">
+        <div class="icon-container"></div>
+        <p>Rigorous Curriculum Delivered through Progressive Pedagogy</p>
+      </div>
+      <div class="content content3">
+        <div class="icon-container"></div>
+        <p>Professional Expertise</p>
+      </div>
+      <div class="content content4">
+        <div class="icon-container"></div>
+        <p>Prime Location</p>
+      </div>
+      <div class="content content5">
+        <div class="icon-container"></div>
+        <p>Purposeful Spaces</p>
+      </div>
+      <div class="content content6">
+        <div class="icon-container"></div>
+        <p>Partnerships with Parents and Educational Organizations</p>
+      </div>
+    </div>
+  </section>
 
 
     <section class="hear_from_uniglobe">
@@ -701,10 +694,10 @@
             <div class="footer_link">
               <h4>Academic</h4>
               <ul>
-                <li><a href="academic.html">PreSchool</a></li>
-                <li><a href="academic.html">Junior School</a></li>
-                <li><a href="academic.html">Middle School</a></li>
-                <li><a href="academic.html">Senior School</a></li>
+                <li><a href="#">PreSchool</a></li>
+                <li><a href="#">Junior School</a></li>
+                <li><a href="#">Middle School</a></li>
+                <li><a href="#">Senior School</a></li>
               </ul>
             </div>
           </div>
@@ -712,8 +705,8 @@
             <div class="footer_link">
               <h4>Admissions</h4>
               <ul>
-                <li><a href="admission.html">Admission Process</a></li>
-                <li><a href="admission.html">Eligibility Criteria</a></li>
+                <li><a href="admission-process.html">Admission Process</a></li>
+                <li><a href="required-documents.html">Eligibility Criteria</a></li>
               
               </ul>
             </div>
@@ -783,9 +776,7 @@
         </div>
       </div>
     </footer>
-    
-
-
+  
 
 </body>
 
@@ -877,7 +868,6 @@
   });
 </script>
 
-
-  <script src="assets/js/navbar.js"></script>
+  <!-- Main Js File -->
   <script src="assets/js/main.js"></script>
 </html>
