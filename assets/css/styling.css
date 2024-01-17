@@ -298,3 +298,11 @@ margin-bottom: 10px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
+.content-2-main-content h2{
+  font-size: 38px;
+}
+
+.content-2-main-content .image-container img{
+  width: 300px;
+}
