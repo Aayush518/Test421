@@ -47,6 +47,7 @@
   <link href="assets/css/unibreak.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/layout-style.css">
   <link rel="stylesheet" href="assets/css/styling.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 
   <style>
     body.modal-open {
@@ -259,7 +260,7 @@
         <p>If you're interested in joining our community of happy learners, start by filling out this quick inquiry form. We'll get back to you with all the information you need to proceed with the admissions process.</p>
     </div>
     <div class="applyBtn">
-        <a href="https://drive.google.com/file/d/1iKzVxpegW1VySn5yT06Mjded0zdII4jH/view" class="btn btn-green ">Apply Now</a>
+        <a  data-bs-toggle="modal" data-bs-target="#inquiryModal" data-dismiss="modal" class="btn btn-green ">Apply Now</a>
     </div>
 
     <div class="cloud-png">
@@ -280,6 +281,64 @@
     </div>
 
   </section>
+
+
+  <!-- Online Inquiry Form Modal -->
+  <div class="modal inquiryModal " tabindex="-1" id="inquiryModal">
+    <div class="modal-dialog modal-lg  ms-auto me-auto" style="max-width: 90%; height: auto;">
+      <div class="modal-content">
+        <div class="modal-header p-0" style="background-color: rgba(0, 0, 0, 0.8);">
+          <button type="button" class="ms-auto close-button shdaow-none" data-bs-dismiss="modal" aria-label="Close">Close</button>
+        </div>
+        <div class="modal-body d-flex align-items-center justify-content-between pt-0 pb-0 pe-0">
+          <div class="inq-form col-lg-9 col-md-9 col-sm-12 col-12">
+            <h2 class="inquiry-header" style="text-align: left; width: 100%;">Online Inquiry Form</h2>
+            <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
+              <input type="text" name="name" id="name" placeholder="Parent/Guardian Name*">
+            </div>
+            <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
+              <input type="text" name="name" id="name" placeholder="Mobile Number*">
+            </div>
+            <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
+              <input type="text" name="name" id="name" placeholder="Email*">
+            </div>
+            <div class="inp-grp col-lg-5 col-md-5 col-sm-12 col-12">
+              <select name="reason-for-inquiry" id="reason-for-inquiry">
+                <option value="">Reason for Inquiry</option>
+                <option value="General Inquiry">General Inquiry</option>
+                <option value="Admissions Inquiry">Admissions Inquiry</option>
+                <option value="Program Information">Program Information</option>
+                <option value="School Facilities and Services">School Facilities and Services</option>
+                <option value="Fee Structure and Scholarships">Fee Structure and Scholarships</option>
+              </select>
+            </div>
+            <div class="inp-grp col-lg-5 col-md-5 col-sm-12 col-12">
+              <select name="How did you hear about us?" id="How did you hear about us?">
+                <option value="">How did you hear about us?</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Friends">Friends</option>
+                <option value="Internet">Internet</option>
+                <option value="News">News</option>
+              </select>
+            </div>
+            <button class="btn-submit mb-2 col-lg-3 col-md-3 col-sm-5 col-5" data-bs-dismiss="modal">Submit</button>
+            <div class="privacy-notice">
+              <p class="mb-2"><strong>Privacy Notice: </strong>Your privacy is important to us. The information provided here will be used solely for Uniglobe School's admission purposes.</p>
+            </div>
+          </div>
+          <div class="inp-form-img col-lg-3 col-md-3 col-sm-0">
+            <div class="inp-img-container">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
   <div class="clearfix"></div><!-- Apply Now Banner Section End -->
 
     <section class="learningAt">
@@ -287,27 +346,37 @@
           <h2>Learning at Uniglobe School</h2>
           <p>Discover the unique aspects of learning at Uniglobe School.</p>
       </div>
-        <!-- Swiper -->
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide" id="slide1">
-              <img src="assets/images/Uniglobe_Preschool_a.png" alt="">
-              <p>Classroom Experience</p>
-            </div>
-            <div class="swiper-slide" id="slide2">
-              <img src="assets/images/9576d0bfc568d3f1cd98d0c24de2628c.jfif" alt="">
-              <p>ECA-CCA Activities</p>
-            </div>
-            <div class="swiper-slide" id="slide3">
-              <img src="assets/images/99a6610a47b302c072bc953c5226c36d.jfif" alt="">
-              <p>After School Clubs</p>
-            </div>
-            <div class="swiper-slide" id="slide4">
-              <img src="assets/images/4d82ee3e7cf5665c08aec2e3868e138c.jfif" alt="">
-              <p>Wellness Curriculum</p>
-            </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="Learn_owl-carousel owl-carousel">
+              <div>
+                <div class="learn_owl_wrapper">
+                  <img src="assets/images/pic1.jpg" alt="">
+                  
+                </div>
+                <p>Classroom Experience</p>
+              </div>
+              <div>
+                <div class="learn_owl_wrapper">
+                  <img src="assets/images/pic2.jpg" alt="">
+                 
+                </div>
+                <p>Classroom Experience</p>
+              </div>
+              <div>
+                <div class="learn_owl_wrapper">
+                  <img src="assets/images/pic3.jpg" alt="">
+                </div>
+                <p>Classroom Experience</p>
+              </div>
+          </div>
           </div>
         </div>
+      </div>
+
+         
 
       <div class="bird">
           <svg xmlns="http://www.w3.org/2000/svg" width="134" height="110" viewBox="0 0 134 110" fill="none">
@@ -429,7 +498,7 @@
                 students at that particular age.</p>
 
               <ul class="mydiv-sec">
-                <li><a href="academic.php"> School </a></li>
+                <li><a href="academic.php"> Pre School </a></li>
                 <li><a href="academic.php"> Junior School </a></li>
                 <li><a href="academic.php"> Middle School </a></li>
                 <li><a href="academic.php"> Senior School </a></li>
@@ -728,7 +797,7 @@
                 Registering your interest is the first step in becoming a part of our vibrant learning environment.</p>
               <div class="clearfix"></div>
 
-              <div data-bs-toggle="modal" data-bs-target="#inquiryModal" class="reg-int"><a class="text-white" style="width:fit-content;"> Register Interests </a> </div>
+              <div data-bs-toggle="modal" data-bs-target="#inquiryModal" class="reg-int"><a class="text-white" style="width:fit-content;"> Register your Interest </a> </div>
             </div>
             <div class="clearfix"></div>
 
@@ -1055,9 +1124,34 @@
   <script type="text/javascript" src="assets/js/jquery-1.12.4.js"></script>
   <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="assets/js/slick.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    $('.Learn_owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:2,
+            nav:true,
+            loop:false
+        }
+    }
+})
+
+  </script>
   <script type="text/javascript">
     $(document).ready(function () {
       $('.autoplay').slick({

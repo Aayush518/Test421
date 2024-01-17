@@ -36,6 +36,7 @@
   <link href="assets/css/unibreak.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/layout-style.css">
   <link rel="stylesheet" href="assets/css/icons.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 
   <style>
     body.modal-open {
@@ -228,6 +229,7 @@
                   <button onclick="displayTsum('content2')" class="tsum-tab" id="tab2">Governing Body</button>
                   <button onclick="displayTsum('content3')" class="tsum-tab" id="tab3">School Leadership</button>
                   <button onclick="displayTsum('content4')" class="tsum-tab" id="tab4">Core Strengths</button>
+                  <button onclick="displayTsum('content5')" class="tsum-tab" id="tab5">Our Staff</button>
                 </div>
 
                 <section class="tsum-content" id="content1">
@@ -332,33 +334,136 @@
 
                 <section class="tsum-content" id="content4">
                   <div class="label-container">
-                    <div class="content content1">
-                      <div class="icon-container"></div>
-                      <p>Personalized Learning</p>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="owl-carousel core_owl-carousel">
+                            <div>
+                              <div class="wrapper_core_w">
+                                <div class="content content1">
+                                   <div class="icon_wrapper_style">
+                                    <img src="assets/images/p_learn.png" alt="">
+                                   </div>
+                                  <p>Personalized Learning</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="wrapper_core_w">
+                                <div class="content content2">
+                                  <div class="icon_wrapper_style">
+                                    <img src="assets/images/progress.png" alt="">
+                                   </div>
+                                  <p>Rigorous Curriculum</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="wrapper_core_w">
+                                <div class="content content3">
+                                  <div class="icon_wrapper_style">
+                                    <img src="assets/images/twitter.png" alt="">
+                                   </div>
+                                  <p>Professional Expertise</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="wrapper_core_w">
+                                <div class="content content4">
+                                  <div class="icon_wrapper_style">
+                                    <img src="assets/images/mixv.png" alt="">
+                                   </div>
+                                  <p>Prime Location</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="wrapper_core_w">
+                                <div class="content content5">
+                                  <div class="icon_wrapper_style">
+                                    <img src="assets/images/location.png" alt="">
+                                   </div>
+                                  <p>Purposeful Spaces</p>
+                                </div>
+                              </div>
+                            </div>
+                           
+                          </div>
+                          
+                          
+                          
+                          
+                          
+                          
+                        </div>
+                      </div>
                     </div>
-                    <div class="content content2">
-                      <div class="icon-container"></div>
-                      <p>Rigorous Curriculum Delivered through Progressive Pedagogy</p>
+                    
+                  </div>
+                </section>
+
+                <section class="tsum-content" id="content5">
+                  <div class="row">
+                    <div class="col-lg-2">
+                      <div class="staff_detail">
+                        <div class="staff_image">
+                          <img src="assets/images/writer.png" alt="">
+                        </div>
+                        <p>Jenika Dahal</p>
+                        <span>Ceo</span>
+                      </div>
                     </div>
-                    <div class="content content3">
-                      <div class="icon-container"></div>
-                      <p>Professional Expertise</p>
+                    <div class="col-lg-2">
+                      <div class="staff_detail">
+                        <div class="staff_image">
+                          <img src="assets/images/staff1.jpg" alt="">
+                        </div>
+                        <p>Jenika Dahal</p>
+                        <span>Staff</span>
+                      </div>
                     </div>
-                    <div class="content content4">
-                      <div class="icon-container"></div>
-                      <p>Prime Location</p>
+                    <div class="col-lg-2">
+                      <div class="staff_detail">
+                        <div class="staff_image">
+                          <img src="assets/images/staff2.jpg" alt="">
+                        </div>
+                        <p>Jenika Dahal</p>
+                        <span>Principal</span>
+                      </div>
                     </div>
-                    <div class="content content5">
-                      <div class="icon-container"></div>
-                      <p>Purposeful Spaces</p>
+                    <div class="col-lg-2">
+                      <div class="staff_detail">
+                        <div class="staff_image">
+                          <img src="assets/images/staff3.jpg" alt="">
+                        </div>
+                        <p>Jenika Dahal</p>
+                        <span>Co ordinator</span>
+                      </div>
                     </div>
-                    <div class="content content6">
-                      <div class="icon-container"></div>
-                      <p>Partnerships with Parents and Educational Organizations</p>
+                    <div class="col-lg-2">
+                      <div class="staff_detail">
+                        <div class="staff_image">
+                          <img src="assets/images/staff4.jpg" alt="">
+                        </div>
+                        <p>Jenika Dahal</p>
+                        <span>Teacher</span>
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="staff_detail">
+                        <div class="staff_image">
+                          <img src="assets/images/staff1.jpg" alt="">
+                        </div>
+                        <p>Jenika Dahal</p>
+                        <span>Manager</span>
+                      </div>
                     </div>
                   </div>
                 </section>
 
+
+                
               </main>
             </div>
 
@@ -577,6 +682,7 @@
 <script src="assets/js/bootstrap.min.js"></script>
 
 <script src="assets/js/slick.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
 <script type="text/javascript">
 
   $('.responsive').slick({
@@ -673,7 +779,29 @@
 
 
 </script>
+<script>
+  $('.core_owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:false
+      },
+      600:{
+          items:3,
+          nav:false
+      },
+      1000:{
+          items:5,
+          nav:true,
+          
+      }
+  }
+})
 
+</script>
 
   <script src="assets/js/main.js"></script>
 </html>
