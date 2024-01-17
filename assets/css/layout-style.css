@@ -925,3 +925,9 @@ ul#custom_program-group {
 .Next_color2 {
     background: #304B82;
 }
+.academic-block .slick-prev.slick-arrow {
+    display: none !important;
+}
+.academic-block .slick-next.slick-arrow {
+    display: none !important;
+}
