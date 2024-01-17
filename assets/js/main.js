@@ -79,7 +79,7 @@ adv_btn.addEventListener('click', () => {
     let bod_content = document.querySelectorAll('.bod-content')
 
     adv_content.forEach((item) => {
-        item.style = "display: block !important; transition: all 0.5s ease-in-out;";
+        item.style = "display: flex !important; transition: all 0.5s ease-in-out;";
     });
     bod_content.forEach((item) => {
         item.style = "display: none !important; transition: all 0.5s ease-in-out;";
@@ -97,7 +97,7 @@ bod_btn.addEventListener('click', () => {
         item.style = "display: none !important; transition: all 0.5s ease-in-out;";
     });
     bod_content.forEach((item) => {
-        item.style = "display: block !important; transition: all 0.5s ease-in-out;";
+        item.style = "display: flex !important; transition: all 0.5s ease-in-out;";
     });
 });
 

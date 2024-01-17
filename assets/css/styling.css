@@ -92,13 +92,13 @@
 
 /* Privacy Page */
 
-section.privacy-section{
+section.news-section{
   margin-top:-100px;
   position: relative;
   padding:0 100px;
 }
 
-.privacy-image{
+.news-image{
   height: 420px;
   width: 100%;
   display: flex;
@@ -107,7 +107,7 @@ section.privacy-section{
   margin-bottom: 50px;
 }
 
-.privacy-image img{
+.news-image img{
   height: 100%;
   width: 600px;
   object-fit: cover;
@@ -115,7 +115,7 @@ section.privacy-section{
   margin:0px auto;
 }
 
-.privacy-content p{
+.news-content p{
   color: var(--black, #3A4146);
 font-family: Manrope;
 font-size: 20px;
@@ -127,7 +127,7 @@ width: 100%;
 margin-bottom: 10px;
 }
 
-.privacy-content h2{
+.news-content h2{
   color: rgba(0, 0, 0, 0.80);
 font-family: Manrope;
 font-size: 32px;
@@ -153,18 +153,12 @@ margin-bottom: 10px;
 @media(max-width:960px)
 {
 
-  section.privacy-section{
+  section.news-section{
     padding:16px;
   }
 
 
-  .privacy-header{
-    text-align: left !important;
-    width: 100%;
-    margin-top: 40px;
-  }
-
-  .privacy-image img{
+  .news-image img{
     width: 98%;
   }
 
@@ -189,11 +183,11 @@ margin-bottom: 10px;
 
 @media(max-width:440px)
 {
-  section.privacy-section{
+  section.news-section{
     padding:10px;
   }
   
-  .privacy-image img{
+  .news-image img{
     width: 100%;
   }
 
@@ -240,6 +234,9 @@ margin-bottom: 10px;
   }
 }
 
+.newsAndArticle .news{
+  cursor: pointer;
+}
 
 .adProcess.visible{
   opacity:1 !important;
@@ -258,4 +255,46 @@ margin-bottom: 10px;
 
 .na-block1.abc img{
   height: 350px !important;
+}
+
+
+@media (max-width:760px)
+{
+  .newsAndArticle{
+    padding:0px !important;
+  }
+
+  .newsAndArticle h2{
+    font-size: 38px;
+  }
+
+  .newsAndArticle .news img{
+    width: 100%;
+    height: auto;
+  }
+
+  .content-2-main-content h2{
+    font-size: 38px !important;
+  }
+}
+
+.adv-content h2, .bod-content h2{
+  text-align: left;
+}
+
+.adv-content p, .bod-content p{
+  text-align: left;
+}
+
+.bod-content{
+  display: none !important;
+}
+
+
+.newsAndArticle .news img{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
