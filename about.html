@@ -36,8 +36,7 @@
   <link href="assets/css/unibreak.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/layout-style.css">
   <link rel="stylesheet" href="assets/css/icons.css">
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-
+  <link rel="stylesheet" href="assets/css/styling.css">
   <style>
     body.modal-open {
     overflow: hidden;
@@ -61,80 +60,79 @@
 
 <body>
 
-      <!-- Navbar -->
-      <header class="site_header_wrapper">
-        <nav class="navbar navbar-expand-lg site_navbar">
-          <div class="container">
-            <a class="site_navbar-brand" href="#"><img src="assets/images/uniglobe_logo.png" alt=""></a>
-            <button class="navbar-toggler d-sm-none d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+    <!-- Navbar -->
+    <header class="site_header_wrapper">
+      <nav class="navbar navbar-expand-lg site_navbar">
+        <div class="container">
+          <a class="site_navbar-brand" href="index.html"><img src="assets/images/uniglobe_logo.png" alt=""></a>
+          <button class="navbar-toggler d-sm-none d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="nav_trigger d-lg-none">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="26" viewBox="0 0 38 26" fill="none">
+                <path d="M1 1H37M1 13H37M1 25H37" stroke="black" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
             </button>
-            <div class="nav_trigger d-lg-none">
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " href="about.html">About Us</a>
+                <ul class="static_horizontal_sub_menu">
+                  <Li><a href="about.html">About Us</a></Li>
+                  <Li><a href="contact.html">Contact Us</a></Li>
+                  <Li><a href="community-a.html">Our Community</a></Li>
+                  <Li><a href="event.html">News & Events</a></Li>
+                  <Li><a href="career.html">Career <span>3! Openings</span></a></Li>
+                  <Li><a href="testimonial.html">Testimonials</a></Li>
+                  <Li><a href="news.html">News & Arricles</a></Li>
+                  <Li><a href="faq.html">FAQs</a></Li>
+                </ul>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="academic.html">Academic</a>
+                <ul class="static_horizontal_sub_menu">
+                  <Li><a href="academic.html">PreSchool</a></Li>
+                  <Li><a href="academic.html">Junior School</a></Li>
+                  <Li><a href="academic.html">Middle School</a></Li>
+                  <Li><a href="academic.html">Senior School</a></Li>
+                </ul>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="admission.html">Admissions</a>
+                <ul class="static_horizontal_sub_menu">
+                  <Li><a href="admission.html">Admissions Process</a></Li>
+                  <Li><a href="admission.html">Required documents</a></Li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="facility.html">Facilities</a>
+                <ul class="static_horizontal_sub_menu">
+                  <Li><a href="facility.html">Classrooms</a></Li>
+                  <Li><a href="facility.html">Reading Room</a></Li>
+                  <Li><a href="facility.html">Digital Hall</a></Li>
+                  <Li><a href="facility.html">Playgrounds and Community Spaces</a></Li>
+                  <Li><a href="facility.html">Learning Lab</a></Li>
+                  <Li><a href="facility.html">Multipurpose Hall</a></Li>
+                  <Li><a href="facility.html">News & Arricles</a></Li>
+                  <Li><a href="facility.html">ECA Rooms</a></Li>
+                </ul>
+              </li>
+            </ul>
+              <div class="nav_trigger">
               <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <svg xmlns="http://www.w3.org/2000/svg" width="38" height="26" viewBox="0 0 38 26" fill="none">
                   <path d="M1 1H37M1 13H37M1 25H37" stroke="black" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
               </button>
-             </div>
-             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link " href="about.html">About Us</a>
-                  <ul class="static_horizontal_sub_menu">
-                    <Li><a href="about.html">About Us</a></Li>
-                    <Li><a href="contact.html">Contact Us</a></Li>
-                    <Li><a href="community-a.html">Our Community</a></Li>
-                    <Li><a href="event.html">News & Events</a></Li>
-                    <Li><a href="career.html">Career <span class="badge_style">3!</span></a></Li>
-                    <Li><a href="testimonial.html">Testimonials</a></Li>
-                    <Li><a href="news.html">News & Arricles</a></Li>
-                    <Li><a href="faq.html">FAQs</a></Li>
-                  </ul>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link " href="academic.html">Academic</a>
-                  <ul class="static_horizontal_sub_menu">
-                    <Li><a href="academic.html">School</a></Li>
-                    <Li><a href="academic.html">Junior School</a></Li>
-                    <Li><a href="academic.html">Middle School</a></Li>
-                    <Li><a href="academic.html">Senior School</a></Li>
-                  </ul>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link " href="admission.html">Admissions</a>
-                  <ul class="static_horizontal_sub_menu">
-                    <Li><a href="admission.html">Admissions Process</a></Li>
-                    <Li><a href="admission.html">Required documents</a></Li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="facility.html">Facilities</a>
-                  <ul class="static_horizontal_sub_menu">
-                    <Li><a href="facility.html">Classrooms</a></Li>
-                    <Li><a href="facility.html">Reading Room</a></Li>
-                    <Li><a href="facility.html">Digital Hall</a></Li>
-                    <Li><a href="facility.html">Playgrounds</a></Li>
-                    <Li><a href="facility.html">Learning Lab</a></Li>
-                    <Li><a href="facility.html">Multipurpose Hall</a></Li>
-                    <Li><a href="facility.html">News & Arricles</a></Li>
-                    <Li><a href="facility.html">ECA Rooms</a></Li>
-                  </ul>
-                </li>
-              </ul>
-               <div class="nav_trigger">
-                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="38" height="26" viewBox="0 0 38 26" fill="none">
-                    <path d="M1 1H37M1 13H37M1 25H37" stroke="black" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-               </div>
-            </div>
+              </div>
           </div>
-        </nav>
-      </header>
-      
-      <!-- header model  -->
-      
+        </div>
+      </nav>
+    </header>
+
+    <!-- header model  -->
     <!-- Modal -->
     <div class="main-modal modal fade custom_modal_wrapper" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -163,7 +161,7 @@
               <div class="col-lg-3 col-6">
                 <h3>Academic</h3>
                 <ul class="menu_style">
-                  <li><a href="academic.html">School </a></li>
+                  <li><a href="academic.html">PreSchool </a></li>
                   <li><a href="academic.html">Junior School </a></li>
                   <li><a href="academic.html">Middle School </a></li>
                   <li><a href="academic.html">Senior School </a></li>
@@ -199,23 +197,21 @@
         </div>
       </div>
     </div>
-
-
      
-      <section class="bread_wrapper-block">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="bread_content-wrap">
-                <h2>About Us</h2>
-                <p>We believe in each student's great potential to achieve dreams through education, confidence, values, and knowledge.</p>
-              </div>
+    <section class="bread_wrapper-block">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="bread_content-wrap">
+              <h2>About Us</h2>
+              <p>We believe in each student's great potential to achieve dreams through education, confidence, values, and knowledge.</p>
             </div>
           </div>
         </div>
-      </section>
-      <!-- about top block end -->
-  
+      </div>
+    </section>
+    <!-- about top block end -->
+
     <section class="about-tab">
       <div class="container-fluid">
         <div class="row">
@@ -265,22 +261,32 @@
                       </div>
                     </div>
                     <div class="content-2-main-content col-md-12 d-flex align-items-start justify-content-center flex-wrap">
-                      <div class="adv-content image-container d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6">
+                      <div class="adv-content image-container d-flex flex-column align-items-center justify-content-center col-md-4 col-lg-4">
                         <img class="gov-bdy-1" src="assets/images/Mask group.svg" alt="">
                         <h2 class="title">Prof. Pushkar Bajracharya, PhD</h2>
                         <p>Chief Advisor, Professional Educators Limited</p>
                       </div>
-                      <div class="adv-content image-container d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6">
+                      <div class="adv-content image-container d-flex flex-column align-items-center justify-content-center col-md-4 col-lg-4">
                         <img class="gov-bdy-1" src="assets/images/Mask group.svg" width="50%" alt="">
                         <h2 class="title">Prof. Pushkar Bajracharya, PhD</h2>
                         <p>Chief Advisor, Professional Educators Limited</p>
                       </div>
-                      <div class="adv-content image-container d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6">
+                      <div class="adv-content image-container d-flex flex-column align-items-center justify-content-center col-md-4 col-lg-4">
+                        <img class="gov-bdy-1" src="assets/images/Mask group.svg" width="50%" alt="">
+                        <h2 class="title">Prof. Pushkar Bajracharya, PhD</h2>
+                        <p>Chief Advisor, Professional Educators Limited</p>
+                      </div>
+                      <div class="bod-content image-container d-flex flex-column align-items-center justify-content-center  col-md-4 col-lg-4">
                         <img class="gov-bdy-1" src="assets/images/Mask group.svg" alt="">
                         <h2 class="title">Prof. Pushkar Bajracharya, PhD</h2>
                         <p>Chief Advisor, Professional Educators Limited</p>
                       </div>
-                      <div class="bod-content image-container d-flex flex-column align-items-center justify-content-center  col-md-6 col-lg-6">
+                      <div class="bod-content image-container d-flex flex-column align-items-center justify-content-center  col-md-4 col-lg-4">
+                        <img class="gov-bdy-1" src="assets/images/Mask group.svg" alt="">
+                        <h2 class="title">Prof. Pushkar Bajracharya, PhD</h2>
+                        <p>Chief Advisor, Professional Educators Limited</p>
+                      </div>
+                      <div class="bod-content image-container d-flex flex-column align-items-center justify-content-center  col-md-4 col-lg-4">
                         <img class="gov-bdy-1" src="assets/images/Mask group.svg" alt="">
                         <h2 class="title">Prof. Pushkar Bajracharya, PhD</h2>
                         <p>Chief Advisor, Professional Educators Limited</p>
@@ -488,9 +494,6 @@
         </div>
       </div>
     </section>
-
-
-
     <div class="clearfix"></div><!-- school history section end -->
 
     <section class="school-empowering">
@@ -540,9 +543,6 @@
         </div>
       </div>
     </section><!-- mission, vission and value section end -->
-
-
-
 
     <section class="brochure-block">
       <div class="container">

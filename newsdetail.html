@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>:: News & Articles :: Uniglobal School</title>
+    <title>:: About Us :: Uniglobal School</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -33,35 +33,137 @@
     <link href="assets/css/unistyle.css" rel="stylesheet">
     <link href="assets/css/unibreak.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/layout-style.css">
-    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="assets/css/styling.css">
+
 
     <style>
+
+      .details{
+        border-top:1px solid rgba(0, 0, 0, 0.15);
+        border-bottom:1px solid rgba(0, 0, 0, 0.15);
+        width: 80%;
+        margin:10px auto;
+        padding: 20px 0px;
+        justify-content: space-between;
+        flex-wrap:wrap;
+      }
+
       body.modal-open {
       overflow: hidden;
       position: fixed;
       }
-    </style>
-  
-  <script>
-  
-    $("#exampleModal").on("show", function () {
-      $("body").addClass("modal-open");
-    }).on("hidden", function () {
-      $("body").removeClass("modal-open")
-    });
-  
-  </script>
 
+
+      .content h3{
+        color: rgba(0, 0, 0, 0.80);
+      font-family: Manrope;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.48px;
+      }
+
+      .content p{
+        color: rgba(0, 0, 0, 0.60);
+      font-family: Manrope;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      }
+
+      .share-btn
+      {
+        border-radius: 100px;
+        border: 1px solid var(--black, #3A4146);
+        width: fit-content;
+
+        color: var(--black, #3A4146);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding:10px;
+        background:transparent;
+      }
+
+      @media(max-width:600px)
+      {
+        .details{
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap:20px;
+        }
+
+        .share-btn
+        {
+          width: 100%;
+        }
+        .share{
+          width:100%;
+        }
+      }
+
+      @media(max-width:960px)
+      {
+        .news{
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          gap:20px;
+        }
+        .img{
+          width: 100%;
+        }
+      }
+
+      section.newsAndArticle{
+        padding:100px;
+      }
+
+      .news-detail .date{
+        width: fit-content;
+        border-radius: 4px;
+        background: rgba(226, 84, 59, 0.10);
+      }
+
+      .news-detail .news-title{
+        color: rgba(0, 0, 0, 0.80);
+        font-family: Neuton;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+
+    </style>
+
+
+<script>
+  
+  $("#exampleModal").on("show", function () {
+    $("body").addClass("modal-open");
+  }).on("hidden", function () {
+    $("body").removeClass("modal-open")
+  });
+
+</script>
 
   </head>
 
+
   <body>
 
+      
       <!-- Navbar -->
       <header class="site_header_wrapper">
         <nav class="navbar navbar-expand-lg site_navbar">
           <div class="container">
-            <a class="site_navbar-brand" href="#"><img src="assets/images/uniglobe_logo.png" alt=""></a>
+            <a class="site_navbar-brand" href="index.html"><img src="assets/images/uniglobe_logo.png" alt=""></a>
             <button class="navbar-toggler d-sm-none d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -81,7 +183,7 @@
                     <Li><a href="contact.html">Contact Us</a></Li>
                     <Li><a href="community-a.html">Our Community</a></Li>
                     <Li><a href="event.html">News & Events</a></Li>
-                    <Li><a href="career.html">Career <span class="badge_style">3!</span></a></Li>
+                    <Li><a href="career.html">Career <span>3! Openings</span></a></Li>
                     <Li><a href="testimonial.html">Testimonials</a></Li>
                     <Li><a href="news.html">News & Arricles</a></Li>
                     <Li><a href="faq.html">FAQs</a></Li>
@@ -90,7 +192,7 @@
                 <li class="nav-item ">
                   <a class="nav-link " href="academic.html">Academic</a>
                   <ul class="static_horizontal_sub_menu">
-                    <Li><a href="academic.html">School</a></Li>
+                    <Li><a href="academic.html">PreSchool</a></Li>
                     <Li><a href="academic.html">Junior School</a></Li>
                     <Li><a href="academic.html">Middle School</a></Li>
                     <Li><a href="academic.html">Senior School</a></Li>
@@ -99,8 +201,8 @@
                 <li class="nav-item ">
                   <a class="nav-link " href="admission.html">Admissions</a>
                   <ul class="static_horizontal_sub_menu">
-                    <Li><a href="admission.html">Admissions Process</a></Li>
-                    <Li><a href="admission.html">Required documents</a></Li>
+                    <Li><a href="admission-process.html">Admissions Process</a></Li>
+                    <Li><a href="required-documents.html">Required documents</a></Li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -159,7 +261,7 @@
               <div class="col-lg-3 col-6">
                 <h3>Academic</h3>
                 <ul class="menu_style">
-                  <li><a href="academic.html">School </a></li>
+                  <li><a href="academic.html">PreSchool </a></li>
                   <li><a href="academic.html">Junior School </a></li>
                   <li><a href="academic.html">Middle School </a></li>
                   <li><a href="academic.html">Senior School </a></li>
@@ -195,119 +297,71 @@
         </div>
       </div>
     </div>
-
-
-  
-
      
     <section class="bread_wrapper-block">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <div class="bread_content-wrap">
-              <h2>News</h2>
-              <p>Below you will find detailed information about our admissions process, the documents required for application, and an overview of our fee structures.</p>
+            <div class="privacy-header bread_content-wrap">
+              <h2>Parent Information Session on “Temper Tantrums"</h2>
+              <!-- <p>Below you will find detailed information about our admissions process, the documents required for application, and an overview of our fee structures.</p> -->
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- about top block end -->
-    <section class="ndet_img">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-              <div class="ndet_img_shape">
-                <img src="assets/images/detimg_shape.png" class="img-responsive" alt="uniglobe">
-              </div>
-          </div>
-        </div><div class="clearfix"></div>
+   
+    <section class="news-section">
+      <div class="news-image">
+        <img src="assets/images/privacy-img.jfif" alt="">
       </div>
-    </section><div class="clearfix"></div><!-- article detail image end -->
+      <div class="news-content">
+        <p>Uniglobe School is proud to be the main sponsor of the 10th Kinder Olympics 2079 which promotes healthy participation in sports, an important aspect of holistic development. The Kinder Olympics is an annual event organized by the Early Childhood Education Teachers Association (ECETA) with the motto of "participation is more important than winning" and with the mission of encouraging participation in sports and social interaction among more than 1200 kindergarten and school students of Kathmandu Valley. The sports event is taking place in Dasharath Stadium on Poush 2 and Poush 9. Good Luck to all the children participating!</p>
+        <h2>Parent Information Session on “Temper Tantrums"</h2>
+        <p>Uniglobe School is proud to be the main sponsor of the 10th Kinder Olympics 2079 which promotes healthy participation in sports, an important aspect of holistic development. The Kinder Olympics is an annual event organized by the Early Childhood Education Teachers Association (ECETA) with the motto of "participation is more important than winning" and with the mission of encouraging participation in sports and social interaction among more than 1200 kindergarten and school students of Kathmandu Valley. The sports event is taking place in Dasharath Stadium on Poush 2 and Poush 9. Good Luck to all the children participating!</p>
+      </div>
+    </section>
 
-    <section class="ndet_content" style="background-image:url(assets/images/Vector4.png)" class="img-responsive">
-      <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-
-              <div class="object_cue"> <img src="assets/images/obs_star.png" class="img-responsive"> </div>
-            
-              <p>Uniglobe School is proud to be the main sponsor of the 10th Kinder Olympics 2079 which promotes healthy participation in sports, an important aspect of holistic development. The Kinder Olympics is an annual event organized by the Early Childhood Education Teachers Association (ECETA) with the motto of "participation is more important than winning" and with the mission of encouraging participation in sports and social interaction among more than 1200 kindergarten and school students of Kathmandu Valley. The sports event is taking place in Dasharath Stadium on Poush 2 and Poush 9. Good Luck to all the children participating!</p>
-
-              <h3>Parent Information Session on "Temper Tantrums"</h3>
-
-              <p>Uniglobe School is proud to be the main sponsor of the 10th Kinder Olympics 2079 which promotes healthy participation in sports, an important aspect of holistic development. The Kinder Olympics is an annual event organized by the Early Childhood Education Teachers Association (ECETA) with the motto of "participation is more important than winning" and with the mission of encouraging participation in sports and social interaction among more than 1200 kindergarten and school students of Kathmandu Valley. The sports event is taking place in Dasharath Stadium on Poush 2 and Poush 9. Good Luck to all the children participating!</p>
-
-
-              <div class="ndet_share">
-                <div class="row">
-                  <div class="col-md-9">
-                    <div class="social_content">
-                      <div class="social-c-img"> <img src="assets/images/Ellipse12.png" class="img-responsive"> </div>
-                      <h4>Sujata Karki</h4>
-                      <p>Writer and member of Uniglobe School</p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3">
-                    <div class="share_tb">
-                      <a href=""> Share </a>
-                    </div>
-                  </div>
-                </div>
-              </div><div class="clearfix"></div>
+    <section class="writer-section m-3 p-3">
+      <div class="details d-flex align-items-center">
+        <div class="content d-flex align-items-center justify-content-center">
+          <img class="rounded-circle" src="assets/images/writer.png" width="100px" alt="">
+          <div class="name ms-3">
+            <h3>Ms. Sushma Shrestha</h3>
+            <p>Principal</p>
+          </div>
+        </div>  
+        <div class="share">
+          <button class="share-btn">Share</button>
+        </div>
+      </div>
+    </section>
 
 
-              <div class="recent_news">
-
-                  <div class="recent_update1">
-                    <h3>Recent News & Articles</h3>
-
-                    <div class="rn_sec">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <div class="na_block">
-                          <img src="assets/images/news_a.png" class="img-responsive" alt="news_image">
-                        </div>
-                      </div>
-                      <div class="col-md-9">
-                        <div class="na_block_content">
-                          <div class="text-highlight"> Yesterday Posted </div>
-                          <h3><a href="#"> Parent Information Session on "Temper Tantrums" </a></h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div><div class="clearfix"></div>
-
-                  <div class="rn_sec">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <div class="na_block">
-                          <img src="assets/images/news_b.png" class="img-responsive" alt="news_image">
-                        </div>
-                      </div>
-                      <div class="col-md-9">
-                        <div class="na_block_content">
-                          <div class="text-highlight"> 3 days ago Posted </div>
-                          <h3><a href="#"> 10th Kinder Olympics 2079 </a></h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div><div class="clearfix"></div>
-
-
-
-                  </div><div class="clearfix"></div>
-
-
-
-              </div><div class="clearfix"></div>
-            
+    <section class="newsAndArticle">
+      <div class="header mb-3">
+        <h2>Recent News & Articles</h2>
+        <div class="news  mb-3 d-flex align-items-center gap-3">
+          <div class="img"><img class="rounded-3" src="assets/images/news2.png" width="300px" alt=""></div>
+          <div class="news-detail">
+            <div class="date mb-2"></div>
+            <div class="news-title mb-2">
+              <h2>10th Kinder Olympics 2079</h2>
+            </div>
+          </div>
+        </div>
+        <div class="news mb-3 d-flex align-items-center gap-3">
+          <div class="img"><img class="rounded-3" src="assets/images/news_c.png" width="300px" alt=""></div>
+          <div class="news-detail">
+            <div class="date mb-2">16 days ago posted</div>
+            <div class="news-title mb-2">
+              <h2>The Mixed Up Chameleon</h2>
+            </div>
           </div>
         </div>
       </div>
-
-    </section><div class="clearfix"></div><!-- article detail content end -->
+    </section>
 
       
 
@@ -317,7 +371,7 @@
             <div class="col-md-12">
               <div class="down-broch">
                 <h3>Want to know more about our school?</h3>
-                <div class="download-a"> <a href="https://drive.google.com/file/d/1170oP4HlsE_6DJ_t_iQfzQicZ9XBqRVp/view"> Download Brochure </a> </div>
+                <div class="download-a"> <a href="#"> Download Brochure </a> </div>
 
                 <div class="broch-a"> <img src="assets/images/see1.png" class="img-responsive"> </div>
                 <div class="broch-b"> <img src="assets/images/see2.png" class="img-responsive"> </div>
@@ -439,8 +493,6 @@
     
 
 
-          
-
 
   </body>
 
@@ -452,81 +504,6 @@
      
      <script src="assets/js/slick.js"></script>
      <script type="text/javascript">
-
-      $('.responsive').slick({
-            dots: true,
-            infinite: false,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            responsive: [
-              {
-                breakpoint: 1024,
-                settings: {
-                  slidesToShow: 2,
-                  slidesToScroll: 1,
-                  infinite: true,
-                  dots: true
-                }
-              },
-              {
-                breakpoint: 600,
-                settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1
-                }
-              },
-              {
-                breakpoint: 480,
-                settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1
-                }
-              }
-              // You can unslick at a given breakpoint now by adding:
-              // settings: "unslick"
-              // instead of a settings object
-            ]
-          });
-
-      $('.autoplay').slick({
-        dots: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        responsive: [
-              {
-                breakpoint: 1024,
-                settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                  infinite: true,
-                  dots: true
-                }
-              },
-              {
-                breakpoint: 600,
-                settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1
-                }
-              },
-              {
-                breakpoint: 480,
-                settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1
-                }
-              }
-              // You can unslick at a given breakpoint now by adding:
-              // settings: "unslick"
-              // instead of a settings object
-            ]
-      });
-
-      
        $(document).ready(function(){
     $(".dropdown").on("show.bs.dropdown", function(event){
         $('.dropdown-menu').css("width", $('.container').width()+'px');
