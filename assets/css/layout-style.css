@@ -978,3 +978,19 @@ ul#custom_program-group {
      
 }
 /* '\f053' */
+
+.modal-open {
+    padding-right: 0 !important;
+}
+
+#exampleModal {
+    padding-right: 0 !important;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+.custom_modal_wrapper .modal-dialog {
+  
+    width: 100vw;
+    min-width: 100vw;
+}
