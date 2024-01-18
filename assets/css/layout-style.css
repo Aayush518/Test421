@@ -754,7 +754,7 @@ section.bread_wrapper-block:after{
         padding: 0;
     }
     .nav_trigger button {
-        z-index: 99999;
+        z-index: 1;
         position: relative;
     }
     .main-banner {
