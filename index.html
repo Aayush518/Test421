@@ -47,7 +47,7 @@
 <body>
 
   <!-- Navbar -->
-  <header class="site_header_wrapper">
+  <header class="site_header_wrapper" id="nav_fixing">
     <nav class="navbar navbar-expand-lg site_navbar">
       <div class="container">
         <a class="site_navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
@@ -155,8 +155,8 @@
               <div class="col-lg-3 col-6">
                 <h3>Admissions</h3>
                 <ul class="menu_style">
-                  <li><a href="admission.html">Admission Process </a></li>
-                  <li><a href="admission.html">Required Documents </a></li>
+                  <li><a href="admission-process.html">Admission Process </a></li>
+                  <li><a href="required-documents.html">Required Documents </a></li>
                 </ul>
               </div>
               <div class="col-lg-3 col-6">
@@ -181,7 +181,10 @@
           
         </div>
       </div>
-    </div><!-- Header Section End -->
+    </div>
+<!-- header model  -->
+
+
 
   <!-- Main Banner Section -->
   <section class="main-banner">
@@ -197,14 +200,14 @@
         </div>
 
         <div class="hero-btns">
-          <button><i class="bi bi-book"></i> Academic Divisions</button>
-          <button><i class="fa-solid fa-phone-volume"></i> 01-4221049</button>
-          <button class="virtour d-none"><i class="bi bi-box"></i> Virtual tour</a></button>
+          <button onclick="window.location.href='academic.html'"><i class="bi bi-book"></i> Academic Divisions</button>
+          <button><i class="fa-solid fa-phone-volume"></i> 01-5321049</button>
+          <button class="virtour d-none d-sm-none d-md-none d-lg-none"><i class="bi bi-box"></i> Virtual tour</a></button>
         </div>       
       
         <div class="hero-footer">
           <div class="myvirtualtour">
-            <button class="my-virtualtour"><i class="bi bi-box"></i> Virtual tour</a></button>
+            <button class="my-virtualtour d-sm-none d-md-none d-lg-none"><i class="bi bi-box"></i> Virtual tour</a></button>
           </div>
           <div class="my-mouse">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
@@ -270,7 +273,7 @@
             <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
               <input type="text" name="name" id="name" placeholder="Email*">
             </div>
-            <div class="inp-grp col-lg-5 col-md-5 col-sm-12 col-12">
+            <div class="inp-grp col-lg- col-md-4 col-sm-12 col-12">
               <select name="reason-for-inquiry" id="reason-for-inquiry">
                 <option value="">Reason for Inquiry</option>
                 <option value="General Inquiry">General Inquiry</option>
@@ -280,13 +283,29 @@
                 <option value="Fee Structure and Scholarships">Fee Structure and Scholarships</option>
               </select>
             </div>
-            <div class="inp-grp col-lg-5 col-md-5 col-sm-12 col-12">
+            <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
               <select name="How did you hear about us?" id="How did you hear about us?">
                 <option value="">How did you hear about us?</option>
                 <option value="Social Media">Social Media</option>
                 <option value="Friends">Friends</option>
                 <option value="Internet">Internet</option>
                 <option value="News">News</option>
+              </select>
+            </div>
+            <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
+              <select name="How did you hear about us?" id="How did you hear about us?">
+                <option value="">Grade</option>
+                <option value="Social Media">Playgroup</option>
+                <option value="Friends">Nursery</option>
+                <option value="Internet">LKG</option>
+                <option value="News">UKG</option>
+                <option value="News">1</option>
+                <option value="News">2</option>
+                <option value="News">3</option>
+                <option value="News">4</option>
+                <option value="News">5</option>
+                <option value="News">6</option>
+                <option value="News">7</option>
               </select>
             </div>
             <button class="btn-submit mb-2 col-lg-3 col-md-3 col-sm-5 col-5" data-bs-dismiss="modal">Submit</button>
@@ -422,22 +441,28 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="teacher">
-                  <img src="assets/images/Uniglobe Preschool_teacher.png" class="img-responsive" alt="teacher">
+                  <a href="#">
+                    <img src="assets/images/Uniglobe Preschool_teacher.png" class="img-responsive" alt="teacher">
                   <div class="teacher-title">Meet Our Teachers</div>
+                  </a>
                 </div>
               </div>
 
               <div class="col-md-4">
                 <div class="teacher parents">
-                  <img src="assets/images/Uniglobe Preschool_parents.png" class="img-responsive" alt="teacher">
-                  <div class="teacher-title">Our Partner Parents</div>
+                  <a href="#">
+                    <img src="assets/images/Uniglobe Preschool_parents.png" class="img-responsive" alt="teacher">
+                  <div class="teacher-title">Our Parents</div>
+                  </a>
                 </div>
               </div>
 
               <div class="col-md-4">
                 <div class="teacher voice">
+                 <a href="#">
                   <img src="assets/images/voice_of_students.png" class="img-responsive" alt="teacher">
                   <div class="teacher-title">Voice of Students</div>
+                 </a>
                 </div>
               </div>
             </div>
@@ -522,7 +547,7 @@
 
             <div class="vts-title">
               <h2>Video / Testimonials</h2>
-              <p>We believe in each student's great potential to achieve dreams through education, confidence, values,
+              <p>We believe in each student's great potential to achieve Excellence through education, confidence, values,
                 and knowledge.</p>
             </div>
             <div class="clearfix"></div>
@@ -536,8 +561,10 @@
                   <div class="col-md-12">
                     <div class="unslide-1 vts-a">
                       <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item"
-                          src="https://www.youtube.com/embed/TE1MVppw-d4?si=-ozCyovwNW9GdABK?autoplay=1" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/TE1MVppw-d4?si=zHTkK-Sy5ZK9cTkD?autoplay=1" title="YouTube video player" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                         allowfullscreen>
+                        </iframe>
                       </div>
                     </div>
                   </div>
@@ -548,8 +575,10 @@
                   <div class="col-md-12">
                     <div class="unslide-1 vts-a">
                       <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0?autoplay=1"
-                          allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/TE1MVppw-d4?si=zHTkK-Sy5ZK9cTkD?autoplay=1" title="YouTube video player" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                         allowfullscreen>
+                        </iframe>
                       </div>
                     </div>
                   </div>
@@ -559,8 +588,10 @@
                   <div class="col-md-12">
                     <div class="unslide-1 vts-a">
                       <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item"
-                          src="https://www.youtube.com/embed/TE1MVppw-d4?si=-ozCyovwNW9GdABK?autoplay=1" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/TE1MVppw-d4?si=zHTkK-Sy5ZK9cTkD?autoplay=1" title="YouTube video player" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                         allowfullscreen>
+                        </iframe>
                       </div>
                     </div>
                   </div>
@@ -665,7 +696,7 @@
                       </h2>
                       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
                         <div class="accordion-body">
-                          We are located at Kamaladi, Kathmandu (Opposite to National Academy Hall)
+                          We are located at Kamaladi, Kathmandu (Opposite to Nepal Academy Hall)
                         </div>
                       </div>
                     </div>
@@ -1123,15 +1154,15 @@
     responsive:{
         0:{
             items:1,
-            nav:false
+            nav:true
         },
         600:{
             items:2,
-            nav:false
+            nav:true
         },
         1000:{
             items:2,
-            nav:false,
+            nav:true,
             
         }
     }
@@ -1247,7 +1278,21 @@
     // loop: true,
   });
 </script>
+<script>
+  $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
 
+     //>=, not <=
+    if (scroll >= 500) {
+        //clearHeader, not clearheader - caps H
+        $("#nav_fixing").addClass("fixNav").fadeIn('milliseconds');
+    }
+    else{
+      $("#nav_fixing").removeClass("fixNav");
+    }
+}); //missing );
+
+</script>
 <script src="assets/js/scroll.js"></script>
 
 </body>

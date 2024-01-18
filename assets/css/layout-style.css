@@ -994,3 +994,33 @@ ul#custom_program-group {
     width: 100vw;
     min-width: 100vw;
 }
+
+.Learn_owl-carousel .owl-nav button:not(:last-of-type) span{
+    margin-right: 30px;
+}
+ 
+.Learn_owl-carousel .owl-nav button span{
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    border:1px solid white;
+    font-size: 35px;
+    display: inline-block;
+    line-height: 30px;
+}
+@media (max-width:769px){
+    .Learn_owl-carousel .owl-nav button:not(:last-of-type) span{
+        margin-top: 30px;
+    }
+}
+.teacher a {
+    color: white;
+    text-decoration: none;
+}
+.fixNav {
+    position: fixed !important;
+    top: 0;
+    z-index: 9999;
+    background-color: #202020;
+    width: 100%;
+}

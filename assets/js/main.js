@@ -101,9 +101,6 @@ bod_btn.addEventListener('click', () => {
     });
 });
 
-console.log('hello');
-
-
 
 function displayAcademicContent(content)
 {
