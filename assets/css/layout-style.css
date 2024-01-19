@@ -1025,6 +1025,44 @@ ul#custom_program-group {
     width: 100%;
 }
 
-.fixNav{
-    
+.wrapper_content_of_college p {
+    text-align: left;
+    font-size: 16px !important;
+}
+.list_design {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: center;
+}
+
+.list_design li {
+    list-style: none;
+    background-color: #c0c52e;
+    padding: 5px 17px;
+    margin-bottom: 15px;
+    color: #595050;
+    position: relative;
+}
+
+.list_design li:not(last-of-type) {
+    margin-right: 15px;
+}
+
+.list_design i {
+    margin-right: 10px;
+    color:black;
+}
+.ms_crown{
+    position: relative;
+}
+.ms_crown:before{
+    content: '';
+    position: absolute;
+    top: 22px;
+    right: 19px;
+    background-image: url(../images/crown.png);
+    width: 150px;
+    height: 150px;
+    background-size: contain;
 }
