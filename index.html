@@ -1224,18 +1224,30 @@
   });
 </script>
 <script>
-  $(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
 
-     //>=, not <=
-    if (scroll >= 500) {
-        //clearHeader, not clearheader - caps H
-        $("#nav_fixing").addClass("fixNav").fadeIn('milliseconds');
-    }
-    else{
-      $("#nav_fixing").removeClass("fixNav");
-    }
-}); //missing );
+
+$(document).ready(function () {
+    var start = $('.header').offset().top;
+    $.event.add(window, "scroll", function () {
+        var p = $(window).scrollTop();
+        if( p > start ) {
+            $('body').addClass('fixed');
+        } else {
+            $('body').removeClass('fixed');
+        }
+    });
+});
+
+var lastScrollTop = 0;
+$(window).scroll(function(event){
+   var st = $(this).scrollTop();
+   if (st > lastScrollTop){
+    $("#nav_fixing").addClass("fixNav").fadeIn('milliseconds');
+   } else {
+    $("#nav_fixing").removeClass("fixNav");
+   }
+   lastScrollTop = st;
+});
 
 
 
