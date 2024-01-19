@@ -301,3 +301,7 @@ margin-bottom: 10px;
 .content-2-main-content .image-container img{
   width: 300px;
 } */
+
+.nav-link {
+  text-transform: uppercase;
+}
