@@ -3628,7 +3628,7 @@ input.ap-btm.btn.btn-success.btn-send {
   }
 
   .virtour{
-    display: inline-flex !important; 
+    /* display: inline-flex !important;  */
     align-items: center;
     justify-content: center;
   }
