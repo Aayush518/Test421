@@ -36,109 +36,107 @@
     <link rel="stylesheet" href="assets/css/styling.css">
 
 
-    <style>
+  <style>
 
+    .details{
+      border-top:1px solid rgba(0, 0, 0, 0.15);
+      border-bottom:1px solid rgba(0, 0, 0, 0.15);
+      width: 80%;
+      margin:10px auto;
+      padding: 20px 0px;
+      justify-content: space-between;
+      flex-wrap:wrap;
+    }
+
+
+
+    .content h3{
+      color: rgba(0, 0, 0, 0.80);
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    }
+
+    .content p{
+      color: rgba(0, 0, 0, 0.60);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+    .share-btn
+    {
+      border-radius: 100px;
+      border: 1px solid var(--black, #3A4146);
+      width: fit-content;
+
+      color: var(--black, #3A4146);
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding:10px;
+      background:transparent;
+    }
+
+    @media(max-width:600px)
+    {
       .details{
-        border-top:1px solid rgba(0, 0, 0, 0.15);
-        border-bottom:1px solid rgba(0, 0, 0, 0.15);
-        width: 80%;
-        margin:10px auto;
-        padding: 20px 0px;
-        justify-content: space-between;
-        flex-wrap:wrap;
-      }
-
-
-
-      .content h3{
-        color: rgba(0, 0, 0, 0.80);
-      font-family: Manrope;
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      letter-spacing: -0.48px;
-      }
-
-      .content p{
-        color: rgba(0, 0, 0, 0.60);
-      font-family: Manrope;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:20px;
       }
 
       .share-btn
       {
-        border-radius: 100px;
-        border: 1px solid var(--black, #3A4146);
-        width: fit-content;
-
-        color: var(--black, #3A4146);
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        padding:10px;
-        background:transparent;
+        width: 100%;
       }
-
-      @media(max-width:600px)
-      {
-        .details{
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          gap:20px;
-        }
-
-        .share-btn
-        {
-          width: 100%;
-        }
-        .share{
-          width:100%;
-        }
+      .share{
+        width:100%;
       }
+    }
 
-      @media(max-width:960px)
-      {
-        .news{
-          flex-direction: column;
-          align-items: flex-start;
-          justify-content: flex-start;
-          gap:20px;
-        }
-        .img{
-          width: 100%;
-        }
+    @media(max-width:960px)
+    {
+      .news{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap:20px;
       }
-
-      section.newsAndArticle{
-        padding:100px;
+      .img{
+        width: 100%;
       }
+    }
 
-      .news-detail .date{
-        width: fit-content;
-        border-radius: 4px;
-        background: rgba(226, 84, 59, 0.10);
-      }
+    section.newsAndArticle{
+      padding:100px;
+    }
 
-      .news-detail .news-title{
-        color: rgba(0, 0, 0, 0.80);
-        font-family: Neuton;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-      }
+    .news-detail .date{
+      width: fit-content;
+      border-radius: 4px;
+      background: rgba(226, 84, 59, 0.10);
+    }
+
+    .news-detail .news-title{
+      color: rgba(0, 0, 0, 0.80);
+      font-family: Neuton;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
 
 
-    </style>
-
-
+  </style>
 
   </head>
 
@@ -380,7 +378,7 @@
               <h4>About Us</h4>
               <ul>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About us</a></li>
+                <li><a href="#">About us</a></li>
                 <li><a href="event.html">News & Events</a></li>
                 <li><a href="career.html">Career <span class="badge_wrap">3 Opening!</span></a></li>
                 <li><a href="testimonial.html">Testimonials</a></li>
@@ -405,7 +403,6 @@
               <h4>Admissions</h4>
               <ul>
                 <li><a href="admission-process.html">Admission Process</a></li>
-                <li><a href="required-documents.html">Eligibility Criteria</a></li>
               
               </ul>
             </div>
@@ -491,7 +488,7 @@
         $('.dropdown-menu').css("width", $('.container').width()+'px');
     });
 });
-     </script>
+      </script>
 
 
 

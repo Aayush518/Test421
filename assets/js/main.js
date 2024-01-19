@@ -20,6 +20,8 @@ function viewMoreFaq() {
 }
 
 let facilityTabs = document.querySelectorAll('.facility-tab');
+if(facilityTabs)
+{
 facilityTabs.forEach((item) => {
     item.addEventListener('click', () => {
         facilityTabs.forEach((item) => {
@@ -28,8 +30,11 @@ facilityTabs.forEach((item) => {
         item.classList.add('active');
     });
 });
+}
 
 let tsumTabs = document.querySelectorAll('.tsum-tab');
+if(tsumTabs)
+{
 tsumTabs.forEach((item) => {
     item.addEventListener('click', () => {
         tsumTabs.forEach((item) => {
@@ -38,6 +43,7 @@ tsumTabs.forEach((item) => {
         item.classList.add('active');
     });
 });
+}
 
 let facilityTabContent = document.querySelectorAll('.facility-content');
 function displaySection(content)
@@ -71,35 +77,41 @@ function displaySchoolDetail(schoolDetail)
 let adv_btn = document.querySelector('.adv-btn');
 let bod_btn = document.querySelector('.bod-btn');
 
-adv_btn.addEventListener('click', () => {
-    bod_btn.classList.remove('active');
-    adv_btn.classList.add('active');
-
-    let adv_content = document.querySelectorAll('.adv-content')
-    let bod_content = document.querySelectorAll('.bod-content')
-
-    adv_content.forEach((item) => {
-        item.style = "display: flex !important; transition: all 0.5s ease-in-out;";
+if(adv_btn) {
+    adv_btn.addEventListener('click', () => {
+        bod_btn.classList.remove('active');
+        adv_btn.classList.add('active');
+    
+        let adv_content = document.querySelectorAll('.adv-content')
+        let bod_content = document.querySelectorAll('.bod-content')
+    
+        adv_content.forEach((item) => {
+            item.style = "display: flex !important; transition: all 0.5s ease-in-out;";
+        });
+        bod_content.forEach((item) => {
+            item.style = "display: none !important; transition: all 0.5s ease-in-out;";
+        });
     });
-    bod_content.forEach((item) => {
-        item.style = "display: none !important; transition: all 0.5s ease-in-out;";
-    });
-});
+}
 
-bod_btn.addEventListener('click', () => {
-    adv_btn.classList.remove('active');
-    bod_btn.classList.add('active');
-
-    let adv_content = document.querySelectorAll('.adv-content')
-    let bod_content = document.querySelectorAll('.bod-content')
-
-    adv_content.forEach((item) => {
-        item.style = "display: none !important; transition: all 0.5s ease-in-out;";
+if(bod_btn)
+{
+    bod_btn.addEventListener('click', () => {
+        adv_btn.classList.remove('active');
+        bod_btn.classList.add('active');
+    
+        let adv_content = document.querySelectorAll('.adv-content')
+        let bod_content = document.querySelectorAll('.bod-content')
+    
+        adv_content.forEach((item) => {
+            item.style = "display: none !important; transition: all 0.5s ease-in-out;";
+        });
+        bod_content.forEach((item) => {
+            item.style = "display: flex !important; transition: all 0.5s ease-in-out;";
+        });
     });
-    bod_content.forEach((item) => {
-        item.style = "display: flex !important; transition: all 0.5s ease-in-out;";
-    });
-});
+    
+}
 
 
 function displayAcademicContent(content)
@@ -110,6 +122,20 @@ function displayAcademicContent(content)
     });
     document.getElementById(content).style = "display: block !important; transition: all 0.5s ease-in-out;";
 }
+
+  //get the current page url 
+  var url = window.location.href;
+  //split the url by ?
+  var urlSplit = url.split('?');
+  if(urlSplit.length > 1){
+    //get the second part of the url
+    var urlSecondPart = urlSplit[1];
+    //remove the # and other symbols from the url
+    urlSecondPart = urlSecondPart.replace(/[#?&]/g, '');
+    urlSecondPart = document.getElementById(urlSecondPart);
+    //click the element
+    urlSecondPart.click();
+  }
 
 
 

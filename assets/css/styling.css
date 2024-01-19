@@ -305,3 +305,19 @@ margin-bottom: 10px;
 .nav-link {
   text-transform: uppercase;
 }
+
+.content5 .icon-container{
+  background:url('../images/star-track-svgrepo-com.svg') no-repeat;
+  background-size:contain;
+  background-position:center;
+  width: 150px;
+  height: 150px;
+}
+
+.content6 .icon-container{
+  background:url('../images/education-graduation-learning-school-study-svgrepo-com.svg') no-repeat;
+  background-size:contain;
+  background-position:center;
+  width: 150px;
+  height: 150px;
+}
