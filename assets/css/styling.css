@@ -212,7 +212,14 @@ margin-bottom: 10px;
 
 .tsum-content#content4 .label-container {
   padding:10px 0px !important;
-  justify-content: flex-start !important;
+  justify-content: center !important;
+}
+
+@media(max-width:1560px)
+{
+  .tsum-content#content4 .label-container {
+    justify-content: flex-start !important;
+  }
 }
 
 @media(min-width:1600px)
