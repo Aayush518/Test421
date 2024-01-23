@@ -246,12 +246,12 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name *" required="required" data-error="Name is required.">
+                                        <input id="form_name" type="text" name="public string GuardianName { get; set; }" id="public string GuardianName { get; set; }" class="form-control" placeholder="Full Name *" required="required" data-error="Name is required.">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                    <div class="form-group">
-                                        <input id="form_number" type="number" name="number" class="form-control" placeholder="Mobile Number">
+                                        <input id="form_number" type="number" name="public string PhoneNumber { get; set; }" id="  public string PhoneNumber { get; set; }" class="form-control" placeholder="Mobile Number">
                                     </div>
                                 </div>
                             </div>
@@ -259,18 +259,18 @@
                                 
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Your Email *" required="required" data-error="Valid email is required.">
+                                        <input id="form_email" type="email" name="public string Email { get; set; }" id="public string Email { get; set; }" class="form-control" placeholder="Your Email *" required="required" data-error="Valid email is required.">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message Here" rows="6" required="required" data-error="Please, leave us a message."></textarea>
+                                        <textarea id="form_message" name="public string Message { get; set; }" id="public string Email { get; set; }" class="form-control" placeholder="Message Here" rows="6" required="required" data-error="Please, leave us a message."></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <input type="submit" name="submit" class="btn btn-success btn-send" value="Contact Us">
+                                    <input type="submit" name="submit" id="contactSubmission" class="btn btn-success btn-send" value="Contact Us">
                                 </div>
                             </div>
                         </div>
@@ -431,8 +431,8 @@
             <div class="copy_right_wrap">
               <ul class="text-end">
                 <li><a href="privacy.html">Privacy Policy</a></li>
-                <li><a href="privacy.html">Terms of use</a></li>
-                <li><a href="privacy.html">Cookies Policy</a></li>
+                <!-- <li><a href="privacy.html">Terms of use</a></li>
+                <li><a href="privacy.html">Cookies Policy</a></li> -->
               </ul>
             </div>
           </div>
@@ -521,6 +521,48 @@
     });
 });
      </script>
+
+<script type="text/javascript">
+  $('#contactSubmission').on('click', function (event) {
+    event.preventDefault();
+
+    if ($('#GuardianName').val() === '' || $('#GuardianName').val() === undefined) { alert('Guardian Name is required'); };
+    if ($('#Email').val === '' || $('#Email').val === undefined) { alert('Email is required'); };
+    if ($('#PhoneNumber').val() === '' || $('#PhoneNumber').val === undefined) { alert('Phone Number is required'); };
+    if ($('#Message').val() === '' || $('#Message').val === undefined) { alert('Message is required'); };
+
+
+    var model = {
+        GuardianName : $('#GuardianName').val(),
+        Email :$('#Email').val(),
+        PhoneNumber :$('#PhoneNumber').val(),
+        Message : $('#Message').val()
+    };
+    $.ajax({
+        type: 'post',
+        url: 'http://95.111.251.171:8063/home/SendContactUsMail',
+        data: JSON.stringify(model),
+        contentType: "application/json; charset=utf-8",
+        traditional: true,
+        success: function (resposne) {
+
+            $('#GuardianName').val('');
+            $('#Email').val('');
+            $('#PhoneNumber').val('');
+            $('#Message').val('');
+
+            $('#inquiryModal').modal('hide');
+            if (resposne.success == true) {
+                $('#thankyouModal').modal('show');
+            } else {
+                $('#failedModal').modal('show');
+            }
+        }
+    });
+
+  });
+
+</script>
 
 
 

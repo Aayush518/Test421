@@ -77,10 +77,10 @@
               <li class="nav-item ">
                 <a class="nav-link " href="academic.html">ACADEMIC</a>
                 <ul class="static_horizontal_sub_menu">
-                  <Li><a href="academic.html">Preschool</a></Li>
-                  <Li><a href="academic.html">Junior School</a></Li>
-                  <Li><a href="academic.html">Middle School</a></Li>
-                  <Li><a href="academic.html">Senior School</a></Li>
+                  <Li><a href="academic.html?tab5">Preschool</a></Li>
+                  <Li><a href="academic.html?tab6">Junior School</a></Li>
+                  <Li><a href="academic.html?tab7">Middle School</a></Li>
+                  <Li><a href="academic.html?tab8">Senior School</a></Li>
                 </ul>
               </li>
               <li class="nav-item ">
@@ -93,14 +93,13 @@
               <li class="nav-item">
                 <a class="nav-link" href="facility.html">FACILITIES</a>
                 <ul class="static_horizontal_sub_menu">
-                  <Li><a href="facility.html">Classrooms</a></Li>
-                  <Li><a href="facility.html">Reading Room</a></Li>
-                  <Li><a href="facility.html">Digital Hall</a></Li>
-                  <Li><a href="facility.html">Playgrounds and Community Spaces</a></Li>
-                  <Li><a href="facility.html">Learning Lab</a></Li>
-                  <Li><a href="facility.html">Multipurpose Hall</a></Li>
-                  <Li><a href="facility.html">News & Arricles</a></Li>
-                  <Li><a href="facility.html">ECA Rooms</a></Li>
+                  <Li><a href="facility.html?tab1">Classrooms</a></Li>
+                  <Li><a href="facility.html?tab2">Reading Room</a></Li>
+                  <Li><a href="facility.html?tab3">Digital Hall</a></Li>
+                  <Li><a href="facility.html?tab4">Playgrounds and Community Spaces</a></Li>
+                  <Li><a href="facility.html?tab5">Learning Lab</a></Li>
+                  <Li><a href="facility.html?tab6">Multipurpose Hall</a></Li>
+                  <Li><a href="facility.html?tab7">ECA Rooms</a></Li>
                 </ul>
               </li>
             </ul>
@@ -318,8 +317,8 @@
                       <p class="" style="color: #31BBA1;">Dynamic Leadership for a Dynamic School</p>
                     </div>
                     <div class="content-3-main-content col-md-12 d-flex align-items-start justify-content-start flex-wrap">
-                      <div class="teacher-1 d-flex flex-wrap col-md-12 align-items-center justify-content-between mb-5 ">
-                        <div class="school-leadership-content d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6">
+                      <div class="teacher-1 d-flex flex-wrap col-md-12 align-items-center justify-content-center mb-5 ">
+                        <div class="school-leadership-content d-flex flex-column align-items-center justify-content-center col-md-5 col-lg-5">
                           <h2 class="title">Dr. Khagendra Prasad Ojha</h2>
                           <p>Chief Executive Officer of Global College associates</p>
                           <div class="wrapper_content_of_college">
@@ -338,23 +337,16 @@
 
 
                           </div>
-                          <!-- <ul>
-                            <li>Chairman of Kathmandu World School Bhaktapur, Valley View English School Kathmandu, Uniglobe College Kathmandu, Uniglobe Higher Secondary School Kathmandu, and Global College International.</li>
-                            <li>Former Associate Professor at Tribhuvan University, Senate member of Lumbini Bouddha University, and academic council member of Mid-Western University.</li>
-                            <li><strong>Awards: </strong>Nepal Vidya Bhushan and Gold Medal from Tribhuvan University.</li>
-                            <li><strong>Education: </strong>Ph.D. in Economics from University of Warsaw</li>
-                            <li><strong>Publications: </strong>Several books and research works in accounting and finance.</li>
-                          </ul> -->
                         </div>
-                        <div class="image-container mb-5 d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6">
+                        <div class="image-container mb-5 d-flex flex-column align-items-center justify-content-center col-md-5 col-lg-5">
                           <div class="image"></div>
                         </div>
                       </div>
-                      <div class="teacher-2 ms_crown d-flex flex-wrap col-md-12 align-items-center justify-content-between mb-5 " style="background-color:rgba(226, 84, 59, 0.10);">
-                        <div class="image-container d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6">
+                      <div class="teacher-2 ms_crown d-flex flex-wrap col-md-12 align-items-center justify-content-center mb-5 " style="background-color:rgba(226, 84, 59, 0.10);">
+                        <div class="image-container d-flex flex-column align-items-center justify-content-center col-md-5 col-lg-5">
                           <div class="image"></div>
                         </div>
-                        <div class="school-leadership-content d-flex flex-column align-items-center justify-content-center col-md-6 col-lg-6">
+                        <div class="school-leadership-content d-flex flex-column align-items-center justify-content-center col-md-5 col-lg-5">
                           <h2 class="title">Ms. Vani Rana</h2>
                           <p>Principal of Uniglobe School</p>
                           <div class="wrapper_content_of_college">
@@ -694,8 +686,8 @@
             <div class="copy_right_wrap">
               <ul class="text-end">
                 <li><a href="privacy.html">Privacy Policy</a></li>
-                <li><a href="privacy.html">Terms of use</a></li>
-                <li><a href="privacy.html">Cookies Policy</a></li>
+                <!-- <li><a href="privacy.html">Terms of use</a></li>
+                <li><a href="privacy.html">Cookies Policy</a></li> -->
               </ul>
             </div>
           </div>
@@ -827,6 +819,56 @@
       }
   }
 })
+
+</script>
+
+
+<script type="text/javascript">
+  $('#inquirySubmission').on('click', function (event) {
+      event.preventDefault();
+
+      if ($('#GuardianName').val() === '' || $('#GuardianName').val() === undefined) { alert('Guardian Name is required'); };
+      if ($('#Email').val === '' || $('#Email').val === undefined) { alert('Email is required'); };
+      if ($('#PhoneNumber').val() === '' || $('#PhoneNumber').val === undefined) { alert('Phone Number is required'); };
+      if ($('#Reason').val() === '' || $('#Reason').val === undefined) { alert('Reason is required'); };
+      if ($('#Source').val() === '' || $('#Source').val === undefined) { alert('Source is required'); };
+      if ($('#Grade').val() === '' || $('#Grade').val === undefined) { alert('Grade is required'); };
+
+
+      var model = {
+          GuardianName : $('#GuardianName').val(),
+          Email :$('#Email').val(),
+          PhoneNumber : $('#PhoneNumber').val(),
+          Reason : $('#Reason').val(),
+          Source : $('#Source').val(),
+          Grade : $('#Grade').val()
+      };
+      $.ajax({
+          type: 'post',
+          url: 'http://95.111.251.171:8063/home/sendmail',
+          data: JSON.stringify(model),
+          contentType: "application/json; charset=utf-8",
+          traditional: true,
+          success: function (resposne) {
+
+              $('#GuardianName').val('');
+              $('#Email').val('');
+              $('#PhoneNumber').val('');
+              $('#Reason').val('');
+              $('#Source').val('');
+              $('#Grade').val('');
+
+              $('#inquiryModal').modal('hide');
+              if (resposne.success == true) {
+                  $('#thankyouModal').modal('show');
+              } else {
+                  $('#failedModal').modal('show');
+              }
+          }
+      });
+
+    });
+
 
 </script>
 

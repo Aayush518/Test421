@@ -207,16 +207,16 @@
           <div class="inq-form col-lg-9 col-md-9 col-sm-12 col-12">
             <h2 class="inquiry-header" style="text-align: left; width: 100%;">Register your Interest</h2>
             <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
-              <input type="text" name="name" id="name" placeholder="Parent/Guardian Name*">
+              <input type="text" name="public string GuardianName { get; set; }" id="public string GuardianName { get; set; }" placeholder="Parent/Guardian Name*">
             </div>
             <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
-              <input type="text" name="name" id="name" placeholder="Mobile Number*">
+              <input type="text" name="public string PhoneNumber { get; set; }" id="public string PhoneNumber { get; set; }" placeholder="Mobile Number*">
             </div>
             <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
-              <input type="text" name="name" id="name" placeholder="Email*">
+              <input type="text" name="public string Email { get; set; }" id="public string Email { get; set; }" placeholder="Email*">
             </div>
             <div class="inp-grp col-lg- col-md-4 col-sm-12 col-12">
-              <select name="reason-for-inquiry" id="reason-for-inquiry">
+              <select name="public string Reason { get; set; }" id="public string Reason { get; set; }">
                 <option value="">Reason for Inquiry</option>
                 <option value="General Inquiry">General Inquiry</option>
                 <option value="Admissions Inquiry">Admissions Inquiry</option>
@@ -226,7 +226,7 @@
               </select>
             </div>
             <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
-              <select name="How did you hear about us?" id="How did you hear about us?">
+              <select name="public string Source { get; set; }" id="public string Source { get; set; }">
                 <option value="">How did you hear about us?</option>
                 <option value="Social Media">Social Media</option>
                 <option value="Friends">Friends</option>
@@ -235,7 +235,7 @@
               </select>
             </div>
             <div class="inp-grp col-lg-4 col-md-4 col-sm-12 col-12">
-              <select name="How did you hear about us?" id="How did you hear about us?">
+              <select name="public string Grade { get; set; }" id="public string Grade { get; set; }">
                 <option value="">Grade</option>
                 <option value="Social Media">Playgroup</option>
                 <option value="Friends">Nursery</option>
@@ -250,7 +250,7 @@
                 <option value="News">7</option>
               </select>
             </div>
-            <button class="btn-submit mb-2 col-lg-3 col-md-3 col-sm-5 col-5" data-bs-dismiss="modal">Submit</button>
+            <button class="btn-submit mb-2 col-lg-3 col-md-3 col-sm-5 col-5" id="inquirySubmission" data-bs-dismiss="modal">Submit</button>
             <div class="privacy-notice">
               <p class="mb-2"><strong>Privacy Notice: </strong>Your privacy is important to us. The information provided here will be used solely for Uniglobe School's admission purposes.</p>
             </div>
@@ -432,7 +432,7 @@
               <ul>
                 <li><a href="facility.html?tab1">Classrooms</a></li>
                 <li><a href="facility.html?tab2">Reading Room</a></li>
-                <li><a href="facility.html?tab3">Digital Hal</a></li>
+                <li><a href="facility.html?tab3">Digital Hall</a></li>
                 <li><a href="facility.html?tab4">Playgrounds and
                   Community Spaces</a></li>
                 <li><a href="facility.html?tab5">Learning Lab</a></li>
@@ -496,8 +496,8 @@
             <div class="copy_right_wrap">
               <ul class="text-end">
                 <li><a href="privacy.html">Privacy Policy</a></li>
-                <li><a href="privacy.html">Terms of use</a></li>
-                <li><a href="privacy.html">Cookies Policy</a></li>
+                <!-- <li><a href="privacy.html">Terms of use</a></li>
+                <li><a href="privacy.html">Cookies Policy</a></li> -->
               </ul>
             </div>
           </div>
@@ -589,5 +589,56 @@
     });
 });
      </script>
+
+
+<script type="text/javascript">
+  $('#inquirySubmission').on('click', function (event) {
+      event.preventDefault();
+
+      if ($('#GuardianName').val() === '' || $('#GuardianName').val() === undefined) { alert('Guardian Name is required'); };
+      if ($('#Email').val === '' || $('#Email').val === undefined) { alert('Email is required'); };
+      if ($('#PhoneNumber').val() === '' || $('#PhoneNumber').val === undefined) { alert('Phone Number is required'); };
+      if ($('#Reason').val() === '' || $('#Reason').val === undefined) { alert('Reason is required'); };
+      if ($('#Source').val() === '' || $('#Source').val === undefined) { alert('Source is required'); };
+      if ($('#Grade').val() === '' || $('#Grade').val === undefined) { alert('Grade is required'); };
+
+
+      var model = {
+          GuardianName : $('#GuardianName').val(),
+          Email :$('#Email').val(),
+          PhoneNumber : $('#PhoneNumber').val(),
+          Reason : $('#Reason').val(),
+          Source : $('#Source').val(),
+          Grade : $('#Grade').val()
+      };
+      $.ajax({
+          type: 'post',
+          url: 'http://95.111.251.171:8063/home/sendmail',
+          data: JSON.stringify(model),
+          contentType: "application/json; charset=utf-8",
+          traditional: true,
+          success: function (resposne) {
+
+              $('#GuardianName').val('');
+              $('#Email').val('');
+              $('#PhoneNumber').val('');
+              $('#Reason').val('');
+              $('#Source').val('');
+              $('#Grade').val('');
+
+              $('#inquiryModal').modal('hide');
+              if (resposne.success == true) {
+                  $('#thankyouModal').modal('show');
+              } else {
+                  $('#failedModal').modal('show');
+              }
+          }
+      });
+
+    });
+
+
+</script>
+
 
 </html>
